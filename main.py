@@ -10,6 +10,22 @@ from torchvision import datasets
 from torchvision import transforms
 from model import CNNModel
 from test import test
+import wandb
+
+wandb_kwargs = {#"dir": self.run_folder,
+                #"name": "sifir_degisiklik",
+                "project":"dannpy3_debugging",
+                "notes": "github clone'u sifirdan calistiriyorum. ms-mt bile yok.",
+                #"id": run_name, #wandb_id_finder_from_folder(self.run_folder) if args.mode == 'resume' else wandb.util.generate_id(),
+                #"resume": 'allow',
+                #"allow_val_change": True,
+                #"config":self.args
+                }
+
+# Logging setup (You can replace it with your preferred logging method)
+
+wandb.init(**wandb_kwargs)
+wandb.run.log_code('.')
 
 source_dataset_name = 'MNIST'
 target_dataset_name = 'mnist_m'
@@ -152,6 +168,13 @@ for epoch in range(n_epoch):
         best_accu_s = accu_s
         best_accu_t = accu_t
         torch.save(my_net, '{0}/mnist_mnistm_model_epoch_best.pth'.format(model_root))
+    
+    wandb.log({"err_s_label": err_s_label,
+    "err_s_domain": err_s_domain,
+    #"err_t_label": err_t_label,
+    "err_t_domain": err_t_domain,
+    "accu_s": accu_s,
+    "accu_t": accu_t}, step=epoch)
 
 print('============ Summary ============= \n')
 print('Accuracy of the %s dataset: %f' % ('mnist', best_accu_s))

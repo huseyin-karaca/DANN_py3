@@ -1,0 +1,1201 @@
+Downloading http://yann.lecun.com/exdb/mnist/train-images-idx3-ubyte.gz to dataset/MNIST/raw/train-images-idx3-ubyte.gz
+Extracting dataset/MNIST/raw/train-images-idx3-ubyte.gz to dataset/MNIST/raw
+Downloading http://yann.lecun.com/exdb/mnist/train-labels-idx1-ubyte.gz to dataset/MNIST/raw/train-labels-idx1-ubyte.gz
+Extracting dataset/MNIST/raw/train-labels-idx1-ubyte.gz to dataset/MNIST/raw
+Downloading http://yann.lecun.com/exdb/mnist/t10k-images-idx3-ubyte.gz to dataset/MNIST/raw/t10k-images-idx3-ubyte.gz
+Extracting dataset/MNIST/raw/t10k-images-idx3-ubyte.gz to dataset/MNIST/raw
+Downloading http://yann.lecun.com/exdb/mnist/t10k-labels-idx1-ubyte.gz to dataset/MNIST/raw/t10k-labels-idx1-ubyte.gz
+Extracting dataset/MNIST/raw/t10k-labels-idx1-ubyte.gz to dataset/MNIST/raw
+Processing...
+Done!
+180.4%/home/huseyin/anaconda3/envs/dannpy5/lib/python3.8/site-packages/torchvision/datasets/mnist.py:469: UserWarning: The given NumPy array is not writeable, and PyTorch does not support non-writeable tensors. This means you can write to the underlying (supposedly non-writeable) NumPy array using the tensor. You may want to copy the array to protect its data or make it writeable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at  /opt/conda/conda-bld/pytorch_1595629395347/work/torch/csrc/utils/tensor_numpy.cpp:141.)
+  return torch.from_numpy(parsed.astype(m[2], copy=False)).view(*s)
+
+
+
+
+
+
+
+
+
+
+ epoch: 0, [iter: 461 / all 461], err_s_label: 0.157906, err_s_domain: 0.350042, err_t_domain: 0.276819
+Accuracy of the mnist dataset: 0.976100
+Accuracy of the mnist_m dataset: 0.421842
+
+
+
+
+
+
+
+
+
+
+ epoch: 1, [iter: 461 / all 461], err_s_label: 0.096801, err_s_domain: 0.458624, err_t_domain: 0.474230
+Accuracy of the mnist dataset: 0.987700
+Accuracy of the mnist_m dataset: 0.449395
+
+
+
+
+
+
+
+
+
+ epoch: 2, [iter: 461 / all 461], err_s_label: 0.056798, err_s_domain: 0.379212, err_t_domain: 0.424498
+Accuracy of the mnist dataset: 0.982900
+Accuracy of the mnist_m dataset: 0.587601
+
+
+
+
+
+
+
+
+
+ epoch: 3, [iter: 461 / all 461], err_s_label: 0.110593, err_s_domain: 0.524392, err_t_domain: 0.527856
+Accuracy of the mnist dataset: 0.986600
+Accuracy of the mnist_m dataset: 0.658038
+
+
+
+
+
+
+
+
+
+
+ epoch: 4, [iter: 461 / all 461], err_s_label: 0.145065, err_s_domain: 0.653783, err_t_domain: 0.609890
+Accuracy of the mnist dataset: 0.985100
+Accuracy of the mnist_m dataset: 0.645817
+
+
+
+
+
+
+
+
+
+
+ epoch: 5, [iter: 461 / all 461], err_s_label: 0.101170, err_s_domain: 0.568794, err_t_domain: 0.500509
+Accuracy of the mnist dataset: 0.985200
+Accuracy of the mnist_m dataset: 0.660149
+
+
+
+
+
+
+
+
+
+
+ epoch: 6, [iter: 461 / all 461], err_s_label: 0.083754, err_s_domain: 0.479406, err_t_domain: 0.736848
+Accuracy of the mnist dataset: 0.982700
+Accuracy of the mnist_m dataset: 0.675592
+
+
+
+
+
+
+
+
+
+
+ epoch: 7, [iter: 461 / all 461], err_s_label: 0.182822, err_s_domain: 0.638271, err_t_domain: 0.579253
+Accuracy of the mnist dataset: 0.986600
+Accuracy of the mnist_m dataset: 0.778802
+
+
+
+
+
+
+
+
+
+ epoch: 8, [iter: 461 / all 461], err_s_label: 0.167000, err_s_domain: 0.581317, err_t_domain: 0.633967
+Accuracy of the mnist dataset: 0.981100
+Accuracy of the mnist_m dataset: 0.821909
+
+
+
+
+
+
+
+
+
+
+ epoch: 9, [iter: 461 / all 461], err_s_label: 0.118167, err_s_domain: 0.562415, err_t_domain: 0.650544
+Accuracy of the mnist dataset: 0.985200
+Accuracy of the mnist_m dataset: 0.780691
+
+
+
+
+
+
+
+
+
+
+ epoch: 10, [iter: 461 / all 461], err_s_label: 0.126378, err_s_domain: 0.588003, err_t_domain: 0.533364
+Accuracy of the mnist dataset: 0.986300
+Accuracy of the mnist_m dataset: 0.810688
+
+
+
+
+
+
+
+
+
+
+ epoch: 11, [iter: 461 / all 461], err_s_label: 0.108289, err_s_domain: 0.622926, err_t_domain: 0.645268
+Accuracy of the mnist dataset: 0.983200
+Accuracy of the mnist_m dataset: 0.799467
+
+
+
+
+
+
+
+
+
+
+
+ epoch: 12, [iter: 461 / all 461], err_s_label: 0.119093, err_s_domain: 0.567511, err_t_domain: 0.678333
+Accuracy of the mnist dataset: 0.981700
+Accuracy of the mnist_m dataset: 0.812132
+
+
+
+
+
+
+
+
+
+ epoch: 13, [iter: 461 / all 461], err_s_label: 0.075598, err_s_domain: 0.610702, err_t_domain: 0.636676
+Accuracy of the mnist dataset: 0.979900
+Accuracy of the mnist_m dataset: 0.781913
+
+
+
+
+
+
+
+
+
+
+ epoch: 14, [iter: 461 / all 461], err_s_label: 0.037618, err_s_domain: 0.570263, err_t_domain: 0.635519
+Accuracy of the mnist dataset: 0.980300
+Accuracy of the mnist_m dataset: 0.805799
+
+
+
+
+
+
+
+
+
+
+ epoch: 15, [iter: 461 / all 461], err_s_label: 0.200063, err_s_domain: 0.583198, err_t_domain: 0.666229
+Accuracy of the mnist dataset: 0.980300
+Accuracy of the mnist_m dataset: 0.801578
+
+
+
+
+
+
+
+
+
+ epoch: 16, [iter: 461 / all 461], err_s_label: 0.097006, err_s_domain: 0.651443, err_t_domain: 0.645324
+Accuracy of the mnist dataset: 0.981500
+Accuracy of the mnist_m dataset: 0.793467
+
+
+
+
+
+
+
+
+
+ epoch: 17, [iter: 461 / all 461], err_s_label: 0.177102, err_s_domain: 0.608574, err_t_domain: 0.612724
+Accuracy of the mnist dataset: 0.982500
+Accuracy of the mnist_m dataset: 0.784579
+ epoch: 18, [iter: 69 / all 461], err_s_label: 0.110792, err_s_domain: 0.719979, err_t_domain: 0.563303
+ epoch: 18, [iter: 114 / all 461], err_s_label: 0.063064, err_s_domain: 0.631507, err_t_domain: 0.665191
+ epoch: 18, [iter: 160 / all 461], err_s_label: 0.186543, err_s_domain: 0.679629, err_t_domain: 0.621047
+ epoch: 18, [iter: 205 / all 461], err_s_label: 0.185319, err_s_domain: 0.686653, err_t_domain: 0.651497
+ epoch: 18, [iter: 250 / all 461], err_s_label: 0.222728, err_s_domain: 0.687057, err_t_domain: 0.619890
+ epoch: 18, [iter: 296 / all 461], err_s_label: 0.056560, err_s_domain: 0.640605, err_t_domain: 0.634686
+ epoch: 18, [iter: 341 / all 461], err_s_label: 0.296535, err_s_domain: 0.674537, err_t_domain: 0.649760
+ epoch: 18, [iter: 386 / all 461], err_s_label: 0.078730, err_s_domain: 0.713752, err_t_domain: 0.638421
+ epoch: 18, [iter: 432 / all 461], err_s_label: 0.144979, err_s_domain: 0.640726, err_t_domain: 0.649770
+ epoch: 18, [iter: 461 / all 461], err_s_label: 0.113128, err_s_domain: 0.640507, err_t_domain: 0.604714
+ epoch: 19, [iter: 7 / all 461], err_s_label: 0.074843, err_s_domain: 0.567039, err_t_domain: 0.65116314
+ epoch: 19, [iter: 53 / all 461], err_s_label: 0.160071, err_s_domain: 0.694565, err_t_domain: 0.7054034
+ epoch: 19, [iter: 98 / all 461], err_s_label: 0.216863, err_s_domain: 0.661955, err_t_domain: 0.6986154
+ epoch: 19, [iter: 143 / all 461], err_s_label: 0.105784, err_s_domain: 0.621745, err_t_domain: 0.696456
+ epoch: 19, [iter: 189 / all 461], err_s_label: 0.208126, err_s_domain: 0.632214, err_t_domain: 0.673464
+ epoch: 19, [iter: 234 / all 461], err_s_label: 0.091349, err_s_domain: 0.644407, err_t_domain: 0.698020
+ epoch: 19, [iter: 280 / all 461], err_s_label: 0.270103, err_s_domain: 0.647737, err_t_domain: 0.623528
+ epoch: 19, [iter: 325 / all 461], err_s_label: 0.133087, err_s_domain: 0.602503, err_t_domain: 0.632551
+ epoch: 19, [iter: 370 / all 461], err_s_label: 0.088946, err_s_domain: 0.618895, err_t_domain: 0.642914
+ epoch: 19, [iter: 415 / all 461], err_s_label: 0.070748, err_s_domain: 0.619040, err_t_domain: 0.664539
+ epoch: 19, [iter: 460 / all 461], err_s_label: 0.119248, err_s_domain: 0.630999, err_t_domain: 0.715589
+ epoch: 20, [iter: 2 / all 461], err_s_label: 0.159439, err_s_domain: 0.704086, err_t_domain: 0.59360525
+ epoch: 20, [iter: 19 / all 461], err_s_label: 0.172399, err_s_domain: 0.628027, err_t_domain: 0.6435955
+ epoch: 20, [iter: 65 / all 461], err_s_label: 0.057376, err_s_domain: 0.644104, err_t_domain: 0.5760485
+ epoch: 20, [iter: 110 / all 461], err_s_label: 0.048029, err_s_domain: 0.594784, err_t_domain: 0.666815
+ epoch: 20, [iter: 156 / all 461], err_s_label: 0.112787, err_s_domain: 0.599816, err_t_domain: 0.707245
+ epoch: 20, [iter: 201 / all 461], err_s_label: 0.138695, err_s_domain: 0.622713, err_t_domain: 0.651411
+ epoch: 20, [iter: 246 / all 461], err_s_label: 0.103660, err_s_domain: 0.655309, err_t_domain: 0.672370
+ epoch: 20, [iter: 292 / all 461], err_s_label: 0.136933, err_s_domain: 0.671095, err_t_domain: 0.646494
+ epoch: 20, [iter: 320 / all 461], err_s_label: 0.227760, err_s_domain: 0.624958, err_t_domain: 0.620200
+ epoch: 20, [iter: 339 / all 461], err_s_label: 0.111190, err_s_domain: 0.609969, err_t_domain: 0.589124
+ epoch: 20, [iter: 384 / all 461], err_s_label: 0.107299, err_s_domain: 0.583484, err_t_domain: 0.682022
+ epoch: 20, [iter: 418 / all 461], err_s_label: 0.217054, err_s_domain: 0.629380, err_t_domain: 0.653278
+ epoch: 20, [iter: 461 / all 461], err_s_label: 0.080907, err_s_domain: 0.673494, err_t_domain: 0.599547
+ epoch: 21, [iter: 5 / all 461], err_s_label: 0.115178, err_s_domain: 0.615642, err_t_domain: 0.61271947
+ epoch: 21, [iter: 51 / all 461], err_s_label: 0.146657, err_s_domain: 0.578977, err_t_domain: 0.7355577
+ epoch: 21, [iter: 96 / all 461], err_s_label: 0.110439, err_s_domain: 0.729085, err_t_domain: 0.6435037
+ epoch: 21, [iter: 141 / all 461], err_s_label: 0.095033, err_s_domain: 0.640418, err_t_domain: 0.669685
+ epoch: 21, [iter: 187 / all 461], err_s_label: 0.108763, err_s_domain: 0.626686, err_t_domain: 0.662747
+ epoch: 21, [iter: 232 / all 461], err_s_label: 0.250769, err_s_domain: 0.652248, err_t_domain: 0.670747
+ epoch: 21, [iter: 278 / all 461], err_s_label: 0.092777, err_s_domain: 0.649255, err_t_domain: 0.572218
+ epoch: 21, [iter: 323 / all 461], err_s_label: 0.100519, err_s_domain: 0.648213, err_t_domain: 0.632040
+ epoch: 21, [iter: 369 / all 461], err_s_label: 0.184169, err_s_domain: 0.624129, err_t_domain: 0.654486
+ epoch: 21, [iter: 414 / all 461], err_s_label: 0.052795, err_s_domain: 0.630604, err_t_domain: 0.699451
+ epoch: 21, [iter: 460 / all 461], err_s_label: 0.148245, err_s_domain: 0.636754, err_t_domain: 0.664521
+ epoch: 22, [iter: 1 / all 461], err_s_label: 0.102170, err_s_domain: 0.689652, err_t_domain: 0.68502851
+ epoch: 22, [iter: 46 / all 461], err_s_label: 0.122068, err_s_domain: 0.610032, err_t_domain: 0.6528961
+ epoch: 22, [iter: 91 / all 461], err_s_label: 0.164605, err_s_domain: 0.662436, err_t_domain: 0.6027871
+ epoch: 22, [iter: 137 / all 461], err_s_label: 0.081254, err_s_domain: 0.611875, err_t_domain: 0.686349
+ epoch: 22, [iter: 182 / all 461], err_s_label: 0.174290, err_s_domain: 0.685107, err_t_domain: 0.622242
+ epoch: 22, [iter: 228 / all 461], err_s_label: 0.101123, err_s_domain: 0.658944, err_t_domain: 0.613286
+ epoch: 22, [iter: 273 / all 461], err_s_label: 0.034222, err_s_domain: 0.606229, err_t_domain: 0.665649
+ epoch: 22, [iter: 318 / all 461], err_s_label: 0.190216, err_s_domain: 0.613878, err_t_domain: 0.656296
+ epoch: 22, [iter: 360 / all 461], err_s_label: 0.160961, err_s_domain: 0.657852, err_t_domain: 0.673358
+ epoch: 22, [iter: 398 / all 461], err_s_label: 0.098979, err_s_domain: 0.599356, err_t_domain: 0.649717
+ epoch: 22, [iter: 443 / all 461], err_s_label: 0.153777, err_s_domain: 0.660015, err_t_domain: 0.662632
+Accuracy of the mnist dataset: 0.983000s_label: 0.025262, err_s_domain: 0.561836, err_t_domain: 0.669684
+ epoch: 23, [iter: 30 / all 461], err_s_label: 0.137340, err_s_domain: 0.594841, err_t_domain: 0.6615634
+ epoch: 23, [iter: 75 / all 461], err_s_label: 0.182827, err_s_domain: 0.616158, err_t_domain: 0.6524614
+ epoch: 23, [iter: 121 / all 461], err_s_label: 0.077773, err_s_domain: 0.611402, err_t_domain: 0.679356
+ epoch: 23, [iter: 166 / all 461], err_s_label: 0.169380, err_s_domain: 0.644957, err_t_domain: 0.674552
+ epoch: 23, [iter: 211 / all 461], err_s_label: 0.145699, err_s_domain: 0.694979, err_t_domain: 0.691220
+ epoch: 23, [iter: 257 / all 461], err_s_label: 0.075342, err_s_domain: 0.622646, err_t_domain: 0.642808
+ epoch: 23, [iter: 302 / all 461], err_s_label: 0.117323, err_s_domain: 0.633817, err_t_domain: 0.636613
+ epoch: 23, [iter: 348 / all 461], err_s_label: 0.159228, err_s_domain: 0.610490, err_t_domain: 0.660886
+ epoch: 23, [iter: 393 / all 461], err_s_label: 0.210046, err_s_domain: 0.686609, err_t_domain: 0.678942
+ epoch: 23, [iter: 439 / all 461], err_s_label: 0.059540, err_s_domain: 0.646992, err_t_domain: 0.607195
+Accuracy of the mnist dataset: 0.985000s_label: 0.244929, err_s_domain: 0.666451, err_t_domain: 0.672014
+ epoch: 24, [iter: 25 / all 461], err_s_label: 0.218283, err_s_domain: 0.653890, err_t_domain: 0.6776804
+ epoch: 24, [iter: 71 / all 461], err_s_label: 0.194238, err_s_domain: 0.600795, err_t_domain: 0.6571374
+ epoch: 24, [iter: 116 / all 461], err_s_label: 0.051221, err_s_domain: 0.555564, err_t_domain: 0.696818
+ epoch: 24, [iter: 162 / all 461], err_s_label: 0.072900, err_s_domain: 0.611000, err_t_domain: 0.670754
+ epoch: 24, [iter: 207 / all 461], err_s_label: 0.168647, err_s_domain: 0.676557, err_t_domain: 0.645763
+ epoch: 24, [iter: 252 / all 461], err_s_label: 0.293221, err_s_domain: 0.656143, err_t_domain: 0.693672
+ epoch: 24, [iter: 293 / all 461], err_s_label: 0.157344, err_s_domain: 0.675547, err_t_domain: 0.627628
+ epoch: 24, [iter: 332 / all 461], err_s_label: 0.108053, err_s_domain: 0.659441, err_t_domain: 0.641599
+ epoch: 24, [iter: 377 / all 461], err_s_label: 0.136571, err_s_domain: 0.648724, err_t_domain: 0.711849
+ epoch: 24, [iter: 422 / all 461], err_s_label: 0.113728, err_s_domain: 0.666547, err_t_domain: 0.688290
+ epoch: 24, [iter: 461 / all 461], err_s_label: 0.192577, err_s_domain: 0.722666, err_t_domain: 0.684615
+ epoch: 25, [iter: 9 / all 461], err_s_label: 0.095996, err_s_domain: 0.659873, err_t_domain: 0.65024115
+ epoch: 25, [iter: 54 / all 461], err_s_label: 0.131284, err_s_domain: 0.681246, err_t_domain: 0.6385235
+ epoch: 25, [iter: 100 / all 461], err_s_label: 0.123892, err_s_domain: 0.628682, err_t_domain: 0.593967
+ epoch: 25, [iter: 145 / all 461], err_s_label: 0.201727, err_s_domain: 0.687402, err_t_domain: 0.617867
+ epoch: 25, [iter: 190 / all 461], err_s_label: 0.151758, err_s_domain: 0.654163, err_t_domain: 0.645070
+ epoch: 25, [iter: 235 / all 461], err_s_label: 0.138894, err_s_domain: 0.625864, err_t_domain: 0.693938
+ epoch: 25, [iter: 281 / all 461], err_s_label: 0.124627, err_s_domain: 0.639523, err_t_domain: 0.694431
+ epoch: 25, [iter: 326 / all 461], err_s_label: 0.189612, err_s_domain: 0.632945, err_t_domain: 0.680306
+ epoch: 25, [iter: 371 / all 461], err_s_label: 0.137495, err_s_domain: 0.647031, err_t_domain: 0.677318
+ epoch: 25, [iter: 417 / all 461], err_s_label: 0.159866, err_s_domain: 0.654032, err_t_domain: 0.712368
+ epoch: 25, [iter: 461 / all 461], err_s_label: 0.086969, err_s_domain: 0.690739, err_t_domain: 0.604383
+ epoch: 26, [iter: 3 / all 461], err_s_label: 0.076129, err_s_domain: 0.643480, err_t_domain: 0.59073983
+ epoch: 26, [iter: 48 / all 461], err_s_label: 0.178103, err_s_domain: 0.628765, err_t_domain: 0.6841263
+ epoch: 26, [iter: 94 / all 461], err_s_label: 0.118197, err_s_domain: 0.688767, err_t_domain: 0.6583623
+ epoch: 26, [iter: 139 / all 461], err_s_label: 0.138717, err_s_domain: 0.592406, err_t_domain: 0.640010
+ epoch: 26, [iter: 184 / all 461], err_s_label: 0.293621, err_s_domain: 0.735905, err_t_domain: 0.581955
+ epoch: 26, [iter: 230 / all 461], err_s_label: 0.166001, err_s_domain: 0.653790, err_t_domain: 0.620537
+ epoch: 26, [iter: 275 / all 461], err_s_label: 0.164127, err_s_domain: 0.671263, err_t_domain: 0.679803
+ epoch: 26, [iter: 309 / all 461], err_s_label: 0.120457, err_s_domain: 0.595933, err_t_domain: 0.615942
+ epoch: 26, [iter: 355 / all 461], err_s_label: 0.139326, err_s_domain: 0.693047, err_t_domain: 0.582584
+ epoch: 26, [iter: 400 / all 461], err_s_label: 0.096262, err_s_domain: 0.702213, err_t_domain: 0.643311
+ epoch: 26, [iter: 445 / all 461], err_s_label: 0.228873, err_s_domain: 0.657983, err_t_domain: 0.675642
+Accuracy of the mnist dataset: 0.981700s_label: 0.086309, err_s_domain: 0.652527, err_t_domain: 0.620363
+ epoch: 27, [iter: 31 / all 461], err_s_label: 0.131229, err_s_domain: 0.636992, err_t_domain: 0.6700113
+ epoch: 27, [iter: 77 / all 461], err_s_label: 0.186604, err_s_domain: 0.616007, err_t_domain: 0.6724233
+ epoch: 27, [iter: 122 / all 461], err_s_label: 0.142884, err_s_domain: 0.654613, err_t_domain: 0.651148
+ epoch: 27, [iter: 168 / all 461], err_s_label: 0.052061, err_s_domain: 0.611536, err_t_domain: 0.674165
+ epoch: 27, [iter: 213 / all 461], err_s_label: 0.072958, err_s_domain: 0.627966, err_t_domain: 0.676716
+ epoch: 27, [iter: 258 / all 461], err_s_label: 0.177055, err_s_domain: 0.632809, err_t_domain: 0.625666
+ epoch: 27, [iter: 303 / all 461], err_s_label: 0.108479, err_s_domain: 0.625116, err_t_domain: 0.627459
+ epoch: 27, [iter: 348 / all 461], err_s_label: 0.047564, err_s_domain: 0.650771, err_t_domain: 0.645544
+ epoch: 27, [iter: 394 / all 461], err_s_label: 0.167032, err_s_domain: 0.610696, err_t_domain: 0.614955
+ epoch: 27, [iter: 439 / all 461], err_s_label: 0.171690, err_s_domain: 0.654795, err_t_domain: 0.667051
+Accuracy of the mnist dataset: 0.980600s_label: 0.080501, err_s_domain: 0.669634, err_t_domain: 0.661300
+ epoch: 28, [iter: 2 / all 461], err_s_label: 0.137722, err_s_domain: 0.654309, err_t_domain: 0.69375700
+ epoch: 28, [iter: 35 / all 461], err_s_label: 0.224753, err_s_domain: 0.627023, err_t_domain: 0.6624540
+ epoch: 28, [iter: 81 / all 461], err_s_label: 0.147309, err_s_domain: 0.649873, err_t_domain: 0.6363500
+ epoch: 28, [iter: 126 / all 461], err_s_label: 0.111958, err_s_domain: 0.658678, err_t_domain: 0.661985
+ epoch: 28, [iter: 172 / all 461], err_s_label: 0.072491, err_s_domain: 0.622400, err_t_domain: 0.658209
+ epoch: 28, [iter: 217 / all 461], err_s_label: 0.131366, err_s_domain: 0.617022, err_t_domain: 0.647208
+ epoch: 28, [iter: 262 / all 461], err_s_label: 0.146637, err_s_domain: 0.640534, err_t_domain: 0.628053
+ epoch: 28, [iter: 296 / all 461], err_s_label: 0.144682, err_s_domain: 0.661309, err_t_domain: 0.623930
+ epoch: 28, [iter: 315 / all 461], err_s_label: 0.066098, err_s_domain: 0.673173, err_t_domain: 0.623034
+ epoch: 28, [iter: 344 / all 461], err_s_label: 0.187158, err_s_domain: 0.650397, err_t_domain: 0.650970
+ epoch: 28, [iter: 389 / all 461], err_s_label: 0.252719, err_s_domain: 0.627919, err_t_domain: 0.688937
+ epoch: 28, [iter: 434 / all 461], err_s_label: 0.151747, err_s_domain: 0.596055, err_t_domain: 0.680426
+Accuracy of the mnist dataset: 0.984600s_label: 0.126932, err_s_domain: 0.658206, err_t_domain: 0.645825
+ epoch: 29, [iter: 20 / all 461], err_s_label: 0.158951, err_s_domain: 0.633396, err_t_domain: 0.6216865
+ epoch: 29, [iter: 59 / all 461], err_s_label: 0.084071, err_s_domain: 0.598838, err_t_domain: 0.6930645
+ epoch: 29, [iter: 104 / all 461], err_s_label: 0.155931, err_s_domain: 0.715738, err_t_domain: 0.676353
+ epoch: 29, [iter: 150 / all 461], err_s_label: 0.194687, err_s_domain: 0.612018, err_t_domain: 0.645311
+ epoch: 29, [iter: 195 / all 461], err_s_label: 0.143150, err_s_domain: 0.642460, err_t_domain: 0.638627
+ epoch: 29, [iter: 241 / all 461], err_s_label: 0.139613, err_s_domain: 0.694923, err_t_domain: 0.697969
+ epoch: 29, [iter: 286 / all 461], err_s_label: 0.068966, err_s_domain: 0.608226, err_t_domain: 0.643127
+ epoch: 29, [iter: 331 / all 461], err_s_label: 0.118271, err_s_domain: 0.629240, err_t_domain: 0.675988
+ epoch: 29, [iter: 376 / all 461], err_s_label: 0.141937, err_s_domain: 0.618376, err_t_domain: 0.619871
+ epoch: 29, [iter: 422 / all 461], err_s_label: 0.267877, err_s_domain: 0.675055, err_t_domain: 0.668714
+ epoch: 29, [iter: 461 / all 461], err_s_label: 0.186370, err_s_domain: 0.647990, err_t_domain: 0.639760
+ epoch: 30, [iter: 9 / all 461], err_s_label: 0.075789, err_s_domain: 0.645327, err_t_domain: 0.65527960
+ epoch: 30, [iter: 54 / all 461], err_s_label: 0.099542, err_s_domain: 0.609991, err_t_domain: 0.5922640
+ epoch: 30, [iter: 100 / all 461], err_s_label: 0.152343, err_s_domain: 0.647634, err_t_domain: 0.638965
+ epoch: 30, [iter: 145 / all 461], err_s_label: 0.133203, err_s_domain: 0.708448, err_t_domain: 0.644172
+ epoch: 30, [iter: 191 / all 461], err_s_label: 0.095346, err_s_domain: 0.619139, err_t_domain: 0.678947
+ epoch: 30, [iter: 236 / all 461], err_s_label: 0.105301, err_s_domain: 0.639999, err_t_domain: 0.672957
+ epoch: 30, [iter: 270 / all 461], err_s_label: 0.139012, err_s_domain: 0.629161, err_t_domain: 0.651226
+ epoch: 30, [iter: 315 / all 461], err_s_label: 0.173053, err_s_domain: 0.650599, err_t_domain: 0.676325
+ epoch: 30, [iter: 361 / all 461], err_s_label: 0.115919, err_s_domain: 0.603821, err_t_domain: 0.631294
+ epoch: 30, [iter: 406 / all 461], err_s_label: 0.153419, err_s_domain: 0.630734, err_t_domain: 0.646713
+ epoch: 30, [iter: 451 / all 461], err_s_label: 0.105856, err_s_domain: 0.675566, err_t_domain: 0.612268
+Accuracy of the mnist_m dataset: 0.822464label: 0.113652, err_s_domain: 0.720143, err_t_domain: 0.699350
+ epoch: 31, [iter: 38 / all 461], err_s_label: 0.114850, err_s_domain: 0.643272, err_t_domain: 0.6423520
+ epoch: 31, [iter: 83 / all 461], err_s_label: 0.065086, err_s_domain: 0.642837, err_t_domain: 0.6821940
+ epoch: 31, [iter: 129 / all 461], err_s_label: 0.054049, err_s_domain: 0.653644, err_t_domain: 0.664219
+ epoch: 31, [iter: 174 / all 461], err_s_label: 0.207255, err_s_domain: 0.649220, err_t_domain: 0.704802
+ epoch: 31, [iter: 219 / all 461], err_s_label: 0.189840, err_s_domain: 0.670819, err_t_domain: 0.653832
+ epoch: 31, [iter: 265 / all 461], err_s_label: 0.157436, err_s_domain: 0.664154, err_t_domain: 0.656086
+ epoch: 31, [iter: 310 / all 461], err_s_label: 0.081697, err_s_domain: 0.608743, err_t_domain: 0.584547
+ epoch: 31, [iter: 356 / all 461], err_s_label: 0.164802, err_s_domain: 0.670968, err_t_domain: 0.640699
+ epoch: 31, [iter: 401 / all 461], err_s_label: 0.100956, err_s_domain: 0.646295, err_t_domain: 0.587034
+ epoch: 31, [iter: 446 / all 461], err_s_label: 0.113539, err_s_domain: 0.721620, err_t_domain: 0.610678
+Accuracy of the mnist dataset: 0.986100s_label: 0.193021, err_s_domain: 0.662330, err_t_domain: 0.638200
+ epoch: 32, [iter: 33 / all 461], err_s_label: 0.081518, err_s_domain: 0.644847, err_t_domain: 0.6296220
+ epoch: 32, [iter: 78 / all 461], err_s_label: 0.060649, err_s_domain: 0.659838, err_t_domain: 0.6762140
+ epoch: 32, [iter: 124 / all 461], err_s_label: 0.139473, err_s_domain: 0.638670, err_t_domain: 0.688518
+ epoch: 32, [iter: 169 / all 461], err_s_label: 0.122971, err_s_domain: 0.643653, err_t_domain: 0.641183
+ epoch: 32, [iter: 203 / all 461], err_s_label: 0.126624, err_s_domain: 0.607051, err_t_domain: 0.675437
+ epoch: 32, [iter: 248 / all 461], err_s_label: 0.108380, err_s_domain: 0.680132, err_t_domain: 0.657551
+ epoch: 32, [iter: 294 / all 461], err_s_label: 0.120162, err_s_domain: 0.624176, err_t_domain: 0.653975
+ epoch: 32, [iter: 340 / all 461], err_s_label: 0.189691, err_s_domain: 0.710217, err_t_domain: 0.657574
+ epoch: 32, [iter: 385 / all 461], err_s_label: 0.103351, err_s_domain: 0.620117, err_t_domain: 0.611884
+ epoch: 32, [iter: 430 / all 461], err_s_label: 0.054042, err_s_domain: 0.627375, err_t_domain: 0.644584
+ epoch: 32, [iter: 461 / all 461], err_s_label: 0.122516, err_s_domain: 0.622143, err_t_domain: 0.602418
+ epoch: 33, [iter: 17 / all 461], err_s_label: 0.129700, err_s_domain: 0.615635, err_t_domain: 0.6782398
+ epoch: 33, [iter: 58 / all 461], err_s_label: 0.078131, err_s_domain: 0.653499, err_t_domain: 0.6721798
+ epoch: 33, [iter: 108 / all 461], err_s_label: 0.197263, err_s_domain: 0.679029, err_t_domain: 0.674079
+ epoch: 33, [iter: 153 / all 461], err_s_label: 0.180790, err_s_domain: 0.656631, err_t_domain: 0.654445
+ epoch: 33, [iter: 199 / all 461], err_s_label: 0.083701, err_s_domain: 0.660854, err_t_domain: 0.721784
+ epoch: 33, [iter: 244 / all 461], err_s_label: 0.163623, err_s_domain: 0.641970, err_t_domain: 0.668430
+ epoch: 33, [iter: 289 / all 461], err_s_label: 0.135802, err_s_domain: 0.651195, err_t_domain: 0.605136
+ epoch: 33, [iter: 335 / all 461], err_s_label: 0.204501, err_s_domain: 0.658976, err_t_domain: 0.616977
+ epoch: 33, [iter: 380 / all 461], err_s_label: 0.167169, err_s_domain: 0.686118, err_t_domain: 0.676164
+ epoch: 33, [iter: 425 / all 461], err_s_label: 0.143482, err_s_domain: 0.635355, err_t_domain: 0.624688
+ epoch: 33, [iter: 461 / all 461], err_s_label: 0.182673, err_s_domain: 0.702327, err_t_domain: 0.625939
+ epoch: 34, [iter: 11 / all 461], err_s_label: 0.097104, err_s_domain: 0.627611, err_t_domain: 0.6765149
+ epoch: 34, [iter: 56 / all 461], err_s_label: 0.087811, err_s_domain: 0.622987, err_t_domain: 0.6920179
+ epoch: 34, [iter: 102 / all 461], err_s_label: 0.123121, err_s_domain: 0.643722, err_t_domain: 0.714476
+ epoch: 34, [iter: 136 / all 461], err_s_label: 0.041229, err_s_domain: 0.641186, err_t_domain: 0.630128
+ epoch: 34, [iter: 181 / all 461], err_s_label: 0.162316, err_s_domain: 0.654500, err_t_domain: 0.651533
+ epoch: 34, [iter: 225 / all 461], err_s_label: 0.081404, err_s_domain: 0.676224, err_t_domain: 0.612930
+ epoch: 34, [iter: 272 / all 461], err_s_label: 0.213250, err_s_domain: 0.635527, err_t_domain: 0.672916
+ epoch: 34, [iter: 317 / all 461], err_s_label: 0.119925, err_s_domain: 0.665251, err_t_domain: 0.633830
+ epoch: 34, [iter: 363 / all 461], err_s_label: 0.142003, err_s_domain: 0.650174, err_t_domain: 0.659470
+ epoch: 34, [iter: 408 / all 461], err_s_label: 0.221391, err_s_domain: 0.650489, err_t_domain: 0.603621
+ epoch: 34, [iter: 453 / all 461], err_s_label: 0.105149, err_s_domain: 0.658035, err_t_domain: 0.660729
+Accuracy of the mnist_m dataset: 0.835574label: 0.162097, err_s_domain: 0.683851, err_t_domain: 0.675958
+ epoch: 35, [iter: 40 / all 461], err_s_label: 0.127576, err_s_domain: 0.616251, err_t_domain: 0.6273618
+ epoch: 35, [iter: 85 / all 461], err_s_label: 0.133953, err_s_domain: 0.682158, err_t_domain: 0.6057978
+ epoch: 35, [iter: 131 / all 461], err_s_label: 0.103143, err_s_domain: 0.623989, err_t_domain: 0.706767
+ epoch: 35, [iter: 177 / all 461], err_s_label: 0.101249, err_s_domain: 0.659461, err_t_domain: 0.620207
+ epoch: 35, [iter: 222 / all 461], err_s_label: 0.137021, err_s_domain: 0.665218, err_t_domain: 0.653046
+ epoch: 35, [iter: 267 / all 461], err_s_label: 0.134924, err_s_domain: 0.679823, err_t_domain: 0.598810
+ epoch: 35, [iter: 313 / all 461], err_s_label: 0.128588, err_s_domain: 0.666828, err_t_domain: 0.642951
+ epoch: 35, [iter: 358 / all 461], err_s_label: 0.087721, err_s_domain: 0.635899, err_t_domain: 0.634298
+ epoch: 35, [iter: 403 / all 461], err_s_label: 0.133060, err_s_domain: 0.677759, err_t_domain: 0.638403
+ epoch: 35, [iter: 449 / all 461], err_s_label: 0.179327, err_s_domain: 0.633079, err_t_domain: 0.643588
+Accuracy of the mnist dataset: 0.984900s_label: 0.233600, err_s_domain: 0.629260, err_t_domain: 0.660933
+ epoch: 36, [iter: 36 / all 461], err_s_label: 0.083378, err_s_domain: 0.642772, err_t_domain: 0.6613423
+ epoch: 36, [iter: 70 / all 461], err_s_label: 0.109773, err_s_domain: 0.664729, err_t_domain: 0.6352613
+ epoch: 36, [iter: 115 / all 461], err_s_label: 0.119607, err_s_domain: 0.621955, err_t_domain: 0.684905
+ epoch: 36, [iter: 161 / all 461], err_s_label: 0.272886, err_s_domain: 0.673635, err_t_domain: 0.697784
+ epoch: 36, [iter: 206 / all 461], err_s_label: 0.125338, err_s_domain: 0.668751, err_t_domain: 0.727956
+ epoch: 36, [iter: 252 / all 461], err_s_label: 0.281390, err_s_domain: 0.636858, err_t_domain: 0.662538
+ epoch: 36, [iter: 297 / all 461], err_s_label: 0.219957, err_s_domain: 0.642031, err_t_domain: 0.658992
+ epoch: 36, [iter: 342 / all 461], err_s_label: 0.172803, err_s_domain: 0.607844, err_t_domain: 0.627824
+ epoch: 36, [iter: 387 / all 461], err_s_label: 0.230056, err_s_domain: 0.633951, err_t_domain: 0.619844
+ epoch: 36, [iter: 432 / all 461], err_s_label: 0.187407, err_s_domain: 0.634005, err_t_domain: 0.694393
+Accuracy of the mnist dataset: 0.983400s_label: 0.057803, err_s_domain: 0.614188, err_t_domain: 0.679280
+ epoch: 37, [iter: 2 / all 461], err_s_label: 0.169870, err_s_domain: 0.676992, err_t_domain: 0.67981580
+ epoch: 37, [iter: 47 / all 461], err_s_label: 0.174492, err_s_domain: 0.754057, err_t_domain: 0.6204100
+ epoch: 37, [iter: 92 / all 461], err_s_label: 0.130694, err_s_domain: 0.723748, err_t_domain: 0.6660810
+ epoch: 37, [iter: 138 / all 461], err_s_label: 0.121506, err_s_domain: 0.697757, err_t_domain: 0.641941
+ epoch: 37, [iter: 183 / all 461], err_s_label: 0.087491, err_s_domain: 0.658646, err_t_domain: 0.651108
+ epoch: 37, [iter: 229 / all 461], err_s_label: 0.246322, err_s_domain: 0.640211, err_t_domain: 0.672037
+ epoch: 37, [iter: 273 / all 461], err_s_label: 0.207446, err_s_domain: 0.684736, err_t_domain: 0.637807
+ epoch: 37, [iter: 290 / all 461], err_s_label: 0.083295, err_s_domain: 0.636879, err_t_domain: 0.679497
+ epoch: 37, [iter: 336 / all 461], err_s_label: 0.124539, err_s_domain: 0.568001, err_t_domain: 0.683061
+ epoch: 37, [iter: 381 / all 461], err_s_label: 0.072794, err_s_domain: 0.619145, err_t_domain: 0.623917
+ epoch: 37, [iter: 427 / all 461], err_s_label: 0.103624, err_s_domain: 0.593301, err_t_domain: 0.712029
+ epoch: 37, [iter: 461 / all 461], err_s_label: 0.148908, err_s_domain: 0.681977, err_t_domain: 0.617927
+ epoch: 38, [iter: 14 / all 461], err_s_label: 0.076073, err_s_domain: 0.625022, err_t_domain: 0.6183907
+ epoch: 38, [iter: 48 / all 461], err_s_label: 0.181544, err_s_domain: 0.693582, err_t_domain: 0.6577727
+ epoch: 38, [iter: 93 / all 461], err_s_label: 0.119281, err_s_domain: 0.625763, err_t_domain: 0.7372107
+ epoch: 38, [iter: 138 / all 461], err_s_label: 0.141776, err_s_domain: 0.698474, err_t_domain: 0.675775
+ epoch: 38, [iter: 184 / all 461], err_s_label: 0.050783, err_s_domain: 0.625266, err_t_domain: 0.684704
+ epoch: 38, [iter: 229 / all 461], err_s_label: 0.111823, err_s_domain: 0.760317, err_t_domain: 0.642833
+ epoch: 38, [iter: 275 / all 461], err_s_label: 0.115610, err_s_domain: 0.650920, err_t_domain: 0.602651
+ epoch: 38, [iter: 320 / all 461], err_s_label: 0.054262, err_s_domain: 0.626485, err_t_domain: 0.645270
+ epoch: 38, [iter: 365 / all 461], err_s_label: 0.071483, err_s_domain: 0.658410, err_t_domain: 0.640360
+ epoch: 38, [iter: 410 / all 461], err_s_label: 0.104288, err_s_domain: 0.657788, err_t_domain: 0.687370
+ epoch: 38, [iter: 456 / all 461], err_s_label: 0.110167, err_s_domain: 0.603192, err_t_domain: 0.653732
+Accuracy of the mnist_m dataset: 0.817020label: 0.188170, err_s_domain: 0.652765, err_t_domain: 0.646085
+ epoch: 39, [iter: 42 / all 461], err_s_label: 0.130583, err_s_domain: 0.639134, err_t_domain: 0.6963915
+ epoch: 39, [iter: 87 / all 461], err_s_label: 0.226176, err_s_domain: 0.690243, err_t_domain: 0.6089985
+ epoch: 39, [iter: 133 / all 461], err_s_label: 0.065075, err_s_domain: 0.645546, err_t_domain: 0.641597
+ epoch: 39, [iter: 178 / all 461], err_s_label: 0.085669, err_s_domain: 0.631303, err_t_domain: 0.696470
+ epoch: 39, [iter: 224 / all 461], err_s_label: 0.121887, err_s_domain: 0.640609, err_t_domain: 0.702350
+ epoch: 39, [iter: 270 / all 461], err_s_label: 0.093602, err_s_domain: 0.628365, err_t_domain: 0.690292
+ epoch: 39, [iter: 303 / all 461], err_s_label: 0.102479, err_s_domain: 0.604075, err_t_domain: 0.675859
+ epoch: 39, [iter: 324 / all 461], err_s_label: 0.122812, err_s_domain: 0.628878, err_t_domain: 0.586755
+ epoch: 39, [iter: 369 / all 461], err_s_label: 0.144918, err_s_domain: 0.619524, err_t_domain: 0.687909
+ epoch: 39, [iter: 415 / all 461], err_s_label: 0.060599, err_s_domain: 0.667126, err_t_domain: 0.603861
+ epoch: 39, [iter: 460 / all 461], err_s_label: 0.217685, err_s_domain: 0.633984, err_t_domain: 0.688008
+ epoch: 40, [iter: 2 / all 461], err_s_label: 0.054948, err_s_domain: 0.654412, err_t_domain: 0.65153882
+ epoch: 40, [iter: 35 / all 461], err_s_label: 0.160294, err_s_domain: 0.682968, err_t_domain: 0.6636272
+ epoch: 40, [iter: 81 / all 461], err_s_label: 0.118235, err_s_domain: 0.683023, err_t_domain: 0.6452582
+ epoch: 40, [iter: 126 / all 461], err_s_label: 0.167135, err_s_domain: 0.652641, err_t_domain: 0.692283
+ epoch: 40, [iter: 171 / all 461], err_s_label: 0.044534, err_s_domain: 0.682459, err_t_domain: 0.684400
+ epoch: 40, [iter: 217 / all 461], err_s_label: 0.068351, err_s_domain: 0.629159, err_t_domain: 0.673884
+ epoch: 40, [iter: 262 / all 461], err_s_label: 0.209769, err_s_domain: 0.683070, err_t_domain: 0.665025
+ epoch: 40, [iter: 307 / all 461], err_s_label: 0.191307, err_s_domain: 0.645124, err_t_domain: 0.621127
+ epoch: 40, [iter: 353 / all 461], err_s_label: 0.169044, err_s_domain: 0.699941, err_t_domain: 0.649813
+ epoch: 40, [iter: 398 / all 461], err_s_label: 0.274670, err_s_domain: 0.690371, err_t_domain: 0.617311
+ epoch: 40, [iter: 443 / all 461], err_s_label: 0.171389, err_s_domain: 0.674439, err_t_domain: 0.701771
+Accuracy of the mnist dataset: 0.986300s_label: 0.226251, err_s_domain: 0.674307, err_t_domain: 0.632533
+ epoch: 41, [iter: 31 / all 461], err_s_label: 0.213637, err_s_domain: 0.617424, err_t_domain: 0.7113503
+ epoch: 41, [iter: 76 / all 461], err_s_label: 0.148357, err_s_domain: 0.636655, err_t_domain: 0.6537083
+ epoch: 41, [iter: 122 / all 461], err_s_label: 0.122216, err_s_domain: 0.631640, err_t_domain: 0.666880
+ epoch: 41, [iter: 167 / all 461], err_s_label: 0.142042, err_s_domain: 0.671861, err_t_domain: 0.661019
+ epoch: 41, [iter: 212 / all 461], err_s_label: 0.189006, err_s_domain: 0.676836, err_t_domain: 0.659885
+ epoch: 41, [iter: 258 / all 461], err_s_label: 0.165300, err_s_domain: 0.671304, err_t_domain: 0.600655
+ epoch: 41, [iter: 303 / all 461], err_s_label: 0.100352, err_s_domain: 0.636276, err_t_domain: 0.660176
+ epoch: 41, [iter: 333 / all 461], err_s_label: 0.129030, err_s_domain: 0.703136, err_t_domain: 0.606937
+ epoch: 41, [iter: 356 / all 461], err_s_label: 0.162499, err_s_domain: 0.682287, err_t_domain: 0.630696
+ epoch: 41, [iter: 402 / all 461], err_s_label: 0.142725, err_s_domain: 0.668016, err_t_domain: 0.657054
+ epoch: 41, [iter: 447 / all 461], err_s_label: 0.180805, err_s_domain: 0.734520, err_t_domain: 0.649122
+Accuracy of the mnist dataset: 0.984400s_label: 0.240473, err_s_domain: 0.697718, err_t_domain: 0.652146
+ epoch: 42, [iter: 23 / all 461], err_s_label: 0.076235, err_s_domain: 0.659125, err_t_domain: 0.6232836
+ epoch: 42, [iter: 69 / all 461], err_s_label: 0.117082, err_s_domain: 0.661207, err_t_domain: 0.6987046
+ epoch: 42, [iter: 114 / all 461], err_s_label: 0.119332, err_s_domain: 0.626099, err_t_domain: 0.632566
+ epoch: 42, [iter: 159 / all 461], err_s_label: 0.189792, err_s_domain: 0.673289, err_t_domain: 0.681366
+ epoch: 42, [iter: 205 / all 461], err_s_label: 0.147420, err_s_domain: 0.635797, err_t_domain: 0.733073
+ epoch: 42, [iter: 250 / all 461], err_s_label: 0.138660, err_s_domain: 0.648627, err_t_domain: 0.657490
+ epoch: 42, [iter: 295 / all 461], err_s_label: 0.198647, err_s_domain: 0.647765, err_t_domain: 0.683253
+ epoch: 42, [iter: 341 / all 461], err_s_label: 0.197722, err_s_domain: 0.663565, err_t_domain: 0.646095
+ epoch: 42, [iter: 386 / all 461], err_s_label: 0.084179, err_s_domain: 0.673780, err_t_domain: 0.565446
+ epoch: 42, [iter: 431 / all 461], err_s_label: 0.124656, err_s_domain: 0.625275, err_t_domain: 0.660459
+ epoch: 42, [iter: 461 / all 461], err_s_label: 0.258527, err_s_domain: 0.664667, err_t_domain: 0.651830
+ epoch: 43, [iter: 18 / all 461], err_s_label: 0.070537, err_s_domain: 0.653998, err_t_domain: 0.6321260
+ epoch: 43, [iter: 63 / all 461], err_s_label: 0.152540, err_s_domain: 0.667249, err_t_domain: 0.6526450
+ epoch: 43, [iter: 108 / all 461], err_s_label: 0.042831, err_s_domain: 0.680152, err_t_domain: 0.640688
+ epoch: 43, [iter: 154 / all 461], err_s_label: 0.061960, err_s_domain: 0.671337, err_t_domain: 0.666025
+ epoch: 43, [iter: 199 / all 461], err_s_label: 0.077103, err_s_domain: 0.630581, err_t_domain: 0.675825
+ epoch: 43, [iter: 245 / all 461], err_s_label: 0.112989, err_s_domain: 0.668857, err_t_domain: 0.658275
+ epoch: 43, [iter: 291 / all 461], err_s_label: 0.223227, err_s_domain: 0.671082, err_t_domain: 0.673940
+ epoch: 43, [iter: 336 / all 461], err_s_label: 0.064882, err_s_domain: 0.672113, err_t_domain: 0.642903
+ epoch: 43, [iter: 363 / all 461], err_s_label: 0.096240, err_s_domain: 0.683725, err_t_domain: 0.673218
+ epoch: 43, [iter: 390 / all 461], err_s_label: 0.171524, err_s_domain: 0.700299, err_t_domain: 0.663170
+ epoch: 43, [iter: 424 / all 461], err_s_label: 0.149846, err_s_domain: 0.668852, err_t_domain: 0.648789
+ epoch: 43, [iter: 461 / all 461], err_s_label: 0.214470, err_s_domain: 0.670940, err_t_domain: 0.617869
+ epoch: 44, [iter: 10 / all 461], err_s_label: 0.056454, err_s_domain: 0.661029, err_t_domain: 0.6493309
+ epoch: 44, [iter: 56 / all 461], err_s_label: 0.058246, err_s_domain: 0.686110, err_t_domain: 0.6657109
+ epoch: 44, [iter: 101 / all 461], err_s_label: 0.157027, err_s_domain: 0.663336, err_t_domain: 0.655463
+ epoch: 44, [iter: 147 / all 461], err_s_label: 0.172020, err_s_domain: 0.711860, err_t_domain: 0.662387
+ epoch: 44, [iter: 192 / all 461], err_s_label: 0.135773, err_s_domain: 0.658887, err_t_domain: 0.624415
+ epoch: 44, [iter: 237 / all 461], err_s_label: 0.145623, err_s_domain: 0.654169, err_t_domain: 0.682882
+ epoch: 44, [iter: 282 / all 461], err_s_label: 0.180984, err_s_domain: 0.696106, err_t_domain: 0.608218
+ epoch: 44, [iter: 328 / all 461], err_s_label: 0.113604, err_s_domain: 0.636205, err_t_domain: 0.667372
+ epoch: 44, [iter: 373 / all 461], err_s_label: 0.047639, err_s_domain: 0.600871, err_t_domain: 0.653461
+ epoch: 44, [iter: 418 / all 461], err_s_label: 0.101386, err_s_domain: 0.666665, err_t_domain: 0.655113
+ epoch: 44, [iter: 461 / all 461], err_s_label: 0.131167, err_s_domain: 0.648959, err_t_domain: 0.655898
+ epoch: 45, [iter: 2 / all 461], err_s_label: 0.167485, err_s_domain: 0.686698, err_t_domain: 0.62788698
+ epoch: 45, [iter: 47 / all 461], err_s_label: 0.086079, err_s_domain: 0.665201, err_t_domain: 0.6431248
+ epoch: 45, [iter: 93 / all 461], err_s_label: 0.143773, err_s_domain: 0.659029, err_t_domain: 0.6086698
+ epoch: 45, [iter: 138 / all 461], err_s_label: 0.121104, err_s_domain: 0.660038, err_t_domain: 0.656251
+ epoch: 45, [iter: 183 / all 461], err_s_label: 0.159575, err_s_domain: 0.666284, err_t_domain: 0.646969
+ epoch: 45, [iter: 228 / all 461], err_s_label: 0.197762, err_s_domain: 0.673166, err_t_domain: 0.644802
+ epoch: 45, [iter: 274 / all 461], err_s_label: 0.122951, err_s_domain: 0.641270, err_t_domain: 0.670585
+ epoch: 45, [iter: 319 / all 461], err_s_label: 0.072967, err_s_domain: 0.630142, err_t_domain: 0.667321
+ epoch: 45, [iter: 364 / all 461], err_s_label: 0.136419, err_s_domain: 0.616911, err_t_domain: 0.697418
+ epoch: 45, [iter: 397 / all 461], err_s_label: 0.144123, err_s_domain: 0.643195, err_t_domain: 0.624083
+ epoch: 45, [iter: 423 / all 461], err_s_label: 0.300703, err_s_domain: 0.679970, err_t_domain: 0.640291
+ epoch: 45, [iter: 461 / all 461], err_s_label: 0.183865, err_s_domain: 0.698889, err_t_domain: 0.653596
+Accuracy of the mnist_m dataset: 0.843351label: 0.183865, err_s_domain: 0.698889, err_t_domain: 0.653596
+ epoch: 46, [iter: 43 / all 461], err_s_label: 0.091866, err_s_domain: 0.668997, err_t_domain: 0.6701816
+ epoch: 46, [iter: 89 / all 461], err_s_label: 0.108851, err_s_domain: 0.635467, err_t_domain: 0.6499076
+ epoch: 46, [iter: 134 / all 461], err_s_label: 0.068579, err_s_domain: 0.610391, err_t_domain: 0.663160
+ epoch: 46, [iter: 179 / all 461], err_s_label: 0.181670, err_s_domain: 0.616496, err_t_domain: 0.679206
+ epoch: 46, [iter: 224 / all 461], err_s_label: 0.049639, err_s_domain: 0.635443, err_t_domain: 0.649620
+ epoch: 46, [iter: 270 / all 461], err_s_label: 0.134612, err_s_domain: 0.637979, err_t_domain: 0.630913
+ epoch: 46, [iter: 315 / all 461], err_s_label: 0.154710, err_s_domain: 0.706083, err_t_domain: 0.639259
+ epoch: 46, [iter: 360 / all 461], err_s_label: 0.223140, err_s_domain: 0.607450, err_t_domain: 0.691559
+ epoch: 46, [iter: 406 / all 461], err_s_label: 0.099508, err_s_domain: 0.638713, err_t_domain: 0.663929
+ epoch: 46, [iter: 451 / all 461], err_s_label: 0.141009, err_s_domain: 0.639391, err_t_domain: 0.603370
+Accuracy of the mnist_m dataset: 0.846128label: 0.156872, err_s_domain: 0.664823, err_t_domain: 0.684219
+ epoch: 47, [iter: 38 / all 461], err_s_label: 0.414228, err_s_domain: 0.709713, err_t_domain: 0.6810139
+ epoch: 47, [iter: 83 / all 461], err_s_label: 0.110370, err_s_domain: 0.653546, err_t_domain: 0.6290329
+ epoch: 47, [iter: 128 / all 461], err_s_label: 0.063617, err_s_domain: 0.668567, err_t_domain: 0.672962
+ epoch: 47, [iter: 174 / all 461], err_s_label: 0.092659, err_s_domain: 0.678984, err_t_domain: 0.638409
+ epoch: 47, [iter: 219 / all 461], err_s_label: 0.146869, err_s_domain: 0.690762, err_t_domain: 0.642065
+ epoch: 47, [iter: 265 / all 461], err_s_label: 0.085650, err_s_domain: 0.685051, err_t_domain: 0.677033
+ epoch: 47, [iter: 310 / all 461], err_s_label: 0.098080, err_s_domain: 0.652069, err_t_domain: 0.657601
+ epoch: 47, [iter: 356 / all 461], err_s_label: 0.066994, err_s_domain: 0.679266, err_t_domain: 0.670902
+ epoch: 47, [iter: 390 / all 461], err_s_label: 0.167006, err_s_domain: 0.684313, err_t_domain: 0.636444
+ epoch: 47, [iter: 427 / all 461], err_s_label: 0.089268, err_s_domain: 0.648064, err_t_domain: 0.643137
+ epoch: 47, [iter: 449 / all 461], err_s_label: 0.154803, err_s_domain: 0.605546, err_t_domain: 0.668068
+Accuracy of the mnist dataset: 0.984100s_label: 0.150075, err_s_domain: 0.651968, err_t_domain: 0.734658
+ epoch: 48, [iter: 35 / all 461], err_s_label: 0.065409, err_s_domain: 0.617759, err_t_domain: 0.5989388
+ epoch: 48, [iter: 81 / all 461], err_s_label: 0.117358, err_s_domain: 0.640055, err_t_domain: 0.6865458
+ epoch: 48, [iter: 126 / all 461], err_s_label: 0.193539, err_s_domain: 0.668531, err_t_domain: 0.660824
+ epoch: 48, [iter: 171 / all 461], err_s_label: 0.113802, err_s_domain: 0.683579, err_t_domain: 0.642762
+ epoch: 48, [iter: 217 / all 461], err_s_label: 0.122993, err_s_domain: 0.619805, err_t_domain: 0.719774
+ epoch: 48, [iter: 262 / all 461], err_s_label: 0.136260, err_s_domain: 0.703948, err_t_domain: 0.623701
+ epoch: 48, [iter: 307 / all 461], err_s_label: 0.101531, err_s_domain: 0.659900, err_t_domain: 0.624308
+ epoch: 48, [iter: 353 / all 461], err_s_label: 0.197981, err_s_domain: 0.661853, err_t_domain: 0.648386
+ epoch: 48, [iter: 398 / all 461], err_s_label: 0.086793, err_s_domain: 0.665509, err_t_domain: 0.716448
+ epoch: 48, [iter: 442 / all 461], err_s_label: 0.136117, err_s_domain: 0.676725, err_t_domain: 0.684626
+Accuracy of the mnist dataset: 0.984300s_label: 0.161085, err_s_domain: 0.697828, err_t_domain: 0.657774
+ epoch: 49, [iter: 31 / all 461], err_s_label: 0.123228, err_s_domain: 0.663087, err_t_domain: 0.6795594
+ epoch: 49, [iter: 76 / all 461], err_s_label: 0.064762, err_s_domain: 0.641192, err_t_domain: 0.7461674
+ epoch: 49, [iter: 121 / all 461], err_s_label: 0.053495, err_s_domain: 0.607992, err_t_domain: 0.654556
+ epoch: 49, [iter: 167 / all 461], err_s_label: 0.179654, err_s_domain: 0.676701, err_t_domain: 0.661883
+ epoch: 49, [iter: 212 / all 461], err_s_label: 0.231315, err_s_domain: 0.648914, err_t_domain: 0.671381
+ epoch: 49, [iter: 257 / all 461], err_s_label: 0.053182, err_s_domain: 0.659906, err_t_domain: 0.657443
+ epoch: 49, [iter: 303 / all 461], err_s_label: 0.309600, err_s_domain: 0.643208, err_t_domain: 0.721365
+ epoch: 49, [iter: 348 / all 461], err_s_label: 0.110724, err_s_domain: 0.646869, err_t_domain: 0.606184
+ epoch: 49, [iter: 382 / all 461], err_s_label: 0.094686, err_s_domain: 0.697145, err_t_domain: 0.643240
+ epoch: 49, [iter: 427 / all 461], err_s_label: 0.238528, err_s_domain: 0.640263, err_t_domain: 0.691263
+ epoch: 49, [iter: 457 / all 461], err_s_label: 0.114175, err_s_domain: 0.668270, err_t_domain: 0.684771
+Accuracy of the mnist dataset: 0.982800s_label: 0.113411, err_s_domain: 0.661160, err_t_domain: 0.624789
+ epoch: 50, [iter: 23 / all 461], err_s_label: 0.120788, err_s_domain: 0.660616, err_t_domain: 0.6142049
+ epoch: 50, [iter: 69 / all 461], err_s_label: 0.108332, err_s_domain: 0.651246, err_t_domain: 0.7046309
+ epoch: 50, [iter: 114 / all 461], err_s_label: 0.082629, err_s_domain: 0.657335, err_t_domain: 0.672885
+ epoch: 50, [iter: 159 / all 461], err_s_label: 0.065536, err_s_domain: 0.655719, err_t_domain: 0.635300
+ epoch: 50, [iter: 204 / all 461], err_s_label: 0.141953, err_s_domain: 0.627842, err_t_domain: 0.664042
+ epoch: 50, [iter: 250 / all 461], err_s_label: 0.193167, err_s_domain: 0.670646, err_t_domain: 0.640351
+ epoch: 50, [iter: 295 / all 461], err_s_label: 0.080217, err_s_domain: 0.629475, err_t_domain: 0.675535
+ epoch: 50, [iter: 341 / all 461], err_s_label: 0.102312, err_s_domain: 0.687769, err_t_domain: 0.603963
+ epoch: 50, [iter: 386 / all 461], err_s_label: 0.137518, err_s_domain: 0.638102, err_t_domain: 0.647671
+ epoch: 50, [iter: 431 / all 461], err_s_label: 0.174295, err_s_domain: 0.604132, err_t_domain: 0.638744
+ epoch: 50, [iter: 461 / all 461], err_s_label: 0.121901, err_s_domain: 0.690227, err_t_domain: 0.614295
+ epoch: 51, [iter: 18 / all 461], err_s_label: 0.116803, err_s_domain: 0.666953, err_t_domain: 0.6232485
+ epoch: 51, [iter: 63 / all 461], err_s_label: 0.072226, err_s_domain: 0.621742, err_t_domain: 0.6513145
+ epoch: 51, [iter: 109 / all 461], err_s_label: 0.111377, err_s_domain: 0.706543, err_t_domain: 0.624498
+ epoch: 51, [iter: 154 / all 461], err_s_label: 0.050969, err_s_domain: 0.710245, err_t_domain: 0.657004
+ epoch: 51, [iter: 199 / all 461], err_s_label: 0.149300, err_s_domain: 0.641576, err_t_domain: 0.644023
+ epoch: 51, [iter: 245 / all 461], err_s_label: 0.110789, err_s_domain: 0.629215, err_t_domain: 0.648782
+ epoch: 51, [iter: 291 / all 461], err_s_label: 0.078563, err_s_domain: 0.643555, err_t_domain: 0.612369
+ epoch: 51, [iter: 325 / all 461], err_s_label: 0.117415, err_s_domain: 0.699384, err_t_domain: 0.613385
+ epoch: 51, [iter: 370 / all 461], err_s_label: 0.137415, err_s_domain: 0.664001, err_t_domain: 0.664072
+ epoch: 51, [iter: 416 / all 461], err_s_label: 0.135463, err_s_domain: 0.649152, err_t_domain: 0.682695
+ epoch: 51, [iter: 461 / all 461], err_s_label: 0.134345, err_s_domain: 0.679121, err_t_domain: 0.657065
+ epoch: 52, [iter: 2 / all 461], err_s_label: 0.164219, err_s_domain: 0.670090, err_t_domain: 0.66266165
+ epoch: 52, [iter: 26 / all 461], err_s_label: 0.107670, err_s_domain: 0.634297, err_t_domain: 0.6372055
+ epoch: 52, [iter: 55 / all 461], err_s_label: 0.102429, err_s_domain: 0.651527, err_t_domain: 0.6658535
+ epoch: 52, [iter: 101 / all 461], err_s_label: 0.111130, err_s_domain: 0.688845, err_t_domain: 0.617400
+ epoch: 52, [iter: 146 / all 461], err_s_label: 0.056763, err_s_domain: 0.635091, err_t_domain: 0.606716
+ epoch: 52, [iter: 191 / all 461], err_s_label: 0.156266, err_s_domain: 0.652835, err_t_domain: 0.649557
+ epoch: 52, [iter: 237 / all 461], err_s_label: 0.160094, err_s_domain: 0.661050, err_t_domain: 0.634671
+ epoch: 52, [iter: 282 / all 461], err_s_label: 0.162148, err_s_domain: 0.656783, err_t_domain: 0.670741
+ epoch: 52, [iter: 326 / all 461], err_s_label: 0.100400, err_s_domain: 0.631219, err_t_domain: 0.699001
+ epoch: 52, [iter: 372 / all 461], err_s_label: 0.100284, err_s_domain: 0.662156, err_t_domain: 0.621188
+ epoch: 52, [iter: 417 / all 461], err_s_label: 0.101586, err_s_domain: 0.688177, err_t_domain: 0.682948
+ epoch: 52, [iter: 461 / all 461], err_s_label: 0.072167, err_s_domain: 0.647273, err_t_domain: 0.631053
+Accuracy of the mnist_m dataset: 0.883235label: 0.072167, err_s_domain: 0.647273, err_t_domain: 0.631053
+ epoch: 53, [iter: 25 / all 461], err_s_label: 0.110506, err_s_domain: 0.695611, err_t_domain: 0.6757963
+ epoch: 53, [iter: 70 / all 461], err_s_label: 0.238432, err_s_domain: 0.689976, err_t_domain: 0.6414643
+ epoch: 53, [iter: 115 / all 461], err_s_label: 0.169319, err_s_domain: 0.658948, err_t_domain: 0.641691
+ epoch: 53, [iter: 160 / all 461], err_s_label: 0.098966, err_s_domain: 0.643200, err_t_domain: 0.671934
+ epoch: 53, [iter: 206 / all 461], err_s_label: 0.152686, err_s_domain: 0.604188, err_t_domain: 0.716329
+ epoch: 53, [iter: 251 / all 461], err_s_label: 0.128809, err_s_domain: 0.633066, err_t_domain: 0.659990
+ epoch: 53, [iter: 285 / all 461], err_s_label: 0.024292, err_s_domain: 0.655273, err_t_domain: 0.667000
+ epoch: 53, [iter: 321 / all 461], err_s_label: 0.059562, err_s_domain: 0.609125, err_t_domain: 0.676152
+ epoch: 53, [iter: 333 / all 461], err_s_label: 0.175999, err_s_domain: 0.613961, err_t_domain: 0.632650
+ epoch: 53, [iter: 378 / all 461], err_s_label: 0.138566, err_s_domain: 0.650253, err_t_domain: 0.624238
+ epoch: 53, [iter: 424 / all 461], err_s_label: 0.127081, err_s_domain: 0.678062, err_t_domain: 0.658569
+ epoch: 53, [iter: 461 / all 461], err_s_label: 0.068932, err_s_domain: 0.644723, err_t_domain: 0.634502
+ epoch: 54, [iter: 9 / all 461], err_s_label: 0.108664, err_s_domain: 0.611391, err_t_domain: 0.64641002
+ epoch: 54, [iter: 31 / all 461], err_s_label: 0.047467, err_s_domain: 0.639661, err_t_domain: 0.6560572
+ epoch: 54, [iter: 56 / all 461], err_s_label: 0.163892, err_s_domain: 0.653949, err_t_domain: 0.6793172
+ epoch: 54, [iter: 89 / all 461], err_s_label: 0.038783, err_s_domain: 0.658198, err_t_domain: 0.6473412
+ epoch: 54, [iter: 134 / all 461], err_s_label: 0.112271, err_s_domain: 0.675295, err_t_domain: 0.646378
+ epoch: 54, [iter: 180 / all 461], err_s_label: 0.162717, err_s_domain: 0.668284, err_t_domain: 0.654867
+ epoch: 54, [iter: 225 / all 461], err_s_label: 0.100599, err_s_domain: 0.657706, err_t_domain: 0.673549
+ epoch: 54, [iter: 270 / all 461], err_s_label: 0.129744, err_s_domain: 0.644273, err_t_domain: 0.613146
+ epoch: 54, [iter: 315 / all 461], err_s_label: 0.027047, err_s_domain: 0.648002, err_t_domain: 0.639710
+ epoch: 54, [iter: 361 / all 461], err_s_label: 0.114805, err_s_domain: 0.632860, err_t_domain: 0.620733
+ epoch: 54, [iter: 406 / all 461], err_s_label: 0.060941, err_s_domain: 0.643322, err_t_domain: 0.667324
+ epoch: 54, [iter: 451 / all 461], err_s_label: 0.182108, err_s_domain: 0.703799, err_t_domain: 0.688246
+Accuracy of the mnist_m dataset: 0.832796label: 0.130684, err_s_domain: 0.697378, err_t_domain: 0.658860
+ epoch: 55, [iter: 37 / all 461], err_s_label: 0.096401, err_s_domain: 0.669728, err_t_domain: 0.6322440
+ epoch: 55, [iter: 83 / all 461], err_s_label: 0.070335, err_s_domain: 0.633926, err_t_domain: 0.6469560
+ epoch: 55, [iter: 128 / all 461], err_s_label: 0.178300, err_s_domain: 0.691483, err_t_domain: 0.684755
+ epoch: 55, [iter: 173 / all 461], err_s_label: 0.132575, err_s_domain: 0.636151, err_t_domain: 0.613066
+ epoch: 55, [iter: 218 / all 461], err_s_label: 0.097742, err_s_domain: 0.628787, err_t_domain: 0.604176
+ epoch: 55, [iter: 264 / all 461], err_s_label: 0.077082, err_s_domain: 0.644242, err_t_domain: 0.623409
+ epoch: 55, [iter: 298 / all 461], err_s_label: 0.152426, err_s_domain: 0.613770, err_t_domain: 0.677021
+ epoch: 55, [iter: 343 / all 461], err_s_label: 0.121336, err_s_domain: 0.662811, err_t_domain: 0.648968
+ epoch: 55, [iter: 389 / all 461], err_s_label: 0.164398, err_s_domain: 0.726647, err_t_domain: 0.631125
+ epoch: 55, [iter: 434 / all 461], err_s_label: 0.108412, err_s_domain: 0.635167, err_t_domain: 0.675306
+Accuracy of the mnist dataset: 0.986400s_label: 0.056023, err_s_domain: 0.652252, err_t_domain: 0.653034
+ epoch: 56, [iter: 21 / all 461], err_s_label: 0.046584, err_s_domain: 0.672989, err_t_domain: 0.6664664
+ epoch: 56, [iter: 66 / all 461], err_s_label: 0.122425, err_s_domain: 0.646542, err_t_domain: 0.6396104
+ epoch: 56, [iter: 90 / all 461], err_s_label: 0.053077, err_s_domain: 0.698197, err_t_domain: 0.6171544
+ epoch: 56, [iter: 126 / all 461], err_s_label: 0.162963, err_s_domain: 0.672219, err_t_domain: 0.699187
+ epoch: 56, [iter: 171 / all 461], err_s_label: 0.113457, err_s_domain: 0.613020, err_t_domain: 0.650599
+ epoch: 56, [iter: 216 / all 461], err_s_label: 0.081563, err_s_domain: 0.699558, err_t_domain: 0.644908
+ epoch: 56, [iter: 261 / all 461], err_s_label: 0.257156, err_s_domain: 0.700964, err_t_domain: 0.692887
+ epoch: 56, [iter: 307 / all 461], err_s_label: 0.082337, err_s_domain: 0.665272, err_t_domain: 0.649237
+ epoch: 56, [iter: 352 / all 461], err_s_label: 0.045568, err_s_domain: 0.620660, err_t_domain: 0.644572
+ epoch: 56, [iter: 398 / all 461], err_s_label: 0.158147, err_s_domain: 0.633312, err_t_domain: 0.654548
+ epoch: 56, [iter: 443 / all 461], err_s_label: 0.109669, err_s_domain: 0.651169, err_t_domain: 0.670598
+Accuracy of the mnist dataset: 0.982500s_label: 0.208306, err_s_domain: 0.654537, err_t_domain: 0.610980
+ epoch: 57, [iter: 30 / all 461], err_s_label: 0.160374, err_s_domain: 0.672426, err_t_domain: 0.6628310
+ epoch: 57, [iter: 75 / all 461], err_s_label: 0.144022, err_s_domain: 0.638449, err_t_domain: 0.6733750
+ epoch: 57, [iter: 120 / all 461], err_s_label: 0.085321, err_s_domain: 0.629928, err_t_domain: 0.623218
+ epoch: 57, [iter: 166 / all 461], err_s_label: 0.048736, err_s_domain: 0.658183, err_t_domain: 0.650612
+ epoch: 57, [iter: 211 / all 461], err_s_label: 0.119860, err_s_domain: 0.647186, err_t_domain: 0.708093
+ epoch: 57, [iter: 245 / all 461], err_s_label: 0.052182, err_s_domain: 0.622897, err_t_domain: 0.604557
+ epoch: 57, [iter: 291 / all 461], err_s_label: 0.085005, err_s_domain: 0.622115, err_t_domain: 0.690445
+ epoch: 57, [iter: 336 / all 461], err_s_label: 0.208455, err_s_domain: 0.648368, err_t_domain: 0.611570
+ epoch: 57, [iter: 381 / all 461], err_s_label: 0.053131, err_s_domain: 0.671033, err_t_domain: 0.664424
+ epoch: 57, [iter: 427 / all 461], err_s_label: 0.099531, err_s_domain: 0.636312, err_t_domain: 0.640957
+ epoch: 57, [iter: 461 / all 461], err_s_label: 0.053962, err_s_domain: 0.635812, err_t_domain: 0.619278
+ epoch: 58, [iter: 14 / all 461], err_s_label: 0.110359, err_s_domain: 0.624273, err_t_domain: 0.6543088
+ epoch: 58, [iter: 59 / all 461], err_s_label: 0.140892, err_s_domain: 0.631975, err_t_domain: 0.6835228
+ epoch: 58, [iter: 105 / all 461], err_s_label: 0.056405, err_s_domain: 0.643956, err_t_domain: 0.671218
+ epoch: 58, [iter: 120 / all 461], err_s_label: 0.135758, err_s_domain: 0.674514, err_t_domain: 0.671549
+ epoch: 58, [iter: 160 / all 461], err_s_label: 0.079666, err_s_domain: 0.676866, err_t_domain: 0.620138
+ epoch: 58, [iter: 205 / all 461], err_s_label: 0.085113, err_s_domain: 0.706423, err_t_domain: 0.607504
+ epoch: 58, [iter: 250 / all 461], err_s_label: 0.147309, err_s_domain: 0.634061, err_t_domain: 0.629299
+ epoch: 58, [iter: 296 / all 461], err_s_label: 0.105213, err_s_domain: 0.705812, err_t_domain: 0.659277
+ epoch: 58, [iter: 341 / all 461], err_s_label: 0.055445, err_s_domain: 0.681069, err_t_domain: 0.644637
+ epoch: 58, [iter: 386 / all 461], err_s_label: 0.121070, err_s_domain: 0.644670, err_t_domain: 0.609238
+ epoch: 58, [iter: 432 / all 461], err_s_label: 0.041175, err_s_domain: 0.641840, err_t_domain: 0.642483
+ epoch: 58, [iter: 461 / all 461], err_s_label: 0.131420, err_s_domain: 0.638844, err_t_domain: 0.708776
+ epoch: 59, [iter: 18 / all 461], err_s_label: 0.122748, err_s_domain: 0.651704, err_t_domain: 0.6795526
+ epoch: 59, [iter: 63 / all 461], err_s_label: 0.143110, err_s_domain: 0.681004, err_t_domain: 0.6577656
+ epoch: 59, [iter: 108 / all 461], err_s_label: 0.108254, err_s_domain: 0.694865, err_t_domain: 0.634821
+ epoch: 59, [iter: 153 / all 461], err_s_label: 0.099151, err_s_domain: 0.706389, err_t_domain: 0.655813
+ epoch: 59, [iter: 199 / all 461], err_s_label: 0.038455, err_s_domain: 0.666504, err_t_domain: 0.646320
+ epoch: 59, [iter: 233 / all 461], err_s_label: 0.089771, err_s_domain: 0.662894, err_t_domain: 0.622579
+ epoch: 59, [iter: 278 / all 461], err_s_label: 0.206568, err_s_domain: 0.667535, err_t_domain: 0.656261
+ epoch: 59, [iter: 323 / all 461], err_s_label: 0.159255, err_s_domain: 0.673264, err_t_domain: 0.686641
+ epoch: 59, [iter: 369 / all 461], err_s_label: 0.124265, err_s_domain: 0.632383, err_t_domain: 0.715414
+ epoch: 59, [iter: 414 / all 461], err_s_label: 0.090068, err_s_domain: 0.672081, err_t_domain: 0.615232
+ epoch: 59, [iter: 460 / all 461], err_s_label: 0.144421, err_s_domain: 0.621194, err_t_domain: 0.617110
+ epoch: 60, [iter: 1 / all 461], err_s_label: 0.094804, err_s_domain: 0.652398, err_t_domain: 0.64059131
+ epoch: 60, [iter: 46 / all 461], err_s_label: 0.131733, err_s_domain: 0.644290, err_t_domain: 0.7050631
+ epoch: 60, [iter: 92 / all 461], err_s_label: 0.098199, err_s_domain: 0.650587, err_t_domain: 0.6199081
+ epoch: 60, [iter: 137 / all 461], err_s_label: 0.088086, err_s_domain: 0.643331, err_t_domain: 0.711598
+ epoch: 60, [iter: 150 / all 461], err_s_label: 0.171109, err_s_domain: 0.649874, err_t_domain: 0.659476
+ epoch: 60, [iter: 193 / all 461], err_s_label: 0.173308, err_s_domain: 0.631078, err_t_domain: 0.643095
+ epoch: 60, [iter: 238 / all 461], err_s_label: 0.100978, err_s_domain: 0.648620, err_t_domain: 0.689178
+ epoch: 60, [iter: 283 / all 461], err_s_label: 0.125393, err_s_domain: 0.645124, err_t_domain: 0.633233
+ epoch: 60, [iter: 329 / all 461], err_s_label: 0.057401, err_s_domain: 0.661339, err_t_domain: 0.675495
+ epoch: 60, [iter: 374 / all 461], err_s_label: 0.157486, err_s_domain: 0.643972, err_t_domain: 0.702161
+ epoch: 60, [iter: 419 / all 461], err_s_label: 0.062985, err_s_domain: 0.667719, err_t_domain: 0.617550
+ epoch: 60, [iter: 461 / all 461], err_s_label: 0.076024, err_s_domain: 0.694961, err_t_domain: 0.657168
+ epoch: 61, [iter: 6 / all 461], err_s_label: 0.132596, err_s_domain: 0.658001, err_t_domain: 0.62807768
+ epoch: 61, [iter: 51 / all 461], err_s_label: 0.152153, err_s_domain: 0.729087, err_t_domain: 0.6541528
+ epoch: 61, [iter: 97 / all 461], err_s_label: 0.114854, err_s_domain: 0.667911, err_t_domain: 0.7173628
+ epoch: 61, [iter: 142 / all 461], err_s_label: 0.141195, err_s_domain: 0.669611, err_t_domain: 0.653375
+ epoch: 61, [iter: 176 / all 461], err_s_label: 0.088634, err_s_domain: 0.667735, err_t_domain: 0.622900
+ epoch: 61, [iter: 221 / all 461], err_s_label: 0.144303, err_s_domain: 0.659511, err_t_domain: 0.696595
+ epoch: 61, [iter: 266 / all 461], err_s_label: 0.125403, err_s_domain: 0.682872, err_t_domain: 0.627411
+ epoch: 61, [iter: 312 / all 461], err_s_label: 0.090549, err_s_domain: 0.646811, err_t_domain: 0.673217
+ epoch: 61, [iter: 357 / all 461], err_s_label: 0.078797, err_s_domain: 0.697567, err_t_domain: 0.659281
+ epoch: 61, [iter: 403 / all 461], err_s_label: 0.079706, err_s_domain: 0.621808, err_t_domain: 0.654204
+ epoch: 61, [iter: 448 / all 461], err_s_label: 0.117510, err_s_domain: 0.643788, err_t_domain: 0.679306
+Accuracy of the mnist dataset: 0.984800s_label: 0.127927, err_s_domain: 0.640816, err_t_domain: 0.609764
+ epoch: 62, [iter: 26 / all 461], err_s_label: 0.140714, err_s_domain: 0.634385, err_t_domain: 0.6432154
+ epoch: 62, [iter: 71 / all 461], err_s_label: 0.091134, err_s_domain: 0.647567, err_t_domain: 0.6700044
+ epoch: 62, [iter: 117 / all 461], err_s_label: 0.064350, err_s_domain: 0.631416, err_t_domain: 0.683429
+ epoch: 62, [iter: 162 / all 461], err_s_label: 0.156503, err_s_domain: 0.628503, err_t_domain: 0.681535
+ epoch: 62, [iter: 180 / all 461], err_s_label: 0.171655, err_s_domain: 0.697977, err_t_domain: 0.677645
+ epoch: 62, [iter: 182 / all 461], err_s_label: 0.151064, err_s_domain: 0.671535, err_t_domain: 0.658315
+ epoch: 62, [iter: 227 / all 461], err_s_label: 0.041821, err_s_domain: 0.632821, err_t_domain: 0.647550
+ epoch: 62, [iter: 272 / all 461], err_s_label: 0.092635, err_s_domain: 0.689000, err_t_domain: 0.662090
+ epoch: 62, [iter: 317 / all 461], err_s_label: 0.088523, err_s_domain: 0.588948, err_t_domain: 0.625218
+ epoch: 62, [iter: 362 / all 461], err_s_label: 0.157637, err_s_domain: 0.685919, err_t_domain: 0.678665
+ epoch: 62, [iter: 408 / all 461], err_s_label: 0.085546, err_s_domain: 0.647892, err_t_domain: 0.642001
+ epoch: 62, [iter: 453 / all 461], err_s_label: 0.107904, err_s_domain: 0.686252, err_t_domain: 0.667008
+Accuracy of the mnist_m dataset: 0.836574label: 0.214839, err_s_domain: 0.660495, err_t_domain: 0.617707
+ epoch: 63, [iter: 40 / all 461], err_s_label: 0.128717, err_s_domain: 0.700240, err_t_domain: 0.6487107
+ epoch: 63, [iter: 85 / all 461], err_s_label: 0.171436, err_s_domain: 0.661658, err_t_domain: 0.6730837
+ epoch: 63, [iter: 119 / all 461], err_s_label: 0.125353, err_s_domain: 0.680999, err_t_domain: 0.709582
+ epoch: 63, [iter: 164 / all 461], err_s_label: 0.169831, err_s_domain: 0.673407, err_t_domain: 0.640407
+ epoch: 63, [iter: 210 / all 461], err_s_label: 0.119894, err_s_domain: 0.658478, err_t_domain: 0.649503
+ epoch: 63, [iter: 255 / all 461], err_s_label: 0.085520, err_s_domain: 0.611816, err_t_domain: 0.696357
+ epoch: 63, [iter: 300 / all 461], err_s_label: 0.200299, err_s_domain: 0.685178, err_t_domain: 0.692260
+ epoch: 63, [iter: 345 / all 461], err_s_label: 0.104246, err_s_domain: 0.657982, err_t_domain: 0.670011
+ epoch: 63, [iter: 391 / all 461], err_s_label: 0.107524, err_s_domain: 0.690327, err_t_domain: 0.699225
+ epoch: 63, [iter: 437 / all 461], err_s_label: 0.031584, err_s_domain: 0.634208, err_t_domain: 0.670220
+Accuracy of the mnist dataset: 0.985700s_label: 0.120067, err_s_domain: 0.647687, err_t_domain: 0.643785
+ epoch: 64, [iter: 23 / all 461], err_s_label: 0.083308, err_s_domain: 0.651013, err_t_domain: 0.6405025
+ epoch: 64, [iter: 68 / all 461], err_s_label: 0.170094, err_s_domain: 0.613019, err_t_domain: 0.6696195
+ epoch: 64, [iter: 113 / all 461], err_s_label: 0.154974, err_s_domain: 0.664999, err_t_domain: 0.678012
+ epoch: 64, [iter: 159 / all 461], err_s_label: 0.109088, err_s_domain: 0.649585, err_t_domain: 0.691227
+ epoch: 64, [iter: 204 / all 461], err_s_label: 0.110667, err_s_domain: 0.630125, err_t_domain: 0.636310
+ epoch: 64, [iter: 210 / all 461], err_s_label: 0.156564, err_s_domain: 0.667159, err_t_domain: 0.669601
+ epoch: 64, [iter: 214 / all 461], err_s_label: 0.122491, err_s_domain: 0.663325, err_t_domain: 0.618632
+ epoch: 64, [iter: 259 / all 461], err_s_label: 0.190893, err_s_domain: 0.678074, err_t_domain: 0.669853
+ epoch: 64, [iter: 305 / all 461], err_s_label: 0.163857, err_s_domain: 0.656196, err_t_domain: 0.691503
+ epoch: 64, [iter: 350 / all 461], err_s_label: 0.110395, err_s_domain: 0.664824, err_t_domain: 0.616213
+ epoch: 64, [iter: 394 / all 461], err_s_label: 0.035585, err_s_domain: 0.631657, err_t_domain: 0.639343
+ epoch: 64, [iter: 441 / all 461], err_s_label: 0.158919, err_s_domain: 0.642025, err_t_domain: 0.689262
+Accuracy of the mnist dataset: 0.982500s_label: 0.035860, err_s_domain: 0.643871, err_t_domain: 0.689152
+ epoch: 65, [iter: 28 / all 461], err_s_label: 0.069307, err_s_domain: 0.622801, err_t_domain: 0.6248062
+ epoch: 65, [iter: 69 / all 461], err_s_label: 0.061213, err_s_domain: 0.627584, err_t_domain: 0.6393312
+ epoch: 65, [iter: 107 / all 461], err_s_label: 0.136057, err_s_domain: 0.677084, err_t_domain: 0.624707
+ epoch: 65, [iter: 152 / all 461], err_s_label: 0.050564, err_s_domain: 0.621352, err_t_domain: 0.632046
+ epoch: 65, [iter: 197 / all 461], err_s_label: 0.083142, err_s_domain: 0.630382, err_t_domain: 0.698978
+ epoch: 65, [iter: 243 / all 461], err_s_label: 0.124106, err_s_domain: 0.659862, err_t_domain: 0.634002
+ epoch: 65, [iter: 288 / all 461], err_s_label: 0.213016, err_s_domain: 0.648097, err_t_domain: 0.719883
+ epoch: 65, [iter: 333 / all 461], err_s_label: 0.241591, err_s_domain: 0.666088, err_t_domain: 0.663085
+ epoch: 65, [iter: 379 / all 461], err_s_label: 0.075645, err_s_domain: 0.662335, err_t_domain: 0.710647
+ epoch: 65, [iter: 424 / all 461], err_s_label: 0.151438, err_s_domain: 0.672487, err_t_domain: 0.709025
+ epoch: 65, [iter: 461 / all 461], err_s_label: 0.158778, err_s_domain: 0.664469, err_t_domain: 0.656217
+ epoch: 66, [iter: 10 / all 461], err_s_label: 0.105289, err_s_domain: 0.646940, err_t_domain: 0.6384797
+ epoch: 66, [iter: 56 / all 461], err_s_label: 0.135371, err_s_domain: 0.699434, err_t_domain: 0.6125007
+ epoch: 66, [iter: 101 / all 461], err_s_label: 0.113354, err_s_domain: 0.637444, err_t_domain: 0.647651
+ epoch: 66, [iter: 146 / all 461], err_s_label: 0.143430, err_s_domain: 0.649418, err_t_domain: 0.656236
+ epoch: 66, [iter: 192 / all 461], err_s_label: 0.222121, err_s_domain: 0.686453, err_t_domain: 0.680826
+ epoch: 66, [iter: 237 / all 461], err_s_label: 0.026468, err_s_domain: 0.660002, err_t_domain: 0.688016
+ epoch: 66, [iter: 240 / all 461], err_s_label: 0.100762, err_s_domain: 0.644649, err_t_domain: 0.614349
+ epoch: 66, [iter: 248 / all 461], err_s_label: 0.198247, err_s_domain: 0.652556, err_t_domain: 0.677273
+ epoch: 66, [iter: 293 / all 461], err_s_label: 0.120167, err_s_domain: 0.693303, err_t_domain: 0.636451
+ epoch: 66, [iter: 338 / all 461], err_s_label: 0.078389, err_s_domain: 0.645981, err_t_domain: 0.648226
+ epoch: 66, [iter: 383 / all 461], err_s_label: 0.132729, err_s_domain: 0.664301, err_t_domain: 0.675029
+ epoch: 66, [iter: 424 / all 461], err_s_label: 0.132904, err_s_domain: 0.608584, err_t_domain: 0.665582
+ epoch: 66, [iter: 461 / all 461], err_s_label: 0.167223, err_s_domain: 0.685295, err_t_domain: 0.640404
+ epoch: 67, [iter: 16 / all 461], err_s_label: 0.122716, err_s_domain: 0.734689, err_t_domain: 0.6693204
+ epoch: 67, [iter: 50 / all 461], err_s_label: 0.208832, err_s_domain: 0.630774, err_t_domain: 0.6948824
+ epoch: 67, [iter: 95 / all 461], err_s_label: 0.062067, err_s_domain: 0.611572, err_t_domain: 0.6495534
+ epoch: 67, [iter: 140 / all 461], err_s_label: 0.146500, err_s_domain: 0.717278, err_t_domain: 0.647214
+ epoch: 67, [iter: 185 / all 461], err_s_label: 0.058664, err_s_domain: 0.661773, err_t_domain: 0.676564
+ epoch: 67, [iter: 231 / all 461], err_s_label: 0.153154, err_s_domain: 0.713310, err_t_domain: 0.650358
+ epoch: 67, [iter: 276 / all 461], err_s_label: 0.079813, err_s_domain: 0.651812, err_t_domain: 0.653737
+ epoch: 67, [iter: 321 / all 461], err_s_label: 0.088116, err_s_domain: 0.627635, err_t_domain: 0.676044
+ epoch: 67, [iter: 367 / all 461], err_s_label: 0.186714, err_s_domain: 0.735724, err_t_domain: 0.656381
+ epoch: 67, [iter: 412 / all 461], err_s_label: 0.144577, err_s_domain: 0.673541, err_t_domain: 0.674352
+ epoch: 67, [iter: 458 / all 461], err_s_label: 0.191945, err_s_domain: 0.663723, err_t_domain: 0.701809
+Accuracy of the mnist_m dataset: 0.859793label: 0.115484, err_s_domain: 0.653914, err_t_domain: 0.670663
+ epoch: 68, [iter: 44 / all 461], err_s_label: 0.104613, err_s_domain: 0.651842, err_t_domain: 0.6658653
+ epoch: 68, [iter: 87 / all 461], err_s_label: 0.212339, err_s_domain: 0.684237, err_t_domain: 0.6514263
+ epoch: 68, [iter: 135 / all 461], err_s_label: 0.034937, err_s_domain: 0.669545, err_t_domain: 0.671359
+ epoch: 68, [iter: 180 / all 461], err_s_label: 0.072491, err_s_domain: 0.650016, err_t_domain: 0.639568
+ epoch: 68, [iter: 226 / all 461], err_s_label: 0.179785, err_s_domain: 0.667711, err_t_domain: 0.626732
+ epoch: 68, [iter: 271 / all 461], err_s_label: 0.345106, err_s_domain: 0.684156, err_t_domain: 0.634948
+ epoch: 68, [iter: 274 / all 461], err_s_label: 0.163968, err_s_domain: 0.665484, err_t_domain: 0.628076
+ epoch: 68, [iter: 285 / all 461], err_s_label: 0.121545, err_s_domain: 0.676580, err_t_domain: 0.705248
+ epoch: 68, [iter: 330 / all 461], err_s_label: 0.054526, err_s_domain: 0.658261, err_t_domain: 0.612805
+ epoch: 68, [iter: 376 / all 461], err_s_label: 0.106011, err_s_domain: 0.655473, err_t_domain: 0.706006
+ epoch: 68, [iter: 421 / all 461], err_s_label: 0.109867, err_s_domain: 0.666103, err_t_domain: 0.645262
+ epoch: 68, [iter: 461 / all 461], err_s_label: 0.088559, err_s_domain: 0.655571, err_t_domain: 0.608191
+ epoch: 69, [iter: 7 / all 461], err_s_label: 0.044615, err_s_domain: 0.644817, err_t_domain: 0.64612291
+ epoch: 69, [iter: 41 / all 461], err_s_label: 0.064116, err_s_domain: 0.661673, err_t_domain: 0.7008081
+ epoch: 69, [iter: 87 / all 461], err_s_label: 0.083589, err_s_domain: 0.648343, err_t_domain: 0.6716631
+ epoch: 69, [iter: 132 / all 461], err_s_label: 0.101659, err_s_domain: 0.672290, err_t_domain: 0.687122
+ epoch: 69, [iter: 177 / all 461], err_s_label: 0.057490, err_s_domain: 0.671641, err_t_domain: 0.651496
+ epoch: 69, [iter: 223 / all 461], err_s_label: 0.176015, err_s_domain: 0.692989, err_t_domain: 0.680247
+ epoch: 69, [iter: 268 / all 461], err_s_label: 0.097247, err_s_domain: 0.676368, err_t_domain: 0.616561
+ epoch: 69, [iter: 313 / all 461], err_s_label: 0.066154, err_s_domain: 0.667654, err_t_domain: 0.630286
+ epoch: 69, [iter: 359 / all 461], err_s_label: 0.097481, err_s_domain: 0.631564, err_t_domain: 0.709850
+ epoch: 69, [iter: 404 / all 461], err_s_label: 0.192626, err_s_domain: 0.658826, err_t_domain: 0.654460
+ epoch: 69, [iter: 449 / all 461], err_s_label: 0.062459, err_s_domain: 0.663252, err_t_domain: 0.651337
+Accuracy of the mnist dataset: 0.984100s_label: 0.064565, err_s_domain: 0.671475, err_t_domain: 0.656191
+ epoch: 70, [iter: 35 / all 461], err_s_label: 0.115859, err_s_domain: 0.647904, err_t_domain: 0.6722511
+ epoch: 70, [iter: 81 / all 461], err_s_label: 0.139592, err_s_domain: 0.645096, err_t_domain: 0.6638231
+ epoch: 70, [iter: 126 / all 461], err_s_label: 0.095775, err_s_domain: 0.691687, err_t_domain: 0.694639
+ epoch: 70, [iter: 171 / all 461], err_s_label: 0.139886, err_s_domain: 0.606375, err_t_domain: 0.687680
+ epoch: 70, [iter: 216 / all 461], err_s_label: 0.099971, err_s_domain: 0.627291, err_t_domain: 0.688720
+ epoch: 70, [iter: 262 / all 461], err_s_label: 0.102290, err_s_domain: 0.657628, err_t_domain: 0.582216
+ epoch: 70, [iter: 304 / all 461], err_s_label: 0.144034, err_s_domain: 0.678145, err_t_domain: 0.687324
+ epoch: 70, [iter: 318 / all 461], err_s_label: 0.178537, err_s_domain: 0.647123, err_t_domain: 0.658753
+ epoch: 70, [iter: 363 / all 461], err_s_label: 0.144475, err_s_domain: 0.640697, err_t_domain: 0.666206
+ epoch: 70, [iter: 409 / all 461], err_s_label: 0.088884, err_s_domain: 0.644873, err_t_domain: 0.671824
+ epoch: 70, [iter: 454 / all 461], err_s_label: 0.143792, err_s_domain: 0.656921, err_t_domain: 0.664464
+Accuracy of the mnist_m dataset: 0.823908label: 0.253037, err_s_domain: 0.668651, err_t_domain: 0.607317
+ epoch: 71, [iter: 29 / all 461], err_s_label: 0.071959, err_s_domain: 0.625253, err_t_domain: 0.6288237
+ epoch: 71, [iter: 74 / all 461], err_s_label: 0.054360, err_s_domain: 0.682606, err_t_domain: 0.6734077
+ epoch: 71, [iter: 120 / all 461], err_s_label: 0.126343, err_s_domain: 0.692023, err_t_domain: 0.642900
+ epoch: 71, [iter: 165 / all 461], err_s_label: 0.109710, err_s_domain: 0.674032, err_t_domain: 0.653344
+ epoch: 71, [iter: 210 / all 461], err_s_label: 0.143467, err_s_domain: 0.720385, err_t_domain: 0.674113
+ epoch: 71, [iter: 256 / all 461], err_s_label: 0.141460, err_s_domain: 0.637759, err_t_domain: 0.692195
+ epoch: 71, [iter: 301 / all 461], err_s_label: 0.073615, err_s_domain: 0.654473, err_t_domain: 0.609045
+ epoch: 71, [iter: 347 / all 461], err_s_label: 0.052383, err_s_domain: 0.675315, err_t_domain: 0.656992
+ epoch: 71, [iter: 392 / all 461], err_s_label: 0.073789, err_s_domain: 0.659455, err_t_domain: 0.642752
+ epoch: 71, [iter: 437 / all 461], err_s_label: 0.083629, err_s_domain: 0.648350, err_t_domain: 0.670474
+Accuracy of the mnist dataset: 0.982700s_label: 0.097485, err_s_domain: 0.679343, err_t_domain: 0.687356
+ epoch: 72, [iter: 23 / all 461], err_s_label: 0.123223, err_s_domain: 0.682265, err_t_domain: 0.6572516
+ epoch: 72, [iter: 69 / all 461], err_s_label: 0.120554, err_s_domain: 0.687385, err_t_domain: 0.6633276
+ epoch: 72, [iter: 114 / all 461], err_s_label: 0.202767, err_s_domain: 0.683159, err_t_domain: 0.639836
+ epoch: 72, [iter: 160 / all 461], err_s_label: 0.070814, err_s_domain: 0.643899, err_t_domain: 0.661547
+ epoch: 72, [iter: 205 / all 461], err_s_label: 0.055160, err_s_domain: 0.648584, err_t_domain: 0.681839
+ epoch: 72, [iter: 251 / all 461], err_s_label: 0.057004, err_s_domain: 0.636793, err_t_domain: 0.658313
+ epoch: 72, [iter: 296 / all 461], err_s_label: 0.142522, err_s_domain: 0.655527, err_t_domain: 0.667453
+ epoch: 72, [iter: 334 / all 461], err_s_label: 0.137757, err_s_domain: 0.641195, err_t_domain: 0.644812
+ epoch: 72, [iter: 351 / all 461], err_s_label: 0.136583, err_s_domain: 0.650879, err_t_domain: 0.696954
+ epoch: 72, [iter: 396 / all 461], err_s_label: 0.094181, err_s_domain: 0.684385, err_t_domain: 0.616890
+ epoch: 72, [iter: 442 / all 461], err_s_label: 0.128786, err_s_domain: 0.643134, err_t_domain: 0.681539
+ epoch: 72, [iter: 461 / all 461], err_s_label: 0.106282, err_s_domain: 0.676186, err_t_domain: 0.696195
+ epoch: 73, [iter: 14 / all 461], err_s_label: 0.169604, err_s_domain: 0.636074, err_t_domain: 0.6739995
+ epoch: 73, [iter: 62 / all 461], err_s_label: 0.104724, err_s_domain: 0.693134, err_t_domain: 0.6328375
+ epoch: 73, [iter: 107 / all 461], err_s_label: 0.064633, err_s_domain: 0.665213, err_t_domain: 0.669798
+ epoch: 73, [iter: 152 / all 461], err_s_label: 0.093475, err_s_domain: 0.644879, err_t_domain: 0.690355
+ epoch: 73, [iter: 198 / all 461], err_s_label: 0.091240, err_s_domain: 0.626668, err_t_domain: 0.675871
+ epoch: 73, [iter: 243 / all 461], err_s_label: 0.109752, err_s_domain: 0.646597, err_t_domain: 0.737239
+ epoch: 73, [iter: 288 / all 461], err_s_label: 0.139319, err_s_domain: 0.612929, err_t_domain: 0.648076
+ epoch: 73, [iter: 334 / all 461], err_s_label: 0.058648, err_s_domain: 0.695415, err_t_domain: 0.656691
+ epoch: 73, [iter: 379 / all 461], err_s_label: 0.148118, err_s_domain: 0.692800, err_t_domain: 0.693541
+ epoch: 73, [iter: 424 / all 461], err_s_label: 0.056210, err_s_domain: 0.685328, err_t_domain: 0.658528
+ epoch: 73, [iter: 461 / all 461], err_s_label: 0.032685, err_s_domain: 0.689381, err_t_domain: 0.664518
+ epoch: 74, [iter: 10 / all 461], err_s_label: 0.173403, err_s_domain: 0.639654, err_t_domain: 0.6413268
+ epoch: 74, [iter: 56 / all 461], err_s_label: 0.131542, err_s_domain: 0.648587, err_t_domain: 0.6400518
+ epoch: 74, [iter: 101 / all 461], err_s_label: 0.088292, err_s_domain: 0.653269, err_t_domain: 0.648828
+ epoch: 74, [iter: 146 / all 461], err_s_label: 0.031185, err_s_domain: 0.666881, err_t_domain: 0.663598
+ epoch: 74, [iter: 192 / all 461], err_s_label: 0.135700, err_s_domain: 0.710463, err_t_domain: 0.644170
+ epoch: 74, [iter: 237 / all 461], err_s_label: 0.082577, err_s_domain: 0.664207, err_t_domain: 0.641037
+ epoch: 74, [iter: 283 / all 461], err_s_label: 0.120835, err_s_domain: 0.654734, err_t_domain: 0.678210
+ epoch: 74, [iter: 328 / all 461], err_s_label: 0.099962, err_s_domain: 0.693421, err_t_domain: 0.647851
+ epoch: 74, [iter: 364 / all 461], err_s_label: 0.134103, err_s_domain: 0.679785, err_t_domain: 0.619241
+ epoch: 74, [iter: 384 / all 461], err_s_label: 0.078045, err_s_domain: 0.664909, err_t_domain: 0.593758
+ epoch: 74, [iter: 429 / all 461], err_s_label: 0.292940, err_s_domain: 0.646019, err_t_domain: 0.638734
+ epoch: 74, [iter: 461 / all 461], err_s_label: 0.147129, err_s_domain: 0.677777, err_t_domain: 0.645459
+ epoch: 75, [iter: 12 / all 461], err_s_label: 0.147922, err_s_domain: 0.658541, err_t_domain: 0.6453269
+ epoch: 75, [iter: 50 / all 461], err_s_label: 0.126161, err_s_domain: 0.649238, err_t_domain: 0.6274069
+ epoch: 75, [iter: 95 / all 461], err_s_label: 0.054487, err_s_domain: 0.667422, err_t_domain: 0.6293329
+ epoch: 75, [iter: 140 / all 461], err_s_label: 0.179858, err_s_domain: 0.648541, err_t_domain: 0.681494
+ epoch: 75, [iter: 186 / all 461], err_s_label: 0.159124, err_s_domain: 0.628438, err_t_domain: 0.657762
+ epoch: 75, [iter: 231 / all 461], err_s_label: 0.181225, err_s_domain: 0.630119, err_t_domain: 0.714660
+ epoch: 75, [iter: 276 / all 461], err_s_label: 0.078646, err_s_domain: 0.629925, err_t_domain: 0.683849
+ epoch: 75, [iter: 322 / all 461], err_s_label: 0.107665, err_s_domain: 0.672151, err_t_domain: 0.677036
+ epoch: 75, [iter: 367 / all 461], err_s_label: 0.125440, err_s_domain: 0.679919, err_t_domain: 0.680407
+ epoch: 75, [iter: 412 / all 461], err_s_label: 0.170397, err_s_domain: 0.655180, err_t_domain: 0.698075
+ epoch: 75, [iter: 457 / all 461], err_s_label: 0.199693, err_s_domain: 0.650541, err_t_domain: 0.675013
+Accuracy of the mnist_m dataset: 0.850905label: 0.041066, err_s_domain: 0.631050, err_t_domain: 0.663495
+ epoch: 76, [iter: 44 / all 461], err_s_label: 0.044592, err_s_domain: 0.694045, err_t_domain: 0.6258485
+ epoch: 76, [iter: 89 / all 461], err_s_label: 0.143245, err_s_domain: 0.638671, err_t_domain: 0.6391895
+ epoch: 76, [iter: 135 / all 461], err_s_label: 0.064596, err_s_domain: 0.679635, err_t_domain: 0.600146
+ epoch: 76, [iter: 180 / all 461], err_s_label: 0.134785, err_s_domain: 0.631814, err_t_domain: 0.664687
+ epoch: 76, [iter: 226 / all 461], err_s_label: 0.121810, err_s_domain: 0.644665, err_t_domain: 0.675641
+ epoch: 76, [iter: 271 / all 461], err_s_label: 0.096886, err_s_domain: 0.655514, err_t_domain: 0.686474
+ epoch: 76, [iter: 316 / all 461], err_s_label: 0.080990, err_s_domain: 0.709795, err_t_domain: 0.625343
+ epoch: 76, [iter: 362 / all 461], err_s_label: 0.061062, err_s_domain: 0.669035, err_t_domain: 0.651202
+ epoch: 76, [iter: 394 / all 461], err_s_label: 0.071553, err_s_domain: 0.661455, err_t_domain: 0.618009
+ epoch: 76, [iter: 421 / all 461], err_s_label: 0.080460, err_s_domain: 0.656472, err_t_domain: 0.674854
+ epoch: 76, [iter: 455 / all 461], err_s_label: 0.110846, err_s_domain: 0.662188, err_t_domain: 0.667531
+Accuracy of the mnist_m dataset: 0.889679label: 0.045665, err_s_domain: 0.633382, err_t_domain: 0.674755
+ epoch: 77, [iter: 41 / all 461], err_s_label: 0.185400, err_s_domain: 0.660205, err_t_domain: 0.6508475
+ epoch: 77, [iter: 87 / all 461], err_s_label: 0.113258, err_s_domain: 0.611236, err_t_domain: 0.6856475
+ epoch: 77, [iter: 132 / all 461], err_s_label: 0.068747, err_s_domain: 0.633318, err_t_domain: 0.682479
+ epoch: 77, [iter: 177 / all 461], err_s_label: 0.079486, err_s_domain: 0.686051, err_t_domain: 0.674127
+ epoch: 77, [iter: 222 / all 461], err_s_label: 0.144526, err_s_domain: 0.652031, err_t_domain: 0.685849
+ epoch: 77, [iter: 268 / all 461], err_s_label: 0.167840, err_s_domain: 0.684398, err_t_domain: 0.656739
+ epoch: 77, [iter: 313 / all 461], err_s_label: 0.070106, err_s_domain: 0.634391, err_t_domain: 0.700751
+ epoch: 77, [iter: 358 / all 461], err_s_label: 0.032632, err_s_domain: 0.650216, err_t_domain: 0.641322
+ epoch: 77, [iter: 403 / all 461], err_s_label: 0.192010, err_s_domain: 0.688094, err_t_domain: 0.695640
+ epoch: 77, [iter: 448 / all 461], err_s_label: 0.131893, err_s_domain: 0.656397, err_t_domain: 0.654486
+Accuracy of the mnist dataset: 0.985600s_label: 0.113931, err_s_domain: 0.650518, err_t_domain: 0.693601
+ epoch: 78, [iter: 30 / all 461], err_s_label: 0.141290, err_s_domain: 0.629204, err_t_domain: 0.7377121
+ epoch: 78, [iter: 75 / all 461], err_s_label: 0.103420, err_s_domain: 0.674034, err_t_domain: 0.6371071
+ epoch: 78, [iter: 120 / all 461], err_s_label: 0.073093, err_s_domain: 0.625406, err_t_domain: 0.656168
+ epoch: 78, [iter: 166 / all 461], err_s_label: 0.049414, err_s_domain: 0.640356, err_t_domain: 0.664351
+ epoch: 78, [iter: 211 / all 461], err_s_label: 0.106987, err_s_domain: 0.681699, err_t_domain: 0.655838
+ epoch: 78, [iter: 256 / all 461], err_s_label: 0.105977, err_s_domain: 0.686041, err_t_domain: 0.656345
+ epoch: 78, [iter: 281 / all 461], err_s_label: 0.098658, err_s_domain: 0.738344, err_t_domain: 0.660417
+ epoch: 78, [iter: 303 / all 461], err_s_label: 0.048356, err_s_domain: 0.686398, err_t_domain: 0.614447
+ epoch: 78, [iter: 348 / all 461], err_s_label: 0.134743, err_s_domain: 0.676972, err_t_domain: 0.644745
+ epoch: 78, [iter: 393 / all 461], err_s_label: 0.115606, err_s_domain: 0.688364, err_t_domain: 0.633830
+ epoch: 78, [iter: 439 / all 461], err_s_label: 0.117747, err_s_domain: 0.669178, err_t_domain: 0.640890
+Accuracy of the mnist dataset: 0.986100s_label: 0.183165, err_s_domain: 0.668801, err_t_domain: 0.656985
+ epoch: 79, [iter: 25 / all 461], err_s_label: 0.118618, err_s_domain: 0.647530, err_t_domain: 0.5948585
+ epoch: 79, [iter: 59 / all 461], err_s_label: 0.030732, err_s_domain: 0.664193, err_t_domain: 0.6727925
+ epoch: 79, [iter: 104 / all 461], err_s_label: 0.055822, err_s_domain: 0.647333, err_t_domain: 0.644673
+ epoch: 79, [iter: 149 / all 461], err_s_label: 0.187497, err_s_domain: 0.655324, err_t_domain: 0.670388
+ epoch: 79, [iter: 195 / all 461], err_s_label: 0.079958, err_s_domain: 0.681243, err_t_domain: 0.705577
+ epoch: 79, [iter: 240 / all 461], err_s_label: 0.150065, err_s_domain: 0.619527, err_t_domain: 0.691248
+ epoch: 79, [iter: 285 / all 461], err_s_label: 0.168789, err_s_domain: 0.632098, err_t_domain: 0.646585
+ epoch: 79, [iter: 331 / all 461], err_s_label: 0.204170, err_s_domain: 0.643095, err_t_domain: 0.665839
+ epoch: 79, [iter: 376 / all 461], err_s_label: 0.119634, err_s_domain: 0.652416, err_t_domain: 0.677001
+ epoch: 79, [iter: 422 / all 461], err_s_label: 0.053433, err_s_domain: 0.679826, err_t_domain: 0.646956
+ epoch: 79, [iter: 461 / all 461], err_s_label: 0.210043, err_s_domain: 0.695544, err_t_domain: 0.674056
+ epoch: 80, [iter: 9 / all 461], err_s_label: 0.105988, err_s_domain: 0.680436, err_t_domain: 0.67381456
+ epoch: 80, [iter: 54 / all 461], err_s_label: 0.113413, err_s_domain: 0.666599, err_t_domain: 0.6852946
+ epoch: 80, [iter: 100 / all 461], err_s_label: 0.164124, err_s_domain: 0.667012, err_t_domain: 0.621001
+ epoch: 80, [iter: 145 / all 461], err_s_label: 0.094387, err_s_domain: 0.646442, err_t_domain: 0.630612
+ epoch: 80, [iter: 190 / all 461], err_s_label: 0.096025, err_s_domain: 0.636983, err_t_domain: 0.681002
+ epoch: 80, [iter: 235 / all 461], err_s_label: 0.096787, err_s_domain: 0.697586, err_t_domain: 0.650876
+ epoch: 80, [iter: 281 / all 461], err_s_label: 0.081047, err_s_domain: 0.650905, err_t_domain: 0.662123
+ epoch: 80, [iter: 326 / all 461], err_s_label: 0.246005, err_s_domain: 0.634611, err_t_domain: 0.716019
+ epoch: 80, [iter: 372 / all 461], err_s_label: 0.139659, err_s_domain: 0.666333, err_t_domain: 0.661243
+ epoch: 80, [iter: 417 / all 461], err_s_label: 0.109261, err_s_domain: 0.671144, err_t_domain: 0.652120
+ epoch: 80, [iter: 451 / all 461], err_s_label: 0.069906, err_s_domain: 0.662999, err_t_domain: 0.654439
+Accuracy of the mnist_m dataset: 0.872903label: 0.037624, err_s_domain: 0.636401, err_t_domain: 0.702348
+ epoch: 81, [iter: 37 / all 461], err_s_label: 0.093439, err_s_domain: 0.640793, err_t_domain: 0.6582268
+ epoch: 81, [iter: 83 / all 461], err_s_label: 0.082277, err_s_domain: 0.704205, err_t_domain: 0.6694658
+ epoch: 81, [iter: 128 / all 461], err_s_label: 0.088002, err_s_domain: 0.647102, err_t_domain: 0.674575
+ epoch: 81, [iter: 173 / all 461], err_s_label: 0.179291, err_s_domain: 0.648703, err_t_domain: 0.672822
+ epoch: 81, [iter: 218 / all 461], err_s_label: 0.140657, err_s_domain: 0.632950, err_t_domain: 0.667483
+ epoch: 81, [iter: 264 / all 461], err_s_label: 0.084038, err_s_domain: 0.680788, err_t_domain: 0.639830
+ epoch: 81, [iter: 309 / all 461], err_s_label: 0.086337, err_s_domain: 0.666499, err_t_domain: 0.618642
+ epoch: 81, [iter: 354 / all 461], err_s_label: 0.133839, err_s_domain: 0.652475, err_t_domain: 0.659858
+ epoch: 81, [iter: 400 / all 461], err_s_label: 0.088125, err_s_domain: 0.660680, err_t_domain: 0.654306
+ epoch: 81, [iter: 445 / all 461], err_s_label: 0.080134, err_s_domain: 0.627465, err_t_domain: 0.627642
+Accuracy of the mnist dataset: 0.986600s_label: 0.151252, err_s_domain: 0.644475, err_t_domain: 0.635553
+ epoch: 82, [iter: 32 / all 461], err_s_label: 0.169981, err_s_domain: 0.649410, err_t_domain: 0.6076123
+ epoch: 82, [iter: 77 / all 461], err_s_label: 0.061952, err_s_domain: 0.683123, err_t_domain: 0.6406803
+ epoch: 82, [iter: 123 / all 461], err_s_label: 0.044947, err_s_domain: 0.635515, err_t_domain: 0.645498
+ epoch: 82, [iter: 168 / all 461], err_s_label: 0.125610, err_s_domain: 0.648845, err_t_domain: 0.647135
+ epoch: 82, [iter: 214 / all 461], err_s_label: 0.050493, err_s_domain: 0.620076, err_t_domain: 0.624339
+ epoch: 82, [iter: 258 / all 461], err_s_label: 0.059472, err_s_domain: 0.629423, err_t_domain: 0.640780
+ epoch: 82, [iter: 304 / all 461], err_s_label: 0.106969, err_s_domain: 0.645131, err_t_domain: 0.634383
+ epoch: 82, [iter: 350 / all 461], err_s_label: 0.151226, err_s_domain: 0.655909, err_t_domain: 0.642941
+ epoch: 82, [iter: 395 / all 461], err_s_label: 0.078616, err_s_domain: 0.615836, err_t_domain: 0.709918
+ epoch: 82, [iter: 429 / all 461], err_s_label: 0.060422, err_s_domain: 0.631281, err_t_domain: 0.659100
+ epoch: 82, [iter: 461 / all 461], err_s_label: 0.060672, err_s_domain: 0.678872, err_t_domain: 0.685311
+ epoch: 83, [iter: 17 / all 461], err_s_label: 0.141204, err_s_domain: 0.638546, err_t_domain: 0.6704181
+ epoch: 83, [iter: 62 / all 461], err_s_label: 0.131875, err_s_domain: 0.708054, err_t_domain: 0.6665441
+ epoch: 83, [iter: 107 / all 461], err_s_label: 0.081647, err_s_domain: 0.651874, err_t_domain: 0.632383
+ epoch: 83, [iter: 153 / all 461], err_s_label: 0.074521, err_s_domain: 0.710118, err_t_domain: 0.664910
+ epoch: 83, [iter: 198 / all 461], err_s_label: 0.079043, err_s_domain: 0.630540, err_t_domain: 0.703175
+ epoch: 83, [iter: 244 / all 461], err_s_label: 0.126762, err_s_domain: 0.658195, err_t_domain: 0.676424
+ epoch: 83, [iter: 289 / all 461], err_s_label: 0.138312, err_s_domain: 0.667341, err_t_domain: 0.658713
+ epoch: 83, [iter: 334 / all 461], err_s_label: 0.080796, err_s_domain: 0.612734, err_t_domain: 0.669400
+ epoch: 83, [iter: 380 / all 461], err_s_label: 0.143687, err_s_domain: 0.628824, err_t_domain: 0.709614
+ epoch: 83, [iter: 425 / all 461], err_s_label: 0.061022, err_s_domain: 0.661679, err_t_domain: 0.679406
+ epoch: 83, [iter: 461 / all 461], err_s_label: 0.116056, err_s_domain: 0.686992, err_t_domain: 0.688171
+ epoch: 84, [iter: 12 / all 461], err_s_label: 0.084914, err_s_domain: 0.687888, err_t_domain: 0.6917581
+ epoch: 84, [iter: 57 / all 461], err_s_label: 0.195987, err_s_domain: 0.627150, err_t_domain: 0.6441461
+ epoch: 84, [iter: 103 / all 461], err_s_label: 0.106837, err_s_domain: 0.657301, err_t_domain: 0.707310
+ epoch: 84, [iter: 148 / all 461], err_s_label: 0.114965, err_s_domain: 0.664814, err_t_domain: 0.653693
+ epoch: 84, [iter: 194 / all 461], err_s_label: 0.115587, err_s_domain: 0.642415, err_t_domain: 0.618964
+ epoch: 84, [iter: 240 / all 461], err_s_label: 0.154365, err_s_domain: 0.635888, err_t_domain: 0.716441
+ epoch: 84, [iter: 285 / all 461], err_s_label: 0.141517, err_s_domain: 0.623550, err_t_domain: 0.664261
+ epoch: 84, [iter: 331 / all 461], err_s_label: 0.182690, err_s_domain: 0.662717, err_t_domain: 0.691884
+ epoch: 84, [iter: 365 / all 461], err_s_label: 0.117084, err_s_domain: 0.695323, err_t_domain: 0.683246
+ epoch: 84, [iter: 411 / all 461], err_s_label: 0.084464, err_s_domain: 0.638725, err_t_domain: 0.667406
+ epoch: 84, [iter: 456 / all 461], err_s_label: 0.101872, err_s_domain: 0.695952, err_t_domain: 0.627410
+Accuracy of the mnist_m dataset: 0.867681label: 0.212111, err_s_domain: 0.649363, err_t_domain: 0.658483
+ epoch: 85, [iter: 43 / all 461], err_s_label: 0.107073, err_s_domain: 0.650495, err_t_domain: 0.6415983
+ epoch: 85, [iter: 89 / all 461], err_s_label: 0.114576, err_s_domain: 0.652727, err_t_domain: 0.6545463
+ epoch: 85, [iter: 134 / all 461], err_s_label: 0.186622, err_s_domain: 0.653262, err_t_domain: 0.666687
+ epoch: 85, [iter: 180 / all 461], err_s_label: 0.064271, err_s_domain: 0.666499, err_t_domain: 0.679533
+ epoch: 85, [iter: 225 / all 461], err_s_label: 0.071116, err_s_domain: 0.688661, err_t_domain: 0.604135
+ epoch: 85, [iter: 270 / all 461], err_s_label: 0.129195, err_s_domain: 0.682132, err_t_domain: 0.637594
+ epoch: 85, [iter: 315 / all 461], err_s_label: 0.121627, err_s_domain: 0.628964, err_t_domain: 0.659245
+ epoch: 85, [iter: 360 / all 461], err_s_label: 0.078316, err_s_domain: 0.685121, err_t_domain: 0.646098
+ epoch: 85, [iter: 406 / all 461], err_s_label: 0.113541, err_s_domain: 0.666343, err_t_domain: 0.679771
+ epoch: 85, [iter: 451 / all 461], err_s_label: 0.108495, err_s_domain: 0.619737, err_t_domain: 0.697046
+Accuracy of the mnist_m dataset: 0.881124label: 0.115409, err_s_domain: 0.684168, err_t_domain: 0.660257
+ epoch: 86, [iter: 18 / all 461], err_s_label: 0.183902, err_s_domain: 0.673666, err_t_domain: 0.6597957
+ epoch: 86, [iter: 63 / all 461], err_s_label: 0.124471, err_s_domain: 0.638830, err_t_domain: 0.6696837
+ epoch: 86, [iter: 109 / all 461], err_s_label: 0.118686, err_s_domain: 0.665614, err_t_domain: 0.647008
+ epoch: 86, [iter: 155 / all 461], err_s_label: 0.221404, err_s_domain: 0.735707, err_t_domain: 0.610549
+ epoch: 86, [iter: 200 / all 461], err_s_label: 0.254434, err_s_domain: 0.677484, err_t_domain: 0.705935
+ epoch: 86, [iter: 246 / all 461], err_s_label: 0.037296, err_s_domain: 0.697618, err_t_domain: 0.604725
+ epoch: 86, [iter: 291 / all 461], err_s_label: 0.031006, err_s_domain: 0.599693, err_t_domain: 0.639351
+ epoch: 86, [iter: 322 / all 461], err_s_label: 0.118130, err_s_domain: 0.660123, err_t_domain: 0.653956
+ epoch: 86, [iter: 362 / all 461], err_s_label: 0.101685, err_s_domain: 0.637289, err_t_domain: 0.670403
+ epoch: 86, [iter: 407 / all 461], err_s_label: 0.035509, err_s_domain: 0.616877, err_t_domain: 0.667597
+ epoch: 86, [iter: 452 / all 461], err_s_label: 0.272086, err_s_domain: 0.679235, err_t_domain: 0.662093
+ epoch: 86, [iter: 456 / all 461], err_s_label: 0.143269, err_s_domain: 0.663584, err_t_domain: 0.593001
+Accuracy of the mnist dataset: 0.985700s_label: 0.081279, err_s_domain: 0.686886, err_t_domain: 0.672452
+ epoch: 87, [iter: 34 / all 461], err_s_label: 0.064404, err_s_domain: 0.635889, err_t_domain: 0.6298432
+ epoch: 87, [iter: 79 / all 461], err_s_label: 0.073484, err_s_domain: 0.690018, err_t_domain: 0.6258142
+ epoch: 87, [iter: 124 / all 461], err_s_label: 0.094056, err_s_domain: 0.678232, err_t_domain: 0.669516
+ epoch: 87, [iter: 169 / all 461], err_s_label: 0.119959, err_s_domain: 0.685931, err_t_domain: 0.650801
+ epoch: 87, [iter: 215 / all 461], err_s_label: 0.037287, err_s_domain: 0.636007, err_t_domain: 0.667928
+ epoch: 87, [iter: 260 / all 461], err_s_label: 0.103514, err_s_domain: 0.665232, err_t_domain: 0.663077
+ epoch: 87, [iter: 294 / all 461], err_s_label: 0.163156, err_s_domain: 0.689818, err_t_domain: 0.650689
+ epoch: 87, [iter: 339 / all 461], err_s_label: 0.091960, err_s_domain: 0.677397, err_t_domain: 0.642883
+ epoch: 87, [iter: 385 / all 461], err_s_label: 0.166194, err_s_domain: 0.676532, err_t_domain: 0.657012
+ epoch: 87, [iter: 430 / all 461], err_s_label: 0.047344, err_s_domain: 0.654648, err_t_domain: 0.604589
+ epoch: 87, [iter: 461 / all 461], err_s_label: 0.066174, err_s_domain: 0.648778, err_t_domain: 0.705865
+ epoch: 88, [iter: 18 / all 461], err_s_label: 0.103564, err_s_domain: 0.692975, err_t_domain: 0.7140435
+ epoch: 88, [iter: 63 / all 461], err_s_label: 0.117636, err_s_domain: 0.668682, err_t_domain: 0.6667655
+ epoch: 88, [iter: 108 / all 461], err_s_label: 0.150510, err_s_domain: 0.623410, err_t_domain: 0.676806
+ epoch: 88, [iter: 153 / all 461], err_s_label: 0.130871, err_s_domain: 0.675278, err_t_domain: 0.678935
+ epoch: 88, [iter: 199 / all 461], err_s_label: 0.052433, err_s_domain: 0.690967, err_t_domain: 0.619867
+ epoch: 88, [iter: 244 / all 461], err_s_label: 0.160172, err_s_domain: 0.661091, err_t_domain: 0.651535
+ epoch: 88, [iter: 290 / all 461], err_s_label: 0.196081, err_s_domain: 0.699114, err_t_domain: 0.676262
+ epoch: 88, [iter: 336 / all 461], err_s_label: 0.127464, err_s_domain: 0.634233, err_t_domain: 0.694564
+ epoch: 88, [iter: 381 / all 461], err_s_label: 0.073455, err_s_domain: 0.706572, err_t_domain: 0.681692
+ epoch: 88, [iter: 427 / all 461], err_s_label: 0.082228, err_s_domain: 0.678925, err_t_domain: 0.653044
+ epoch: 88, [iter: 461 / all 461], err_s_label: 0.051946, err_s_domain: 0.668064, err_t_domain: 0.652394
+ epoch: 89, [iter: 13 / all 461], err_s_label: 0.068778, err_s_domain: 0.674120, err_t_domain: 0.6563854
+ epoch: 89, [iter: 25 / all 461], err_s_label: 0.057564, err_s_domain: 0.649029, err_t_domain: 0.6255764
+ epoch: 89, [iter: 65 / all 461], err_s_label: 0.113050, err_s_domain: 0.675360, err_t_domain: 0.6808594
+ epoch: 89, [iter: 110 / all 461], err_s_label: 0.068890, err_s_domain: 0.642060, err_t_domain: 0.641722
+ epoch: 89, [iter: 156 / all 461], err_s_label: 0.147541, err_s_domain: 0.642197, err_t_domain: 0.687715
+ epoch: 89, [iter: 201 / all 461], err_s_label: 0.046613, err_s_domain: 0.602354, err_t_domain: 0.657360
+ epoch: 89, [iter: 247 / all 461], err_s_label: 0.072943, err_s_domain: 0.607689, err_t_domain: 0.656754
+ epoch: 89, [iter: 280 / all 461], err_s_label: 0.024159, err_s_domain: 0.643870, err_t_domain: 0.611984
+ epoch: 89, [iter: 326 / all 461], err_s_label: 0.134174, err_s_domain: 0.654182, err_t_domain: 0.659189
+ epoch: 89, [iter: 371 / all 461], err_s_label: 0.094870, err_s_domain: 0.656345, err_t_domain: 0.663463
+ epoch: 89, [iter: 416 / all 461], err_s_label: 0.060739, err_s_domain: 0.675580, err_t_domain: 0.686014
+ epoch: 89, [iter: 461 / all 461], err_s_label: 0.091793, err_s_domain: 0.659284, err_t_domain: 0.663655
+ epoch: 90, [iter: 2 / all 461], err_s_label: 0.176215, err_s_domain: 0.697358, err_t_domain: 0.67566955
+ epoch: 90, [iter: 47 / all 461], err_s_label: 0.252795, err_s_domain: 0.687327, err_t_domain: 0.6599975
+ epoch: 90, [iter: 93 / all 461], err_s_label: 0.053029, err_s_domain: 0.665892, err_t_domain: 0.6925025
+ epoch: 90, [iter: 138 / all 461], err_s_label: 0.038825, err_s_domain: 0.680084, err_t_domain: 0.635014
+ epoch: 90, [iter: 183 / all 461], err_s_label: 0.051282, err_s_domain: 0.612275, err_t_domain: 0.654081
+ epoch: 90, [iter: 229 / all 461], err_s_label: 0.135630, err_s_domain: 0.647108, err_t_domain: 0.659437
+ epoch: 90, [iter: 274 / all 461], err_s_label: 0.086456, err_s_domain: 0.669704, err_t_domain: 0.676503
+ epoch: 90, [iter: 320 / all 461], err_s_label: 0.054951, err_s_domain: 0.643081, err_t_domain: 0.658429
+ epoch: 90, [iter: 365 / all 461], err_s_label: 0.113424, err_s_domain: 0.631380, err_t_domain: 0.654388
+ epoch: 90, [iter: 411 / all 461], err_s_label: 0.050948, err_s_domain: 0.657779, err_t_domain: 0.652313
+ epoch: 90, [iter: 456 / all 461], err_s_label: 0.088258, err_s_domain: 0.667218, err_t_domain: 0.673738
+Accuracy of the mnist_m dataset: 0.868570label: 0.102373, err_s_domain: 0.656010, err_t_domain: 0.643511
+ epoch: 91, [iter: 42 / all 461], err_s_label: 0.136872, err_s_domain: 0.733752, err_t_domain: 0.6763031
+ epoch: 91, [iter: 55 / all 461], err_s_label: 0.139700, err_s_domain: 0.679789, err_t_domain: 0.7274871
+ epoch: 91, [iter: 98 / all 461], err_s_label: 0.114451, err_s_domain: 0.657744, err_t_domain: 0.6742051
+ epoch: 91, [iter: 143 / all 461], err_s_label: 0.067021, err_s_domain: 0.686719, err_t_domain: 0.681757
+ epoch: 91, [iter: 188 / all 461], err_s_label: 0.054785, err_s_domain: 0.631354, err_t_domain: 0.710878
+ epoch: 91, [iter: 233 / all 461], err_s_label: 0.165977, err_s_domain: 0.689464, err_t_domain: 0.697941
+ epoch: 91, [iter: 267 / all 461], err_s_label: 0.149261, err_s_domain: 0.653728, err_t_domain: 0.662749
+ epoch: 91, [iter: 312 / all 461], err_s_label: 0.093063, err_s_domain: 0.687184, err_t_domain: 0.687145
+ epoch: 91, [iter: 358 / all 461], err_s_label: 0.052960, err_s_domain: 0.661999, err_t_domain: 0.647275
+ epoch: 91, [iter: 403 / all 461], err_s_label: 0.124323, err_s_domain: 0.690123, err_t_domain: 0.660223
+ epoch: 91, [iter: 448 / all 461], err_s_label: 0.034742, err_s_domain: 0.620301, err_t_domain: 0.630549
+Accuracy of the mnist dataset: 0.985900s_label: 0.077205, err_s_domain: 0.622893, err_t_domain: 0.653811
+ epoch: 92, [iter: 35 / all 461], err_s_label: 0.127199, err_s_domain: 0.645307, err_t_domain: 0.6280781
+ epoch: 92, [iter: 80 / all 461], err_s_label: 0.147637, err_s_domain: 0.666108, err_t_domain: 0.6552531
+ epoch: 92, [iter: 125 / all 461], err_s_label: 0.131685, err_s_domain: 0.665486, err_t_domain: 0.670704
+ epoch: 92, [iter: 170 / all 461], err_s_label: 0.204391, err_s_domain: 0.709213, err_t_domain: 0.608024
+ epoch: 92, [iter: 216 / all 461], err_s_label: 0.082195, err_s_domain: 0.683435, err_t_domain: 0.654336
+ epoch: 92, [iter: 261 / all 461], err_s_label: 0.050239, err_s_domain: 0.599191, err_t_domain: 0.662818
+ epoch: 92, [iter: 306 / all 461], err_s_label: 0.089167, err_s_domain: 0.620906, err_t_domain: 0.652515
+ epoch: 92, [iter: 352 / all 461], err_s_label: 0.051148, err_s_domain: 0.672811, err_t_domain: 0.678072
+ epoch: 92, [iter: 397 / all 461], err_s_label: 0.163242, err_s_domain: 0.742023, err_t_domain: 0.668202
+ epoch: 92, [iter: 442 / all 461], err_s_label: 0.136136, err_s_domain: 0.663080, err_t_domain: 0.625473
+Accuracy of the mnist dataset: 0.982500s_label: 0.260937, err_s_domain: 0.681323, err_t_domain: 0.652360
+ epoch: 93, [iter: 28 / all 461], err_s_label: 0.132378, err_s_domain: 0.670744, err_t_domain: 0.6589530
+ epoch: 93, [iter: 73 / all 461], err_s_label: 0.097629, err_s_domain: 0.668902, err_t_domain: 0.6662630
+ epoch: 93, [iter: 85 / all 461], err_s_label: 0.100913, err_s_domain: 0.631044, err_t_domain: 0.6815120
+ epoch: 93, [iter: 86 / all 461], err_s_label: 0.074178, err_s_domain: 0.606203, err_t_domain: 0.6648710
+ epoch: 93, [iter: 131 / all 461], err_s_label: 0.066484, err_s_domain: 0.644614, err_t_domain: 0.620506
+ epoch: 93, [iter: 176 / all 461], err_s_label: 0.108026, err_s_domain: 0.654943, err_t_domain: 0.596859
+ epoch: 93, [iter: 222 / all 461], err_s_label: 0.110920, err_s_domain: 0.692559, err_t_domain: 0.660997
+ epoch: 93, [iter: 256 / all 461], err_s_label: 0.167092, err_s_domain: 0.612150, err_t_domain: 0.717193
+ epoch: 93, [iter: 301 / all 461], err_s_label: 0.072995, err_s_domain: 0.650006, err_t_domain: 0.644329
+ epoch: 93, [iter: 346 / all 461], err_s_label: 0.071392, err_s_domain: 0.676490, err_t_domain: 0.662036
+ epoch: 93, [iter: 392 / all 461], err_s_label: 0.058521, err_s_domain: 0.707600, err_t_domain: 0.665011
+ epoch: 93, [iter: 437 / all 461], err_s_label: 0.116330, err_s_domain: 0.706523, err_t_domain: 0.641366
+Accuracy of the mnist dataset: 0.983200s_label: 0.172084, err_s_domain: 0.621907, err_t_domain: 0.598967
+ epoch: 94, [iter: 23 / all 461], err_s_label: 0.125943, err_s_domain: 0.676787, err_t_domain: 0.6391137
+ epoch: 94, [iter: 68 / all 461], err_s_label: 0.071057, err_s_domain: 0.635208, err_t_domain: 0.6980487
+ epoch: 94, [iter: 113 / all 461], err_s_label: 0.154394, err_s_domain: 0.631886, err_t_domain: 0.674154
+ epoch: 94, [iter: 158 / all 461], err_s_label: 0.091088, err_s_domain: 0.649296, err_t_domain: 0.607708
+ epoch: 94, [iter: 203 / all 461], err_s_label: 0.143778, err_s_domain: 0.659731, err_t_domain: 0.678174
+ epoch: 94, [iter: 249 / all 461], err_s_label: 0.113172, err_s_domain: 0.651705, err_t_domain: 0.662054
+ epoch: 94, [iter: 294 / all 461], err_s_label: 0.154503, err_s_domain: 0.650861, err_t_domain: 0.645117
+ epoch: 94, [iter: 340 / all 461], err_s_label: 0.057967, err_s_domain: 0.695279, err_t_domain: 0.680768
+ epoch: 94, [iter: 364 / all 461], err_s_label: 0.092100, err_s_domain: 0.639384, err_t_domain: 0.672962
+ epoch: 94, [iter: 387 / all 461], err_s_label: 0.090640, err_s_domain: 0.663659, err_t_domain: 0.691549
+ epoch: 94, [iter: 432 / all 461], err_s_label: 0.073911, err_s_domain: 0.704853, err_t_domain: 0.637257
+Accuracy of the mnist dataset: 0.984300s_label: 0.073825, err_s_domain: 0.641180, err_t_domain: 0.636992
+ epoch: 95, [iter: 19 / all 461], err_s_label: 0.251653, err_s_domain: 0.650739, err_t_domain: 0.6696372
+ epoch: 95, [iter: 45 / all 461], err_s_label: 0.108949, err_s_domain: 0.635368, err_t_domain: 0.6916342
+ epoch: 95, [iter: 66 / all 461], err_s_label: 0.089494, err_s_domain: 0.666514, err_t_domain: 0.6503002
+ epoch: 95, [iter: 112 / all 461], err_s_label: 0.129233, err_s_domain: 0.659016, err_t_domain: 0.698083
+ epoch: 95, [iter: 115 / all 461], err_s_label: 0.073324, err_s_domain: 0.653493, err_t_domain: 0.649192
+ epoch: 95, [iter: 119 / all 461], err_s_label: 0.065751, err_s_domain: 0.670542, err_t_domain: 0.672524
+ epoch: 95, [iter: 164 / all 461], err_s_label: 0.085987, err_s_domain: 0.667585, err_t_domain: 0.617213
+ epoch: 95, [iter: 198 / all 461], err_s_label: 0.203860, err_s_domain: 0.668575, err_t_domain: 0.691961
+ epoch: 95, [iter: 244 / all 461], err_s_label: 0.062678, err_s_domain: 0.648461, err_t_domain: 0.694936
+ epoch: 95, [iter: 289 / all 461], err_s_label: 0.082557, err_s_domain: 0.681396, err_t_domain: 0.632076
+ epoch: 95, [iter: 335 / all 461], err_s_label: 0.114088, err_s_domain: 0.634455, err_t_domain: 0.619590
+ epoch: 95, [iter: 380 / all 461], err_s_label: 0.043901, err_s_domain: 0.596836, err_t_domain: 0.668846
+ epoch: 95, [iter: 426 / all 461], err_s_label: 0.091678, err_s_domain: 0.617251, err_t_domain: 0.635777
+ epoch: 95, [iter: 461 / all 461], err_s_label: 0.077016, err_s_domain: 0.642830, err_t_domain: 0.664372
+ epoch: 96, [iter: 13 / all 461], err_s_label: 0.104858, err_s_domain: 0.641156, err_t_domain: 0.6602832
+ epoch: 96, [iter: 58 / all 461], err_s_label: 0.067029, err_s_domain: 0.622762, err_t_domain: 0.6419612
+ epoch: 96, [iter: 104 / all 461], err_s_label: 0.073613, err_s_domain: 0.631907, err_t_domain: 0.681282
+ epoch: 96, [iter: 149 / all 461], err_s_label: 0.047333, err_s_domain: 0.632816, err_t_domain: 0.647356
+ epoch: 96, [iter: 194 / all 461], err_s_label: 0.089357, err_s_domain: 0.686708, err_t_domain: 0.631909
+ epoch: 96, [iter: 239 / all 461], err_s_label: 0.080166, err_s_domain: 0.646725, err_t_domain: 0.645570
+ epoch: 96, [iter: 285 / all 461], err_s_label: 0.172729, err_s_domain: 0.665866, err_t_domain: 0.645636
+ epoch: 96, [iter: 330 / all 461], err_s_label: 0.082252, err_s_domain: 0.683554, err_t_domain: 0.646151
+ epoch: 96, [iter: 376 / all 461], err_s_label: 0.073138, err_s_domain: 0.648987, err_t_domain: 0.687822
+ epoch: 96, [iter: 421 / all 461], err_s_label: 0.118279, err_s_domain: 0.678766, err_t_domain: 0.714078
+ epoch: 96, [iter: 461 / all 461], err_s_label: 0.195708, err_s_domain: 0.636348, err_t_domain: 0.634801
+ epoch: 97, [iter: 8 / all 461], err_s_label: 0.039922, err_s_domain: 0.639998, err_t_domain: 0.67047801
+ epoch: 97, [iter: 53 / all 461], err_s_label: 0.160420, err_s_domain: 0.656536, err_t_domain: 0.6811131
+ epoch: 97, [iter: 99 / all 461], err_s_label: 0.117484, err_s_domain: 0.643316, err_t_domain: 0.6498801
+ epoch: 97, [iter: 133 / all 461], err_s_label: 0.167895, err_s_domain: 0.671230, err_t_domain: 0.689125
+ epoch: 97, [iter: 145 / all 461], err_s_label: 0.109755, err_s_domain: 0.708713, err_t_domain: 0.636379
+ epoch: 97, [iter: 187 / all 461], err_s_label: 0.069208, err_s_domain: 0.667299, err_t_domain: 0.632465
+ epoch: 97, [iter: 233 / all 461], err_s_label: 0.056523, err_s_domain: 0.643261, err_t_domain: 0.667123
+ epoch: 97, [iter: 278 / all 461], err_s_label: 0.127305, err_s_domain: 0.652053, err_t_domain: 0.621751
+ epoch: 97, [iter: 323 / all 461], err_s_label: 0.050687, err_s_domain: 0.605920, err_t_domain: 0.702847
+ epoch: 97, [iter: 368 / all 461], err_s_label: 0.173688, err_s_domain: 0.707385, err_t_domain: 0.698685
+ epoch: 97, [iter: 414 / all 461], err_s_label: 0.105783, err_s_domain: 0.640365, err_t_domain: 0.673317
+ epoch: 97, [iter: 459 / all 461], err_s_label: 0.088819, err_s_domain: 0.652367, err_t_domain: 0.673262
+Accuracy of the mnist_m dataset: 0.882235label: 0.074673, err_s_domain: 0.673649, err_t_domain: 0.711742
+ epoch: 98, [iter: 45 / all 461], err_s_label: 0.108403, err_s_domain: 0.664590, err_t_domain: 0.6736482
+ epoch: 98, [iter: 91 / all 461], err_s_label: 0.071470, err_s_domain: 0.619219, err_t_domain: 0.6885272
+ epoch: 98, [iter: 136 / all 461], err_s_label: 0.169861, err_s_domain: 0.623490, err_t_domain: 0.627744
+ epoch: 98, [iter: 181 / all 461], err_s_label: 0.170042, err_s_domain: 0.699188, err_t_domain: 0.677583
+ epoch: 98, [iter: 226 / all 461], err_s_label: 0.127567, err_s_domain: 0.706116, err_t_domain: 0.670612
+ epoch: 98, [iter: 272 / all 461], err_s_label: 0.137096, err_s_domain: 0.717693, err_t_domain: 0.664278
+ epoch: 98, [iter: 317 / all 461], err_s_label: 0.124810, err_s_domain: 0.617914, err_t_domain: 0.689648
+ epoch: 98, [iter: 363 / all 461], err_s_label: 0.146775, err_s_domain: 0.679318, err_t_domain: 0.624480
+ epoch: 98, [iter: 408 / all 461], err_s_label: 0.168626, err_s_domain: 0.643219, err_t_domain: 0.627949
+ epoch: 98, [iter: 453 / all 461], err_s_label: 0.064838, err_s_domain: 0.686523, err_t_domain: 0.665724
+Accuracy of the mnist_m dataset: 0.896234label: 0.133988, err_s_domain: 0.665645, err_t_domain: 0.651000
+ epoch: 99, [iter: 39 / all 461], err_s_label: 0.049093, err_s_domain: 0.657014, err_t_domain: 0.6754120
+ epoch: 99, [iter: 85 / all 461], err_s_label: 0.137698, err_s_domain: 0.685095, err_t_domain: 0.6776720
+ epoch: 99, [iter: 130 / all 461], err_s_label: 0.147742, err_s_domain: 0.647534, err_t_domain: 0.647329
+ epoch: 99, [iter: 164 / all 461], err_s_label: 0.111688, err_s_domain: 0.673588, err_t_domain: 0.637816
+ epoch: 99, [iter: 175 / all 461], err_s_label: 0.136803, err_s_domain: 0.668517, err_t_domain: 0.691513
+ epoch: 99, [iter: 219 / all 461], err_s_label: 0.072453, err_s_domain: 0.656330, err_t_domain: 0.631977
+ epoch: 99, [iter: 264 / all 461], err_s_label: 0.055081, err_s_domain: 0.633098, err_t_domain: 0.706066
+ epoch: 99, [iter: 309 / all 461], err_s_label: 0.099472, err_s_domain: 0.698715, err_t_domain: 0.626240
+ epoch: 99, [iter: 355 / all 461], err_s_label: 0.066821, err_s_domain: 0.650773, err_t_domain: 0.658853
+ epoch: 99, [iter: 400 / all 461], err_s_label: 0.063868, err_s_domain: 0.638206, err_t_domain: 0.645443
+ epoch: 99, [iter: 446 / all 461], err_s_label: 0.101659, err_s_domain: 0.626632, err_t_domain: 0.647372
+Accuracy of the mnist dataset: 0.987400s_label: 0.120311, err_s_domain: 0.622240, err_t_domain: 0.653326
+Corresponding model was save in models/mnist_mnistm_model_epoch_best.pth0.622240, err_t_domain: 0.653326
+Corresponding model was save in models/mnist_mnistm_model_epoch_best.pth0.622240, err_t_domain: 0.653326
