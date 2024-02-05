@@ -25,3 +25,10 @@ config: {'ms': 0.1, 'Mt': 1, 'layer': 5, 'beta': 0.5}
 2024-02-05 20:45:45,823 INFO    MainThread:22784 [wandb_run.py:_redirect():2119] Wrapping output streams.
 2024-02-05 20:45:45,823 INFO    MainThread:22784 [wandb_run.py:_redirect():2144] Redirects installed.
 2024-02-05 20:45:45,825 INFO    MainThread:22784 [wandb_init.py:init():845] run started, returning control to user process
+2024-02-05 21:51:09,135 INFO    MainThread:22784 [wandb_run.py:_finish():1934] finishing run hkaraca/5subat_summed_loss_modified_layers_beta_added_reduce_variation/cxw8tliy
+2024-02-05 21:51:09,136 INFO    MainThread:22784 [wandb_run.py:_atexit_cleanup():2168] got exitcode: 0
+2024-02-05 21:51:09,136 INFO    MainThread:22784 [wandb_run.py:_restore():2151] restore
+2024-02-05 21:51:09,136 INFO    MainThread:22784 [wandb_run.py:_restore():2157] restore done
+2024-02-05 21:51:14,698 INFO    MainThread:22784 [wandb_run.py:_footer_history_summary_info():3599] rendering history
+2024-02-05 21:51:14,702 INFO    MainThread:22784 [wandb_run.py:_footer_history_summary_info():3631] rendering summary
+2024-02-05 21:51:14,707 INFO    MainThread:22784 [wandb_run.py:_footer_sync_info():3558] logging synced files
