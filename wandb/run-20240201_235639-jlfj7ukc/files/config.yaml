@@ -1,0 +1,46 @@
+wandb_version: 1
+
+ms_list:
+  desc: null
+  value:
+  - 0.2
+  - 0.4
+  - 0.6
+  - 0.8
+  - 1.0
+Mt_list:
+  desc: null
+  value:
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+_wandb:
+  desc: null
+  value:
+    code_path: code/main.py
+    python_version: 3.8.5
+    cli_version: 0.15.12
+    framework: torch
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    start_time: 1706820999.030699
+    t:
+      1:
+      - 1
+      - 41
+      - 55
+      2:
+      - 1
+      - 41
+      - 55
+      3:
+      - 2
+      - 16
+      - 23
+      4: 3.8.5
+      5: 0.15.12
+      8:
+      - 5
+      13: linux-x86_64

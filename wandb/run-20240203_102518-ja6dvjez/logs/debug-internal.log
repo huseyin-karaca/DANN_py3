@@ -1,0 +1,20 @@
+2024-02-03 10:25:18,167 INFO    StreamThr :4309 [internal.py:wandb_internal():86] W&B internal server running at pid: 4309, started at: 2024-02-03 10:25:18.166770
+2024-02-03 10:25:18,168 DEBUG   HandlerThread:4309 [handler.py:handle_request():146] handle_request: status
+2024-02-03 10:25:18,171 INFO    WriterThread:4309 [datastore.py:open_for_write():85] open: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240203_102518-ja6dvjez/run-ja6dvjez.wandb
+2024-02-03 10:25:18,171 DEBUG   SenderThread:4309 [sender.py:send():380] send: header
+2024-02-03 10:25:18,179 DEBUG   SenderThread:4309 [sender.py:send():380] send: run
+2024-02-03 10:25:23,180 DEBUG   HandlerThread:4309 [handler.py:handle_request():146] handle_request: keepalive
+2024-02-03 10:25:24,328 DEBUG   HandlerThread:4309 [handler.py:handle_request():146] handle_request: shutdown
+2024-02-03 10:25:24,328 INFO    HandlerThread:4309 [handler.py:finish():866] shutting down handler
+2024-02-03 10:25:25,180 INFO    WriterThread:4309 [datastore.py:close():294] close: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240203_102518-ja6dvjez/run-ja6dvjez.wandb
+2024-02-03 10:25:39,832 INFO    SenderThread:4309 [dir_watcher.py:__init__():211] watching files in: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240203_102518-ja6dvjez/files
+2024-02-03 10:25:39,832 INFO    SenderThread:4309 [sender.py:_start_run_threads():1122] run started: ja6dvjez with start time 1706945118.167037
+2024-02-03 10:25:39,832 INFO    SenderThread:4309 [sender.py:finish():1534] shutting down sender
+2024-02-03 10:25:39,832 INFO    SenderThread:4309 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-02-03 10:25:40,832 INFO    SenderThread:4309 [dir_watcher.py:finish():388] scan: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240203_102518-ja6dvjez/files
+2024-02-03 10:25:40,832 INFO    SenderThread:4309 [dir_watcher.py:finish():402] scan save: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240203_102518-ja6dvjez/files/config.yaml config.yaml
+2024-02-03 10:25:40,832 INFO    SenderThread:4309 [file_pusher.py:finish():175] shutting down file pusher
+2024-02-03 10:25:40,832 INFO    SenderThread:4309 [file_pusher.py:join():181] waiting for file pusher
+2024-02-03 10:25:41,838 INFO    wandb-upload_0:4309 [upload_job.py:push():131] Uploaded file /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240203_102518-ja6dvjez/files/config.yaml
+2024-02-03 10:25:42,334 INFO    SenderThread:4309 [file_stream.py:finish():595] file stream finish called
+2024-02-03 10:25:42,735 INFO    SenderThread:4309 [file_stream.py:finish():599] file stream finish is done

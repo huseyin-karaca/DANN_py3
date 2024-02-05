@@ -1,0 +1,90 @@
+2024-02-03 02:14:07,576 INFO    StreamThr :13417 [internal.py:wandb_internal():86] W&B internal server running at pid: 13417, started at: 2024-02-03 02:14:07.575699
+2024-02-03 02:14:07,577 DEBUG   HandlerThread:13417 [handler.py:handle_request():146] handle_request: status
+2024-02-03 02:14:07,579 INFO    WriterThread:13417 [datastore.py:open_for_write():85] open: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240203_021406-n2mlzfsf/run-n2mlzfsf.wandb
+2024-02-03 02:14:07,579 DEBUG   SenderThread:13417 [sender.py:send():380] send: header
+2024-02-03 02:14:07,579 DEBUG   SenderThread:13417 [sender.py:send():380] send: run
+2024-02-03 02:14:10,869 INFO    SenderThread:13417 [retry.py:__call__():172] Retry attempt failed:
+Traceback (most recent call last):
+  File "/home/huseyin/.local/lib/python3.8/site-packages/urllib3/connection.py", line 203, in _new_conn
+    sock = connection.create_connection(
+  File "/home/huseyin/.local/lib/python3.8/site-packages/urllib3/util/connection.py", line 60, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "/home/huseyin/anaconda3/envs/dannpy5/lib/python3.8/socket.py", line 918, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -2] Name or service not known
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/huseyin/.local/lib/python3.8/site-packages/urllib3/connectionpool.py", line 791, in urlopen
+    response = self._make_request(
+  File "/home/huseyin/.local/lib/python3.8/site-packages/urllib3/connectionpool.py", line 492, in _make_request
+    raise new_e
+  File "/home/huseyin/.local/lib/python3.8/site-packages/urllib3/connectionpool.py", line 468, in _make_request
+    self._validate_conn(conn)
+  File "/home/huseyin/.local/lib/python3.8/site-packages/urllib3/connectionpool.py", line 1097, in _validate_conn
+    conn.connect()
+  File "/home/huseyin/.local/lib/python3.8/site-packages/urllib3/connection.py", line 611, in connect
+    self.sock = sock = self._new_conn()
+  File "/home/huseyin/.local/lib/python3.8/site-packages/urllib3/connection.py", line 210, in _new_conn
+    raise NameResolutionError(self.host, self, e) from e
+urllib3.exceptions.NameResolutionError: <urllib3.connection.HTTPSConnection object at 0x7f437e19bb20>: Failed to resolve 'api.wandb.ai' ([Errno -2] Name or service not known)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/huseyin/.local/lib/python3.8/site-packages/requests/adapters.py", line 486, in send
+    resp = conn.urlopen(
+  File "/home/huseyin/.local/lib/python3.8/site-packages/urllib3/connectionpool.py", line 845, in urlopen
+    retries = retries.increment(
+  File "/home/huseyin/.local/lib/python3.8/site-packages/urllib3/util/retry.py", line 515, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /graphql (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f437e19bb20>: Failed to resolve 'api.wandb.ai' ([Errno -2] Name or service not known)"))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/huseyin/.local/lib/python3.8/site-packages/wandb/sdk/lib/retry.py", line 131, in __call__
+    result = self._call_fn(*args, **kwargs)
+  File "/home/huseyin/.local/lib/python3.8/site-packages/wandb/sdk/internal/internal_api.py", line 366, in execute
+    return self.client.execute(*args, **kwargs)  # type: ignore
+  File "/home/huseyin/.local/lib/python3.8/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/client.py", line 52, in execute
+    result = self._get_result(document, *args, **kwargs)
+  File "/home/huseyin/.local/lib/python3.8/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/client.py", line 60, in _get_result
+    return self.transport.execute(document, *args, **kwargs)
+  File "/home/huseyin/.local/lib/python3.8/site-packages/wandb/sdk/lib/gql_request.py", line 58, in execute
+    request = self.session.post(self.url, **post_args)
+  File "/home/huseyin/.local/lib/python3.8/site-packages/requests/sessions.py", line 637, in post
+    return self.request("POST", url, data=data, json=json, **kwargs)
+  File "/home/huseyin/.local/lib/python3.8/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/huseyin/.local/lib/python3.8/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/huseyin/.local/lib/python3.8/site-packages/requests/adapters.py", line 519, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /graphql (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f437e19bb20>: Failed to resolve 'api.wandb.ai' ([Errno -2] Name or service not known)"))
+2024-02-03 02:14:12,013 DEBUG   HandlerThread:13417 [handler.py:handle_request():146] handle_request: keepalive
+2024-02-03 02:14:17,014 DEBUG   HandlerThread:13417 [handler.py:handle_request():146] handle_request: keepalive
+2024-02-03 02:14:22,015 DEBUG   HandlerThread:13417 [handler.py:handle_request():146] handle_request: keepalive
+2024-02-03 02:14:27,016 DEBUG   HandlerThread:13417 [handler.py:handle_request():146] handle_request: keepalive
+2024-02-03 02:14:32,017 DEBUG   HandlerThread:13417 [handler.py:handle_request():146] handle_request: keepalive
+2024-02-03 02:14:37,018 DEBUG   HandlerThread:13417 [handler.py:handle_request():146] handle_request: keepalive
+2024-02-03 02:14:42,020 DEBUG   HandlerThread:13417 [handler.py:handle_request():146] handle_request: keepalive
+2024-02-03 02:14:47,021 DEBUG   HandlerThread:13417 [handler.py:handle_request():146] handle_request: keepalive
+2024-02-03 02:14:52,022 DEBUG   HandlerThread:13417 [handler.py:handle_request():146] handle_request: keepalive
+2024-02-03 02:14:57,023 DEBUG   HandlerThread:13417 [handler.py:handle_request():146] handle_request: keepalive
+2024-02-03 02:15:02,024 DEBUG   HandlerThread:13417 [handler.py:handle_request():146] handle_request: keepalive
+2024-02-03 02:15:07,025 DEBUG   HandlerThread:13417 [handler.py:handle_request():146] handle_request: keepalive
+2024-02-03 02:15:12,026 DEBUG   HandlerThread:13417 [handler.py:handle_request():146] handle_request: keepalive
+2024-02-03 02:15:17,028 DEBUG   HandlerThread:13417 [handler.py:handle_request():146] handle_request: keepalive
+2024-02-03 02:15:22,029 DEBUG   HandlerThread:13417 [handler.py:handle_request():146] handle_request: keepalive
+2024-02-03 02:15:27,030 DEBUG   HandlerThread:13417 [handler.py:handle_request():146] handle_request: keepalive
+2024-02-03 02:15:32,031 DEBUG   HandlerThread:13417 [handler.py:handle_request():146] handle_request: keepalive
+2024-02-03 02:15:37,032 DEBUG   HandlerThread:13417 [handler.py:handle_request():146] handle_request: cancel
+2024-02-03 02:15:37,033 DEBUG   HandlerThread:13417 [handler.py:handle_request():146] handle_request: cancel
+2024-02-03 02:15:37,033 DEBUG   SenderThread:13417 [sender.py:send():389] Record cancelled: run
+2024-02-03 02:15:37,034 DEBUG   HandlerThread:13417 [handler.py:handle_request():146] handle_request: status_report
+2024-02-03 02:15:37,125 DEBUG   HandlerThread:13417 [handler.py:handle_request():146] handle_request: shutdown
+2024-02-03 02:15:37,125 INFO    HandlerThread:13417 [handler.py:finish():866] shutting down handler
+2024-02-03 02:15:38,034 INFO    SenderThread:13417 [sender.py:finish():1534] shutting down sender
+2024-02-03 02:15:38,034 INFO    WriterThread:13417 [datastore.py:close():294] close: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240203_021406-n2mlzfsf/run-n2mlzfsf.wandb
