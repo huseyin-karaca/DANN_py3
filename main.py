@@ -19,7 +19,7 @@ import wandb
 def parse_args():
 	parser = argparse.ArgumentParser()
 	# parser.add_argument('-bs', '--batch_size', type=int, default=128, help='batch size to train on (default: 8)')
-	# parser.add_argument('-n','--notes',type=str, default = None , help = 'wandb run notes')
+	parser.add_argument('-n','--notes',type=str, default = None , help = 'wandb run notes')
 	parser.add_argument('-pn','--project_name',type=str, default = "nsubat" , help = 'wandb project name')
 	parser.add_argument('-e','--n_epoch',type = int, default = 100,help = 'number of total epochs')
 	# parser.add_argument('-ms','--ms',type = float, default = None, help = 'ratio of labeled source imagesper batch')
@@ -73,7 +73,7 @@ if __name__ == '__main__':
 				wandb_kwargs = {# "dir": run_folder,
 						# "name": run_name,
 						"project": args.project_name,
-						# "notes": args.notes,
+						"notes": args.notes,
 						# "id": run_name, #wandb_id_finder_from_folder(self.run_folder) if args.mode == 'resume' else wandb.util.generate_id(),
 						#"resume": 'allow',
 						#"allow_val_change": True,
