@@ -10,15 +10,16 @@ from torchvision import datasets
 from torchvision import transforms
 from model import CNNModel
 from test import test
-from huseyin_functions import get_run_name
+from huseyin_functions import get_run_name, distribute_apples
 import argparse
 import wandb
+
 
 # main code
 
 def parse_args():
 	parser = argparse.ArgumentParser()
-	# parser.add_argument('-bs', '--batch_size', type=int, default=128, help='batch size to train on (default: 8)')
+	parser.add_argument('-bs', '--batch_size', type=int, default=128, help='batch size to train on (default: 8)')
 	parser.add_argument('-n','--notes',type=str, default = None , help = 'wandb run notes')
 	parser.add_argument('-pn','--project_name',type=str, default = "nsubat" , help = 'wandb project name')
 	parser.add_argument('-e','--n_epoch',type = int, default = 100,help = 'number of total epochs')
@@ -32,7 +33,9 @@ def parse_args():
 	parser.add_argument('-ll','--layers_list',type=int, nargs = "+", help="list of number of layers")
 	# parser.add_argument('-rn','--run_name',type=str, help="name of the run")
 	parser.add_argument('-Mts','--Mt_list',type = int, nargs = "+", default = None, help = 'list of number of labeled target images per batch')
+	parser.add_argument('-dcms','--dimchange_multipliers',type = float, nargs = "+", default = None, help = 'list of dimchange multipliers. common for conv and linear layers.')
 	parser.add_argument('-beta','--beta',type = float,default = None, help = 'balance parameter between classfication and domain losses. beta =1 means zero contribution from domain loss.')
+	parser.add_argument('-ns','--ns',type = float, default = None, help ='the ratio that determines the dataset length used')
 	return parser.parse_args()
 
 
@@ -46,21 +49,23 @@ if __name__ == '__main__':
 	cuda = True
 	cudnn.benchmark = True
 	lr = 1e-3
-	batch_size = 256
+	batch_size = args.batch_size
 	image_size = 28
 	n_epoch = args.n_epoch
 	beta = args.beta 
+	ns = args.ns
+	Mt = 1
 
 
 
 	for layer in args.layers_list:
-		for Mt in args.Mt_list:
+		for dcm in args.dimchange_multipliers:
 			for ms in args.ms_list:
 				Ms = int(ms*batch_size)
 				manual_seed = random.randint(1, 10000)
 				random.seed(manual_seed)
 				torch.manual_seed(manual_seed)
-
+            
 
 
 				# logging - (wandb)
@@ -77,8 +82,9 @@ if __name__ == '__main__':
 						# "id": run_name, #wandb_id_finder_from_folder(self.run_folder) if args.mode == 'resume' else wandb.util.generate_id(),
 						#"resume": 'allow',
 						#"allow_val_change": True,
-						"config":{"ms": ms, "Mt": Mt, "layer":layer, "beta":beta}
+						"config":{"ms": ms, "Mt": Mt, "layer":layer, "beta":beta, "dcm":dcm, "ns":ns, "bs":batch_size}
 						}
+				
 
 				# Logging setup (You can replace it with your preferred logging method)
 				wandb.init(**wandb_kwargs)
@@ -130,7 +136,7 @@ if __name__ == '__main__':
 
 				# load model
 
-				my_net = CNNModel(layer)
+				my_net = CNNModel(layer,dcm)
 
 				# setup optimizer
 
@@ -146,12 +152,13 @@ if __name__ == '__main__':
 
 				for p in my_net.parameters():
 					p.requires_grad = True
+					
 
 				# training
 				best_accu_t = 0.0
 				for epoch in range(n_epoch):
 
-					len_dataloader = min(len(dataloader_source), len(dataloader_target))
+					len_dataloader = int(ns*(min(len(dataloader_source), len(dataloader_target))))
 					data_source_iter = iter(dataloader_source)
 					data_target_iter = iter(dataloader_target)
 
@@ -206,7 +213,7 @@ if __name__ == '__main__':
 						torch.save(my_net, '{0}/mnist_mnistm_model_epoch_current.pth'.format(model_root))
 
 					print('\n')
-					print('ms: %.2f | Mt: %d | Epoch: %d' % (ms,Mt,epoch))
+					print('ms: %.2f | Mt: %d | dcm: %.2f | layer: %d | Epoch: %d/%d' % (ms,Mt,dcm,layer,epoch,n_epoch))
 					accu_s = test(source_dataset_name)
 					print('Accuracy of the %s dataset: %f' % ('mnist', accu_s))
 					accu_t = test(target_dataset_name)
