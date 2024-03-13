@@ -18,11 +18,12 @@
             "request": "launch",
             "cwd": "/home/huseyin/fungtion/dannpy_yeniden/DANN_py3",
             "program": "/home/huseyin/fungtion/dannpy_yeniden/DANN_py3/main.py",
-            "args": [// "-bs", "512", 
+            "args": ["-bs", "128", 
                      "-ll","2",
                      "-dcms","5", "4",
-                     "-mss","0.1",
+                     "-Mss","40",
                      "-ns","0.1",
+                     "-n","debugging"
                     ],
             "console": "integratedTerminal",
             "env": {
