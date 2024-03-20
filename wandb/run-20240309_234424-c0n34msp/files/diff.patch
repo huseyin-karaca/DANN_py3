@@ -1,0 +1,108 @@
+diff --git a/main.py b/main.py
+index 6cb71fb..b45711a 100644
+--- a/main.py
++++ b/main.py
+@@ -25,6 +25,7 @@ def parse_args():
+ 	parser.add_argument('-e','--n_epoch',type = int, default = 100,help = 'number of total epochs')
+ 	# parser.add_argument('-ms','--ms',type = float, default = None, help = 'ratio of labeled source imagesper batch')
+ 	parser.add_argument('-mss','--ms_list',type = float, nargs = "+", default = None, help = 'list of ratio of labeled source images')
++	parser.add_argument('-Mss','--Ms_list',type = int, nargs = "+", default = None, help = 'list of total number of labeled source images')
+ 	# parser.add_argument('-mt','--mt',type = float, default = None, help = 'ratio of labeled target images')
+ 	# parser.add_argument('-mts','--mt_list',type = float, nargs = "+", default = None, help = 'list of ratio of labeled target images')
+ 	# parser.add_argument('-dc_dim','--dc_dim',type = int, default = 100, help = 'dimension of the domain classifier network')
+@@ -54,14 +55,14 @@ if __name__ == '__main__':
+ 	n_epoch = args.n_epoch
+ 	beta = args.beta 
+ 	ns = args.ns
+-	Mt = 1
++	Mt = 25
+ 
+ 
+ 
+ 	for layer in args.layers_list:
+ 		for dcm in args.dimchange_multipliers:
+-			for ms in args.ms_list:
+-				Ms = int(ms*batch_size)
++			for Ms in args.Ms_list:
++				# Ms = int(ms*batch_size)
+ 				manual_seed = random.randint(1, 10000)
+ 				random.seed(manual_seed)
+ 				torch.manual_seed(manual_seed)
+@@ -82,7 +83,7 @@ if __name__ == '__main__':
+ 						# "id": run_name, #wandb_id_finder_from_folder(self.run_folder) if args.mode == 'resume' else wandb.util.generate_id(),
+ 						#"resume": 'allow',
+ 						#"allow_val_change": True,
+-						"config":{"ms": ms, "Mt": Mt, "layer":layer, "beta":beta, "dcm":dcm, "ns":ns, "bs":batch_size}
++						"config":{"Ms": Ms, "Mt": Mt, "layer":layer, "beta":beta, "dcm":dcm, "ns":ns, "bs":batch_size}
+ 						}
+ 				
+ 
+@@ -162,8 +163,14 @@ if __name__ == '__main__':
+ 					data_source_iter = iter(dataloader_source)
+ 					data_target_iter = iter(dataloader_target)
+ 
++					Msx_list = distribute_apples(Ms,len_dataloader)
++					Mtx_list = distribute_apples(Mt,len_dataloader)
++
+ 					for i in range(len_dataloader):
+ 
++						Msx = Msx_list[i] # required number of labeled source data for per batch to ensure total of Ms 
++						Mtx = Mtx_list[i]
++
+ 						p = float(i + epoch * len_dataloader) / n_epoch / len_dataloader
+ 						alpha = 2. / (1. + np.exp(-10 * p)) - 1
+ 
+@@ -183,7 +190,7 @@ if __name__ == '__main__':
+ 
+ 
+ 						class_output, domain_output = my_net(input_data=s_img, alpha=alpha)
+-						err_s_label = loss_class(class_output[:Ms,:], s_label[:Ms])
++						err_s_label = loss_class(class_output[:Msx,:], s_label[:Msx])
+ 						err_s_domain = loss_domain(domain_output, domain_label)
+ 
+ 						# training model using target data
+@@ -200,7 +207,7 @@ if __name__ == '__main__':
+ 							domain_label = domain_label.cuda()
+ 
+ 						class_output, domain_output = my_net(input_data=t_img, alpha=alpha)
+-						err_t_label = loss_class(class_output[:Mt,:], t_label[:Mt])
++						err_t_label = loss_class(class_output[:Mtx,:], t_label[:Mtx])
+ 						err_t_domain = loss_domain(domain_output, domain_label)
+ 						err =(1-beta)*(err_t_domain + err_s_domain) + beta*(err_s_label + err_t_label)
+ 						err.backward()
+@@ -213,7 +220,7 @@ if __name__ == '__main__':
+ 						torch.save(my_net, '{0}/mnist_mnistm_model_epoch_current.pth'.format(model_root))
+ 
+ 					print('\n')
+-					print('ms: %.2f | Mt: %d | dcm: %.2f | layer: %d | Epoch: %d/%d' % (ms,Mt,dcm,layer,epoch,n_epoch))
++					print('Ms: %d | Mt: %d | dcm: %.2f | layer: %d | Epoch: %d/%d' % (Ms,Mt,dcm,layer,epoch,n_epoch))
+ 					accu_s = test(source_dataset_name)
+ 					print('Accuracy of the %s dataset: %f' % ('mnist', accu_s))
+ 					accu_t = test(target_dataset_name)
+diff --git a/wandb/debug-internal.log b/wandb/debug-internal.log
+index 9f12437..ac15abb 120000
+--- a/wandb/debug-internal.log
++++ b/wandb/debug-internal.log
+@@ -1 +1 @@
+-run-20240309_163923-tb3agb8f/logs/debug-internal.log
+\ No newline at end of file
++run-20240309_234424-c0n34msp/logs/debug-internal.log
+\ No newline at end of file
+diff --git a/wandb/debug.log b/wandb/debug.log
+index 33d611c..b501857 120000
+--- a/wandb/debug.log
++++ b/wandb/debug.log
+@@ -1 +1 @@
+-run-20240309_163923-tb3agb8f/logs/debug.log
+\ No newline at end of file
++run-20240309_234424-c0n34msp/logs/debug.log
+\ No newline at end of file
+diff --git a/wandb/latest-run b/wandb/latest-run
+index eb6c6cb..1d9a197 120000
+--- a/wandb/latest-run
++++ b/wandb/latest-run
+@@ -1 +1 @@
+-run-20240309_163923-tb3agb8f
+\ No newline at end of file
++run-20240309_234424-c0n34msp
+\ No newline at end of file

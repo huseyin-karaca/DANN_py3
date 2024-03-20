@@ -1,0 +1,900 @@
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 0/300
+Accuracy of the mnist dataset: 0.385900
+Accuracy of the mnist_m dataset: 0.132541
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 1/300
+Accuracy of the mnist dataset: 0.379900
+Accuracy of the mnist_m dataset: 0.126208
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 2/300
+Accuracy of the mnist dataset: 0.468900
+Accuracy of the mnist_m dataset: 0.186979
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 3/300
+Accuracy of the mnist dataset: 0.507800
+Accuracy of the mnist_m dataset: 0.191090
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 4/300
+Accuracy of the mnist dataset: 0.578700
+Accuracy of the mnist_m dataset: 0.175869
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 5/300
+Accuracy of the mnist dataset: 0.595200
+Accuracy of the mnist_m dataset: 0.252639
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 6/300
+Accuracy of the mnist dataset: 0.660200
+Accuracy of the mnist_m dataset: 0.247084
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 7/300
+Accuracy of the mnist dataset: 0.573600
+Accuracy of the mnist_m dataset: 0.223309
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 8/300
+Accuracy of the mnist dataset: 0.698500
+Accuracy of the mnist_m dataset: 0.280191
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 9/300
+Accuracy of the mnist dataset: 0.708600
+Accuracy of the mnist_m dataset: 0.327852
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 10/300
+Accuracy of the mnist dataset: 0.734300
+Accuracy of the mnist_m dataset: 0.372070
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 11/300
+Accuracy of the mnist dataset: 0.735800
+Accuracy of the mnist_m dataset: 0.377625
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 12/300
+Accuracy of the mnist dataset: 0.727700
+Accuracy of the mnist_m dataset: 0.455505
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 13/300
+Accuracy of the mnist dataset: 0.708800
+Accuracy of the mnist_m dataset: 0.318853
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 14/300
+Accuracy of the mnist dataset: 0.763600
+Accuracy of the mnist_m dataset: 0.367848
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 15/300
+Accuracy of the mnist dataset: 0.776100
+Accuracy of the mnist_m dataset: 0.416398
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 16/300
+Accuracy of the mnist dataset: 0.794100
+Accuracy of the mnist_m dataset: 0.417731
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 17/300
+Accuracy of the mnist dataset: 0.688100
+Accuracy of the mnist_m dataset: 0.449283
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 18/300
+Accuracy of the mnist dataset: 0.813400
+Accuracy of the mnist_m dataset: 0.417398
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 19/300
+Accuracy of the mnist dataset: 0.805500
+Accuracy of the mnist_m dataset: 0.419176
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 20/300
+Accuracy of the mnist dataset: 0.813700
+Accuracy of the mnist_m dataset: 0.458060
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 21/300
+Accuracy of the mnist dataset: 0.814700
+Accuracy of the mnist_m dataset: 0.484946
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 22/300
+Accuracy of the mnist dataset: 0.806300
+Accuracy of the mnist_m dataset: 0.457394
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 23/300
+Accuracy of the mnist dataset: 0.814600
+Accuracy of the mnist_m dataset: 0.471614
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 24/300
+Accuracy of the mnist dataset: 0.851400
+Accuracy of the mnist_m dataset: 0.452950
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 25/300
+Accuracy of the mnist dataset: 0.846200
+Accuracy of the mnist_m dataset: 0.411510
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 26/300
+Accuracy of the mnist dataset: 0.853800
+Accuracy of the mnist_m dataset: 0.475725
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 27/300
+Accuracy of the mnist dataset: 0.839000
+Accuracy of the mnist_m dataset: 0.555494
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 28/300
+Accuracy of the mnist dataset: 0.804200
+Accuracy of the mnist_m dataset: 0.528052
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 29/300
+Accuracy of the mnist dataset: 0.834100
+Accuracy of the mnist_m dataset: 0.439951
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 30/300
+Accuracy of the mnist dataset: 0.851100
+Accuracy of the mnist_m dataset: 0.511721
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 31/300
+Accuracy of the mnist dataset: 0.838600
+Accuracy of the mnist_m dataset: 0.455394
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 32/300
+Accuracy of the mnist dataset: 0.805700
+Accuracy of the mnist_m dataset: 0.508832
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 33/300
+Accuracy of the mnist dataset: 0.807500
+Accuracy of the mnist_m dataset: 0.512054
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 34/300
+Accuracy of the mnist dataset: 0.813200
+Accuracy of the mnist_m dataset: 0.500833
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 35/300
+Accuracy of the mnist dataset: 0.838400
+Accuracy of the mnist_m dataset: 0.470170
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 36/300
+Accuracy of the mnist dataset: 0.844800
+Accuracy of the mnist_m dataset: 0.456060
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 37/300
+Accuracy of the mnist dataset: 0.849200
+Accuracy of the mnist_m dataset: 0.423842
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 38/300
+Accuracy of the mnist dataset: 0.836200
+Accuracy of the mnist_m dataset: 0.443395
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 39/300
+Accuracy of the mnist dataset: 0.822500
+Accuracy of the mnist_m dataset: 0.438618
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 40/300
+Accuracy of the mnist dataset: 0.793400
+Accuracy of the mnist_m dataset: 0.492168
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 41/300
+Accuracy of the mnist dataset: 0.851200
+Accuracy of the mnist_m dataset: 0.478836
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 42/300
+Accuracy of the mnist dataset: 0.847900
+Accuracy of the mnist_m dataset: 0.529052
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 43/300
+Accuracy of the mnist dataset: 0.864700
+Accuracy of the mnist_m dataset: 0.510832
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 44/300
+Accuracy of the mnist dataset: 0.851800
+Accuracy of the mnist_m dataset: 0.549272
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 45/300
+Accuracy of the mnist dataset: 0.814000
+Accuracy of the mnist_m dataset: 0.512276
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 46/300
+Accuracy of the mnist dataset: 0.860300
+Accuracy of the mnist_m dataset: 0.480613
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 47/300
+Accuracy of the mnist dataset: 0.873400
+Accuracy of the mnist_m dataset: 0.477725
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 48/300
+Accuracy of the mnist dataset: 0.857000
+Accuracy of the mnist_m dataset: 0.498611
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 49/300
+Accuracy of the mnist dataset: 0.858600
+Accuracy of the mnist_m dataset: 0.513610
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 50/300
+Accuracy of the mnist dataset: 0.837500
+Accuracy of the mnist_m dataset: 0.535385
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 51/300
+Accuracy of the mnist dataset: 0.870700
+Accuracy of the mnist_m dataset: 0.450950
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 52/300
+Accuracy of the mnist dataset: 0.862000
+Accuracy of the mnist_m dataset: 0.417731
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 53/300
+Accuracy of the mnist dataset: 0.865100
+Accuracy of the mnist_m dataset: 0.472836
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 54/300
+Accuracy of the mnist dataset: 0.822100
+Accuracy of the mnist_m dataset: 0.460060
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 55/300
+Accuracy of the mnist dataset: 0.872400
+Accuracy of the mnist_m dataset: 0.430063
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 56/300
+Accuracy of the mnist dataset: 0.873500
+Accuracy of the mnist_m dataset: 0.442395
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 57/300
+Accuracy of the mnist dataset: 0.857800
+Accuracy of the mnist_m dataset: 0.501389
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 58/300
+Accuracy of the mnist dataset: 0.824200
+Accuracy of the mnist_m dataset: 0.568492
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 59/300
+Accuracy of the mnist dataset: 0.870400
+Accuracy of the mnist_m dataset: 0.431397
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 60/300
+Accuracy of the mnist dataset: 0.874200
+Accuracy of the mnist_m dataset: 0.462949
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 61/300
+Accuracy of the mnist dataset: 0.871300
+Accuracy of the mnist_m dataset: 0.502278
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 62/300
+Accuracy of the mnist dataset: 0.887900
+Accuracy of the mnist_m dataset: 0.511721
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 63/300
+Accuracy of the mnist dataset: 0.891700
+Accuracy of the mnist_m dataset: 0.458282
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 64/300
+Accuracy of the mnist dataset: 0.879700
+Accuracy of the mnist_m dataset: 0.470170
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 65/300
+Accuracy of the mnist dataset: 0.883800
+Accuracy of the mnist_m dataset: 0.537496
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 66/300
+Accuracy of the mnist dataset: 0.868200
+Accuracy of the mnist_m dataset: 0.516943
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 67/300
+Accuracy of the mnist dataset: 0.880400
+Accuracy of the mnist_m dataset: 0.548717
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 68/300
+Accuracy of the mnist dataset: 0.870100
+Accuracy of the mnist_m dataset: 0.507944
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 69/300
+Accuracy of the mnist dataset: 0.870700
+Accuracy of the mnist_m dataset: 0.519498
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 70/300
+Accuracy of the mnist dataset: 0.890100
+Accuracy of the mnist_m dataset: 0.454838
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 71/300
+Accuracy of the mnist dataset: 0.878400
+Accuracy of the mnist_m dataset: 0.561604
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 72/300
+Accuracy of the mnist dataset: 0.884500
+Accuracy of the mnist_m dataset: 0.549495
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 73/300
+Accuracy of the mnist dataset: 0.859400
+Accuracy of the mnist_m dataset: 0.504611
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 74/300
+Accuracy of the mnist dataset: 0.865800
+Accuracy of the mnist_m dataset: 0.455949
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 75/300
+Accuracy of the mnist dataset: 0.892900
+Accuracy of the mnist_m dataset: 0.509610
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 76/300
+Accuracy of the mnist dataset: 0.879400
+Accuracy of the mnist_m dataset: 0.551605
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 77/300
+Accuracy of the mnist dataset: 0.870500
+Accuracy of the mnist_m dataset: 0.520053
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 78/300
+Accuracy of the mnist dataset: 0.880200
+Accuracy of the mnist_m dataset: 0.510499
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 79/300
+Accuracy of the mnist dataset: 0.891600
+Accuracy of the mnist_m dataset: 0.495723
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 80/300
+Accuracy of the mnist dataset: 0.884400
+Accuracy of the mnist_m dataset: 0.498167
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 81/300
+Accuracy of the mnist dataset: 0.844100
+Accuracy of the mnist_m dataset: 0.571825
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 82/300
+Accuracy of the mnist dataset: 0.855300
+Accuracy of the mnist_m dataset: 0.584157
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 83/300
+Accuracy of the mnist dataset: 0.880000
+Accuracy of the mnist_m dataset: 0.553383
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 84/300
+Accuracy of the mnist dataset: 0.882800
+Accuracy of the mnist_m dataset: 0.564937
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 85/300
+Accuracy of the mnist dataset: 0.834900
+Accuracy of the mnist_m dataset: 0.590934
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 86/300
+Accuracy of the mnist dataset: 0.888900
+Accuracy of the mnist_m dataset: 0.524608
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 87/300
+Accuracy of the mnist dataset: 0.894900
+Accuracy of the mnist_m dataset: 0.530719
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 88/300
+Accuracy of the mnist dataset: 0.891100
+Accuracy of the mnist_m dataset: 0.558049
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 89/300
+Accuracy of the mnist dataset: 0.846300
+Accuracy of the mnist_m dataset: 0.640262
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 90/300
+Accuracy of the mnist dataset: 0.902400
+Accuracy of the mnist_m dataset: 0.565382
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 91/300
+Accuracy of the mnist dataset: 0.904300
+Accuracy of the mnist_m dataset: 0.527053
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 92/300
+Accuracy of the mnist dataset: 0.896400
+Accuracy of the mnist_m dataset: 0.499500
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 93/300
+Accuracy of the mnist dataset: 0.902900
+Accuracy of the mnist_m dataset: 0.481724
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 94/300
+Accuracy of the mnist dataset: 0.886100
+Accuracy of the mnist_m dataset: 0.537607
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 95/300
+Accuracy of the mnist dataset: 0.902700
+Accuracy of the mnist_m dataset: 0.521609
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 96/300
+Accuracy of the mnist dataset: 0.911900
+Accuracy of the mnist_m dataset: 0.539829
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 97/300
+Accuracy of the mnist dataset: 0.893300
+Accuracy of the mnist_m dataset: 0.565382
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 98/300
+Accuracy of the mnist dataset: 0.904500
+Accuracy of the mnist_m dataset: 0.586268
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 99/300
+Accuracy of the mnist dataset: 0.894400
+Accuracy of the mnist_m dataset: 0.609155
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 100/300
+Accuracy of the mnist dataset: 0.893700
+Accuracy of the mnist_m dataset: 0.598822
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 101/300
+Accuracy of the mnist dataset: 0.870300
+Accuracy of the mnist_m dataset: 0.583491
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 102/300
+Accuracy of the mnist dataset: 0.899800
+Accuracy of the mnist_m dataset: 0.524275
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 103/300
+Accuracy of the mnist dataset: 0.912200
+Accuracy of the mnist_m dataset: 0.548384
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 104/300
+Accuracy of the mnist dataset: 0.907900
+Accuracy of the mnist_m dataset: 0.601933
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 105/300
+Accuracy of the mnist dataset: 0.908200
+Accuracy of the mnist_m dataset: 0.615598
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 106/300
+Accuracy of the mnist dataset: 0.906200
+Accuracy of the mnist_m dataset: 0.645928
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 107/300
+Accuracy of the mnist dataset: 0.904500
+Accuracy of the mnist_m dataset: 0.646039
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 108/300
+Accuracy of the mnist dataset: 0.911400
+Accuracy of the mnist_m dataset: 0.589379
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 109/300
+Accuracy of the mnist dataset: 0.859900
+Accuracy of the mnist_m dataset: 0.604711
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 110/300
+Accuracy of the mnist dataset: 0.861900
+Accuracy of the mnist_m dataset: 0.563937
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 111/300
+Accuracy of the mnist dataset: 0.898900
+Accuracy of the mnist_m dataset: 0.512721
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 112/300
+Accuracy of the mnist dataset: 0.904000
+Accuracy of the mnist_m dataset: 0.533385
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 113/300
+Accuracy of the mnist dataset: 0.901500
+Accuracy of the mnist_m dataset: 0.598156
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 114/300
+Accuracy of the mnist dataset: 0.903800
+Accuracy of the mnist_m dataset: 0.598378
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 115/300
+Accuracy of the mnist dataset: 0.911800
+Accuracy of the mnist_m dataset: 0.561493
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 116/300
+Accuracy of the mnist dataset: 0.904700
+Accuracy of the mnist_m dataset: 0.573381
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 117/300
+Accuracy of the mnist dataset: 0.900800
+Accuracy of the mnist_m dataset: 0.538940
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 118/300
+Accuracy of the mnist dataset: 0.869200
+Accuracy of the mnist_m dataset: 0.566937
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 119/300
+Accuracy of the mnist dataset: 0.907000
+Accuracy of the mnist_m dataset: 0.457949
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 120/300
+Accuracy of the mnist dataset: 0.908500
+Accuracy of the mnist_m dataset: 0.494390
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 121/300
+Accuracy of the mnist dataset: 0.912000
+Accuracy of the mnist_m dataset: 0.533274
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 122/300
+Accuracy of the mnist dataset: 0.920800
+Accuracy of the mnist_m dataset: 0.550494
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 123/300
+Accuracy of the mnist dataset: 0.915000
+Accuracy of the mnist_m dataset: 0.620042
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 124/300
+Accuracy of the mnist dataset: 0.922000
+Accuracy of the mnist_m dataset: 0.595934
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 125/300
+Accuracy of the mnist dataset: 0.910700
+Accuracy of the mnist_m dataset: 0.627486
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 126/300
+Accuracy of the mnist dataset: 0.917900
+Accuracy of the mnist_m dataset: 0.618931
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 127/300
+Accuracy of the mnist dataset: 0.910000
+Accuracy of the mnist_m dataset: 0.645262
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 128/300
+Accuracy of the mnist dataset: 0.907900
+Accuracy of the mnist_m dataset: 0.688479
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 129/300
+Accuracy of the mnist dataset: 0.921900
+Accuracy of the mnist_m dataset: 0.625264
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 130/300
+Accuracy of the mnist dataset: 0.929600
+Accuracy of the mnist_m dataset: 0.556272
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 131/300
+Accuracy of the mnist dataset: 0.920500
+Accuracy of the mnist_m dataset: 0.609932
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 132/300
+Accuracy of the mnist dataset: 0.923300
+Accuracy of the mnist_m dataset: 0.620709
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 133/300
+Accuracy of the mnist dataset: 0.914400
+Accuracy of the mnist_m dataset: 0.636374
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 134/300
+Accuracy of the mnist dataset: 0.911300
+Accuracy of the mnist_m dataset: 0.636818
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 135/300
+Accuracy of the mnist dataset: 0.935300
+Accuracy of the mnist_m dataset: 0.631596
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 136/300
+Accuracy of the mnist dataset: 0.926500
+Accuracy of the mnist_m dataset: 0.636040
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 137/300
+Accuracy of the mnist dataset: 0.919900
+Accuracy of the mnist_m dataset: 0.648817
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 138/300
+Accuracy of the mnist dataset: 0.922000
+Accuracy of the mnist_m dataset: 0.661593
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 139/300
+Accuracy of the mnist dataset: 0.922100
+Accuracy of the mnist_m dataset: 0.653039
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 140/300
+Accuracy of the mnist dataset: 0.913800
+Accuracy of the mnist_m dataset: 0.681147
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 141/300
+Accuracy of the mnist dataset: 0.915200
+Accuracy of the mnist_m dataset: 0.665259
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 142/300
+Accuracy of the mnist dataset: 0.932400
+Accuracy of the mnist_m dataset: 0.620709
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 143/300
+Accuracy of the mnist dataset: 0.935000
+Accuracy of the mnist_m dataset: 0.623486
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 144/300
+Accuracy of the mnist dataset: 0.932400
+Accuracy of the mnist_m dataset: 0.633596
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 145/300
+Accuracy of the mnist dataset: 0.931200
+Accuracy of the mnist_m dataset: 0.638818
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 146/300
+Accuracy of the mnist dataset: 0.931300
+Accuracy of the mnist_m dataset: 0.653705
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 147/300
+Accuracy of the mnist dataset: 0.924400
+Accuracy of the mnist_m dataset: 0.652150
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 148/300
+Accuracy of the mnist dataset: 0.890900
+Accuracy of the mnist_m dataset: 0.695367
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 149/300
+Accuracy of the mnist dataset: 0.933000
+Accuracy of the mnist_m dataset: 0.635596
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 150/300
+Accuracy of the mnist dataset: 0.935000
+Accuracy of the mnist_m dataset: 0.633152
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 151/300
+Accuracy of the mnist dataset: 0.927300
+Accuracy of the mnist_m dataset: 0.655816
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 152/300
+Accuracy of the mnist dataset: 0.932500
+Accuracy of the mnist_m dataset: 0.649706
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 153/300
+Accuracy of the mnist dataset: 0.934800
+Accuracy of the mnist_m dataset: 0.674481
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 154/300
+Accuracy of the mnist dataset: 0.936100
+Accuracy of the mnist_m dataset: 0.694923
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 155/300
+Accuracy of the mnist dataset: 0.929200
+Accuracy of the mnist_m dataset: 0.691479
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 156/300
+Accuracy of the mnist dataset: 0.910400
+Accuracy of the mnist_m dataset: 0.706699
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 157/300
+Accuracy of the mnist dataset: 0.929100
+Accuracy of the mnist_m dataset: 0.701033
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 158/300
+Accuracy of the mnist dataset: 0.935000
+Accuracy of the mnist_m dataset: 0.680036
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 159/300
+Accuracy of the mnist dataset: 0.936700
+Accuracy of the mnist_m dataset: 0.692034
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 160/300
+Accuracy of the mnist dataset: 0.931500
+Accuracy of the mnist_m dataset: 0.686368
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 161/300
+Accuracy of the mnist dataset: 0.927800
+Accuracy of the mnist_m dataset: 0.688257
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 162/300
+Accuracy of the mnist dataset: 0.935400
+Accuracy of the mnist_m dataset: 0.672148
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 163/300
+Accuracy of the mnist dataset: 0.860700
+Accuracy of the mnist_m dataset: 0.694034
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 164/300
+Accuracy of the mnist dataset: 0.918300
+Accuracy of the mnist_m dataset: 0.659371
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 165/300
+Accuracy of the mnist dataset: 0.915100
+Accuracy of the mnist_m dataset: 0.633374
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 166/300
+Accuracy of the mnist dataset: 0.926300
+Accuracy of the mnist_m dataset: 0.621598
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 167/300
+Accuracy of the mnist dataset: 0.923200
+Accuracy of the mnist_m dataset: 0.625042
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 168/300
+Accuracy of the mnist dataset: 0.900000
+Accuracy of the mnist_m dataset: 0.665815
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 169/300
+Accuracy of the mnist dataset: 0.930000
+Accuracy of the mnist_m dataset: 0.566493
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 170/300
+Accuracy of the mnist dataset: 0.929900
+Accuracy of the mnist_m dataset: 0.617154
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 171/300
+Accuracy of the mnist dataset: 0.932300
+Accuracy of the mnist_m dataset: 0.618598
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 172/300
+Accuracy of the mnist dataset: 0.929900
+Accuracy of the mnist_m dataset: 0.643151
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 173/300
+Accuracy of the mnist dataset: 0.932100
+Accuracy of the mnist_m dataset: 0.610932
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 174/300
+Accuracy of the mnist dataset: 0.929000
+Accuracy of the mnist_m dataset: 0.646373
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 175/300
+Accuracy of the mnist dataset: 0.929600
+Accuracy of the mnist_m dataset: 0.682480
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 176/300
+Accuracy of the mnist dataset: 0.933700
+Accuracy of the mnist_m dataset: 0.653483
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 177/300
+Accuracy of the mnist dataset: 0.931000
+Accuracy of the mnist_m dataset: 0.697034
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 178/300
+Accuracy of the mnist dataset: 0.927300
+Accuracy of the mnist_m dataset: 0.667037
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 179/300
+Accuracy of the mnist dataset: 0.932000
+Accuracy of the mnist_m dataset: 0.692590
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 180/300
+Accuracy of the mnist dataset: 0.933400
+Accuracy of the mnist_m dataset: 0.676258
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 181/300
+Accuracy of the mnist dataset: 0.922600
+Accuracy of the mnist_m dataset: 0.670814
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 182/300
+Accuracy of the mnist dataset: 0.919300
+Accuracy of the mnist_m dataset: 0.690590
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 183/300
+Accuracy of the mnist dataset: 0.917900
+Accuracy of the mnist_m dataset: 0.683480
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 184/300
+Accuracy of the mnist dataset: 0.926700
+Accuracy of the mnist_m dataset: 0.655038
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 185/300
+Accuracy of the mnist dataset: 0.901200
+Accuracy of the mnist_m dataset: 0.655483
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 186/300
+Accuracy of the mnist dataset: 0.909300
+Accuracy of the mnist_m dataset: 0.606266
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 187/300
+Accuracy of the mnist dataset: 0.910600
+Accuracy of the mnist_m dataset: 0.625153
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 188/300
+Accuracy of the mnist dataset: 0.934200
+Accuracy of the mnist_m dataset: 0.579269
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 189/300
+Accuracy of the mnist dataset: 0.931700
+Accuracy of the mnist_m dataset: 0.582491
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 190/300
+Accuracy of the mnist dataset: 0.925600
+Accuracy of the mnist_m dataset: 0.601711
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 191/300
+Accuracy of the mnist dataset: 0.917400
+Accuracy of the mnist_m dataset: 0.685590
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 192/300
+Accuracy of the mnist dataset: 0.927800
+Accuracy of the mnist_m dataset: 0.681813
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 193/300
+Accuracy of the mnist dataset: 0.930000
+Accuracy of the mnist_m dataset: 0.684924
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 194/300
+Accuracy of the mnist dataset: 0.934900
+Accuracy of the mnist_m dataset: 0.679036
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 195/300
+Accuracy of the mnist dataset: 0.925800
+Accuracy of the mnist_m dataset: 0.683924
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 196/300
+Accuracy of the mnist dataset: 0.938300
+Accuracy of the mnist_m dataset: 0.650261
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 197/300
+Accuracy of the mnist dataset: 0.935100
+Accuracy of the mnist_m dataset: 0.637929
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 198/300
+Accuracy of the mnist dataset: 0.935200
+Accuracy of the mnist_m dataset: 0.626708
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 199/300
+Accuracy of the mnist dataset: 0.932700
+Accuracy of the mnist_m dataset: 0.623820
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 200/300
+Accuracy of the mnist dataset: 0.936200
+Accuracy of the mnist_m dataset: 0.602155
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 201/300
+Accuracy of the mnist dataset: 0.935000
+Accuracy of the mnist_m dataset: 0.626042
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 202/300
+Accuracy of the mnist dataset: 0.941800
+Accuracy of the mnist_m dataset: 0.649150
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 203/300
+Accuracy of the mnist dataset: 0.942000
+Accuracy of the mnist_m dataset: 0.678480
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 204/300
+Accuracy of the mnist dataset: 0.938100
+Accuracy of the mnist_m dataset: 0.692145
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 205/300
+Accuracy of the mnist dataset: 0.938300
+Accuracy of the mnist_m dataset: 0.708032
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 206/300
+Accuracy of the mnist dataset: 0.918300
+Accuracy of the mnist_m dataset: 0.725808
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 207/300
+Accuracy of the mnist dataset: 0.925900
+Accuracy of the mnist_m dataset: 0.730697
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 208/300
+Accuracy of the mnist dataset: 0.908900
+Accuracy of the mnist_m dataset: 0.726475
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 209/300
+Accuracy of the mnist dataset: 0.929200
+Accuracy of the mnist_m dataset: 0.718254
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 210/300
+Accuracy of the mnist dataset: 0.919500
+Accuracy of the mnist_m dataset: 0.731030
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 211/300
+Accuracy of the mnist dataset: 0.922700
+Accuracy of the mnist_m dataset: 0.722920
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 212/300
+Accuracy of the mnist dataset: 0.933800
+Accuracy of the mnist_m dataset: 0.675481
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 213/300
+Accuracy of the mnist dataset: 0.932000
+Accuracy of the mnist_m dataset: 0.679258
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 214/300
+Accuracy of the mnist dataset: 0.931000
+Accuracy of the mnist_m dataset: 0.697811
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 215/300
+Accuracy of the mnist dataset: 0.927900
+Accuracy of the mnist_m dataset: 0.723920
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 216/300
+Accuracy of the mnist dataset: 0.923600
+Accuracy of the mnist_m dataset: 0.724475
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 217/300
+Accuracy of the mnist dataset: 0.933000
+Accuracy of the mnist_m dataset: 0.713143
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 218/300
+Accuracy of the mnist dataset: 0.930100
+Accuracy of the mnist_m dataset: 0.724919
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 219/300
+Accuracy of the mnist dataset: 0.927400
+Accuracy of the mnist_m dataset: 0.704811
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 220/300
+Accuracy of the mnist dataset: 0.931900
+Accuracy of the mnist_m dataset: 0.702478
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 221/300
+Accuracy of the mnist dataset: 0.935900
+Accuracy of the mnist_m dataset: 0.714921
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 222/300
+Accuracy of the mnist dataset: 0.932300
+Accuracy of the mnist_m dataset: 0.716032
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 223/300
+Accuracy of the mnist dataset: 0.929300
+Accuracy of the mnist_m dataset: 0.727030
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 224/300
+Accuracy of the mnist dataset: 0.928800
+Accuracy of the mnist_m dataset: 0.664037
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 225/300
+Accuracy of the mnist dataset: 0.930800
+Accuracy of the mnist_m dataset: 0.664593
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 226/300
+Accuracy of the mnist dataset: 0.936100
+Accuracy of the mnist_m dataset: 0.677591
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 227/300
+Accuracy of the mnist dataset: 0.930200
+Accuracy of the mnist_m dataset: 0.718476
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 228/300
+Accuracy of the mnist dataset: 0.936400
+Accuracy of the mnist_m dataset: 0.722031
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 229/300
+Accuracy of the mnist dataset: 0.927500
+Accuracy of the mnist_m dataset: 0.690701
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 230/300
+Accuracy of the mnist dataset: 0.930400
+Accuracy of the mnist_m dataset: 0.690146
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 231/300
+Accuracy of the mnist dataset: 0.918400
+Accuracy of the mnist_m dataset: 0.712143
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 232/300
+Accuracy of the mnist dataset: 0.922400
+Accuracy of the mnist_m dataset: 0.704699
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 233/300
+Accuracy of the mnist dataset: 0.926800
+Accuracy of the mnist_m dataset: 0.706810
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 234/300
+Accuracy of the mnist dataset: 0.933100
+Accuracy of the mnist_m dataset: 0.679036
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 235/300
+Accuracy of the mnist dataset: 0.930400
+Accuracy of the mnist_m dataset: 0.655594
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 236/300
+Accuracy of the mnist dataset: 0.927600
+Accuracy of the mnist_m dataset: 0.678813
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 237/300
+Accuracy of the mnist dataset: 0.923100
+Accuracy of the mnist_m dataset: 0.669926
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 238/300
+Accuracy of the mnist dataset: 0.939500
+Accuracy of the mnist_m dataset: 0.656927
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 239/300
+Accuracy of the mnist dataset: 0.941400
+Accuracy of the mnist_m dataset: 0.623931
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 240/300
+Accuracy of the mnist dataset: 0.941600
+Accuracy of the mnist_m dataset: 0.646595
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 241/300
+Accuracy of the mnist dataset: 0.939400
+Accuracy of the mnist_m dataset: 0.668148
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 242/300
+Accuracy of the mnist dataset: 0.940400
+Accuracy of the mnist_m dataset: 0.654705
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 243/300
+Accuracy of the mnist dataset: 0.938500
+Accuracy of the mnist_m dataset: 0.630486
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 244/300
+Accuracy of the mnist dataset: 0.936600
+Accuracy of the mnist_m dataset: 0.613154
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 245/300
+Accuracy of the mnist dataset: 0.934500
+Accuracy of the mnist_m dataset: 0.704922
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 246/300
+Accuracy of the mnist dataset: 0.941000
+Accuracy of the mnist_m dataset: 0.731141
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 247/300
+Accuracy of the mnist dataset: 0.938700
+Accuracy of the mnist_m dataset: 0.692923
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 248/300
+Accuracy of the mnist dataset: 0.940700
+Accuracy of the mnist_m dataset: 0.657038
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 249/300
+Accuracy of the mnist dataset: 0.943700
+Accuracy of the mnist_m dataset: 0.656038
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 250/300
+Accuracy of the mnist dataset: 0.945200
+Accuracy of the mnist_m dataset: 0.662815
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 251/300
+Accuracy of the mnist dataset: 0.934900
+Accuracy of the mnist_m dataset: 0.711143
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 252/300
+Accuracy of the mnist dataset: 0.944500
+Accuracy of the mnist_m dataset: 0.728141
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 253/300
+Accuracy of the mnist dataset: 0.949300
+Accuracy of the mnist_m dataset: 0.717587
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 254/300
+Accuracy of the mnist dataset: 0.943600
+Accuracy of the mnist_m dataset: 0.742362
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 255/300
+Accuracy of the mnist dataset: 0.942100
+Accuracy of the mnist_m dataset: 0.734363
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 256/300
+Accuracy of the mnist dataset: 0.934700
+Accuracy of the mnist_m dataset: 0.733918
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 257/300
+Accuracy of the mnist dataset: 0.943300
+Accuracy of the mnist_m dataset: 0.676036
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 258/300
+Accuracy of the mnist dataset: 0.947500
+Accuracy of the mnist_m dataset: 0.654372
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 259/300
+Accuracy of the mnist dataset: 0.944700
+Accuracy of the mnist_m dataset: 0.684924
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 260/300
+Accuracy of the mnist dataset: 0.942300
+Accuracy of the mnist_m dataset: 0.746584
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 261/300
+Accuracy of the mnist dataset: 0.942200
+Accuracy of the mnist_m dataset: 0.776136
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 262/300
+Accuracy of the mnist dataset: 0.945500
+Accuracy of the mnist_m dataset: 0.741251
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 263/300
+Accuracy of the mnist dataset: 0.946000
+Accuracy of the mnist_m dataset: 0.731474
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 264/300
+Accuracy of the mnist dataset: 0.948500
+Accuracy of the mnist_m dataset: 0.720809
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 265/300
+Accuracy of the mnist dataset: 0.947700
+Accuracy of the mnist_m dataset: 0.697034
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 266/300
+Accuracy of the mnist dataset: 0.948800
+Accuracy of the mnist_m dataset: 0.714365
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 267/300
+Accuracy of the mnist dataset: 0.947900
+Accuracy of the mnist_m dataset: 0.702366
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 268/300
+Accuracy of the mnist dataset: 0.939100
+Accuracy of the mnist_m dataset: 0.719476
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 269/300
+Accuracy of the mnist dataset: 0.939000
+Accuracy of the mnist_m dataset: 0.719920
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 270/300
+Accuracy of the mnist dataset: 0.936000
+Accuracy of the mnist_m dataset: 0.731474
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 271/300
+Accuracy of the mnist dataset: 0.941800
+Accuracy of the mnist_m dataset: 0.725142
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 272/300
+Accuracy of the mnist dataset: 0.942900
+Accuracy of the mnist_m dataset: 0.703144
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 273/300
+Accuracy of the mnist dataset: 0.944400
+Accuracy of the mnist_m dataset: 0.652705
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 274/300
+Accuracy of the mnist dataset: 0.945800
+Accuracy of the mnist_m dataset: 0.702366
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 275/300
+Accuracy of the mnist dataset: 0.940600
+Accuracy of the mnist_m dataset: 0.730585
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 276/300
+Accuracy of the mnist dataset: 0.941900
+Accuracy of the mnist_m dataset: 0.746917
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 277/300
+Accuracy of the mnist dataset: 0.936800
+Accuracy of the mnist_m dataset: 0.699145
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 278/300
+Accuracy of the mnist dataset: 0.948600
+Accuracy of the mnist_m dataset: 0.669926
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 279/300
+Accuracy of the mnist dataset: 0.946400
+Accuracy of the mnist_m dataset: 0.666370
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 280/300
+Accuracy of the mnist dataset: 0.944400
+Accuracy of the mnist_m dataset: 0.654261
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 281/300
+Accuracy of the mnist dataset: 0.949800
+Accuracy of the mnist_m dataset: 0.661593
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 282/300
+Accuracy of the mnist dataset: 0.948300
+Accuracy of the mnist_m dataset: 0.666704
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 283/300
+Accuracy of the mnist dataset: 0.944200
+Accuracy of the mnist_m dataset: 0.612376
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 284/300
+Accuracy of the mnist dataset: 0.942600
+Accuracy of the mnist_m dataset: 0.673925
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 285/300
+Accuracy of the mnist dataset: 0.942400
+Accuracy of the mnist_m dataset: 0.689368
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 286/300
+Accuracy of the mnist dataset: 0.945600
+Accuracy of the mnist_m dataset: 0.663593
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 287/300
+Accuracy of the mnist dataset: 0.944900
+Accuracy of the mnist_m dataset: 0.668481
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 288/300
+Accuracy of the mnist dataset: 0.945000
+Accuracy of the mnist_m dataset: 0.680480
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 289/300
+Accuracy of the mnist dataset: 0.937700
+Accuracy of the mnist_m dataset: 0.732474
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 290/300
+Accuracy of the mnist dataset: 0.940100
+Accuracy of the mnist_m dataset: 0.734696
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 291/300
+Accuracy of the mnist dataset: 0.939800
+Accuracy of the mnist_m dataset: 0.743029
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 292/300
+Accuracy of the mnist dataset: 0.937500
+Accuracy of the mnist_m dataset: 0.731585
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 293/300
+Accuracy of the mnist dataset: 0.943900
+Accuracy of the mnist_m dataset: 0.680480
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 294/300
+Accuracy of the mnist dataset: 0.946900
+Accuracy of the mnist_m dataset: 0.694701
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 295/300
+Accuracy of the mnist dataset: 0.943500
+Accuracy of the mnist_m dataset: 0.729252
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 296/300
+Accuracy of the mnist dataset: 0.941400
+Accuracy of the mnist_m dataset: 0.728919
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 297/300
+Accuracy of the mnist dataset: 0.929900
+Accuracy of the mnist_m dataset: 0.707810
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 298/300
+Accuracy of the mnist dataset: 0.935600
+Accuracy of the mnist_m dataset: 0.717809
+Ms: 40 | Mt: 40 | dcm: 0.02 | layer: 2 | Epoch: 299/300
+Accuracy of the mnist dataset: 0.933300
+Accuracy of the mnist_m dataset: 0.690034

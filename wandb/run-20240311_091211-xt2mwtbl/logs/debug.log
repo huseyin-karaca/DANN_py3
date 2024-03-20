@@ -1,0 +1,34 @@
+2024-03-11 09:12:11,870 INFO    MainThread:14885 [wandb_setup.py:_flush():76] Current SDK version is 0.15.12
+2024-03-11 09:12:11,870 INFO    MainThread:14885 [wandb_setup.py:_flush():76] Configure stats pid to 14885
+2024-03-11 09:12:11,870 INFO    MainThread:14885 [wandb_setup.py:_flush():76] Loading settings from /home/huseyin/.config/wandb/settings
+2024-03-11 09:12:11,871 INFO    MainThread:14885 [wandb_setup.py:_flush():76] Loading settings from /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/settings
+2024-03-11 09:12:11,871 INFO    MainThread:14885 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2024-03-11 09:12:11,871 INFO    MainThread:14885 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2024-03-11 09:12:11,871 INFO    MainThread:14885 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'main.py', 'program_abspath': '/home/huseyin/fungtion/dannpy_yeniden/DANN_py3/main.py', 'program': 'main.py'}
+2024-03-11 09:12:11,871 INFO    MainThread:14885 [wandb_init.py:_log_setup():528] Logging user logs to /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240311_091211-xt2mwtbl/logs/debug.log
+2024-03-11 09:12:11,871 INFO    MainThread:14885 [wandb_init.py:_log_setup():529] Logging internal logs to /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240311_091211-xt2mwtbl/logs/debug-internal.log
+2024-03-11 09:12:11,871 INFO    MainThread:14885 [wandb_init.py:init():568] calling init triggers
+2024-03-11 09:12:11,871 INFO    MainThread:14885 [wandb_init.py:init():575] wandb.init called with sweep_config: {}
+config: {'Ms': 60, 'Mt': 40, 'layer': 2, 'beta': 0.5, 'dcm': 0.5, 'ns': 0.1, 'bs': 128}
+2024-03-11 09:12:11,871 INFO    MainThread:14885 [wandb_init.py:init():618] starting backend
+2024-03-11 09:12:11,871 INFO    MainThread:14885 [wandb_init.py:init():622] setting up manager
+2024-03-11 09:12:11,874 INFO    MainThread:14885 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2024-03-11 09:12:11,875 INFO    MainThread:14885 [wandb_init.py:init():628] backend started and connected
+2024-03-11 09:12:11,879 INFO    MainThread:14885 [wandb_init.py:init():720] updated telemetry
+2024-03-11 09:12:11,919 INFO    MainThread:14885 [wandb_init.py:init():753] communicating run to backend with 90.0 second timeout
+2024-03-11 09:12:13,144 INFO    MainThread:14885 [wandb_run.py:_on_init():2220] communicating current version
+2024-03-11 09:12:13,378 INFO    MainThread:14885 [wandb_run.py:_on_init():2229] got version response upgrade_message: "wandb version 0.16.4 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2024-03-11 09:12:13,378 INFO    MainThread:14885 [wandb_init.py:init():804] starting run threads in backend
+2024-03-11 09:12:16,761 INFO    MainThread:14885 [wandb_run.py:_console_start():2199] atexit reg
+2024-03-11 09:12:16,761 INFO    MainThread:14885 [wandb_run.py:_redirect():2054] redirect: wrap_raw
+2024-03-11 09:12:16,761 INFO    MainThread:14885 [wandb_run.py:_redirect():2119] Wrapping output streams.
+2024-03-11 09:12:16,761 INFO    MainThread:14885 [wandb_run.py:_redirect():2144] Redirects installed.
+2024-03-11 09:12:16,762 INFO    MainThread:14885 [wandb_init.py:init():845] run started, returning control to user process
+2024-03-11 09:28:08,899 INFO    MainThread:14885 [wandb_run.py:_finish():1934] finishing run hkaraca/dimchange2/xt2mwtbl
+2024-03-11 09:28:08,900 INFO    MainThread:14885 [wandb_run.py:_atexit_cleanup():2168] got exitcode: 0
+2024-03-11 09:28:08,900 INFO    MainThread:14885 [wandb_run.py:_restore():2151] restore
+2024-03-11 09:28:08,900 INFO    MainThread:14885 [wandb_run.py:_restore():2157] restore done
+2024-03-11 09:28:15,968 INFO    MainThread:14885 [wandb_run.py:_footer_history_summary_info():3599] rendering history
+2024-03-11 09:28:15,970 INFO    MainThread:14885 [wandb_run.py:_footer_history_summary_info():3631] rendering summary
+2024-03-11 09:28:15,976 INFO    MainThread:14885 [wandb_run.py:_footer_sync_info():3558] logging synced files

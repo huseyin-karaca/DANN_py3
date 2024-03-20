@@ -1,0 +1,21 @@
+Ms: 60 | Mt: 25 | dcm: 0.25 | layer: 2 | Epoch: 0/2
+Accuracy of the mnist dataset: 0.316300
+Accuracy of the mnist_m dataset: 0.109321
+Exception ignored in: <function _MultiProcessingDataLoaderIter.__del__ at 0x7fab1bbb4ee0>
+Traceback (most recent call last):
+  File "/home/huseyin/anaconda3/envs/dannpy5/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 1101, in __del__
+    self._shutdown_workers()
+  File "/home/huseyin/anaconda3/envs/dannpy5/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 1075, in _shutdown_workers
+    w.join(timeout=_utils.MP_STATUS_CHECK_INTERVAL)
+  File "/home/huseyin/anaconda3/envs/dannpy5/lib/python3.8/multiprocessing/process.py", line 149, in join
+    res = self._popen.wait(timeout)
+  File "/home/huseyin/anaconda3/envs/dannpy5/lib/python3.8/multiprocessing/popen_fork.py", line 44, in wait
+    if not wait([self.sentinel], timeout):
+  File "/home/huseyin/anaconda3/envs/dannpy5/lib/python3.8/multiprocessing/connection.py", line 931, in wait
+    ready = selector.select(timeout)
+  File "/home/huseyin/anaconda3/envs/dannpy5/lib/python3.8/selectors.py", line 415, in select
+    fd_event_list = self._selector.poll(timeout)
+KeyboardInterrupt:
+Ms: 60 | Mt: 25 | dcm: 0.25 | layer: 2 | Epoch: 1/2
+Accuracy of the mnist dataset: 0.414200
+Accuracy of the mnist_m dataset: 0.141095

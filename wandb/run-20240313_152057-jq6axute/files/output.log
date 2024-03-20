@@ -1,0 +1,84 @@
+Ms: 40 | Mt: 10 | dcm: 0.02 | layer: 3 | Epoch: 0/300
+Accuracy of the mnist dataset: 0.057800
+Accuracy of the mnist_m dataset: 0.097545
+Ms: 40 | Mt: 10 | dcm: 0.02 | layer: 3 | Epoch: 1/300
+Accuracy of the mnist dataset: 0.038200
+Accuracy of the mnist_m dataset: 0.097545
+Ms: 40 | Mt: 10 | dcm: 0.02 | layer: 3 | Epoch: 2/300
+Accuracy of the mnist dataset: 0.065400
+Accuracy of the mnist_m dataset: 0.097545
+Ms: 40 | Mt: 10 | dcm: 0.02 | layer: 3 | Epoch: 3/300
+Accuracy of the mnist dataset: 0.095200
+Accuracy of the mnist_m dataset: 0.097545
+Ms: 40 | Mt: 10 | dcm: 0.02 | layer: 3 | Epoch: 4/300
+Accuracy of the mnist dataset: 0.097400
+Accuracy of the mnist_m dataset: 0.097545
+Ms: 40 | Mt: 10 | dcm: 0.02 | layer: 3 | Epoch: 5/300
+Accuracy of the mnist dataset: 0.098000
+Accuracy of the mnist_m dataset: 0.097434
+Ms: 40 | Mt: 10 | dcm: 0.02 | layer: 3 | Epoch: 6/300
+Accuracy of the mnist dataset: 0.093800
+Accuracy of the mnist_m dataset: 0.097545
+Ms: 40 | Mt: 10 | dcm: 0.02 | layer: 3 | Epoch: 7/300
+Accuracy of the mnist dataset: 0.089700
+Accuracy of the mnist_m dataset: 0.097545
+Ms: 40 | Mt: 10 | dcm: 0.02 | layer: 3 | Epoch: 8/300
+Accuracy of the mnist dataset: 0.095500
+Accuracy of the mnist_m dataset: 0.097545
+Ms: 40 | Mt: 10 | dcm: 0.02 | layer: 3 | Epoch: 9/300
+Accuracy of the mnist dataset: 0.097700
+Accuracy of the mnist_m dataset: 0.097545
+Ms: 40 | Mt: 10 | dcm: 0.02 | layer: 3 | Epoch: 10/300
+Accuracy of the mnist dataset: 0.097700
+Accuracy of the mnist_m dataset: 0.097434
+Ms: 40 | Mt: 10 | dcm: 0.02 | layer: 3 | Epoch: 11/300
+Accuracy of the mnist dataset: 0.098400
+Accuracy of the mnist_m dataset: 0.098878
+Ms: 40 | Mt: 10 | dcm: 0.02 | layer: 3 | Epoch: 12/300
+Accuracy of the mnist dataset: 0.098300
+Accuracy of the mnist_m dataset: 0.098767
+Ms: 40 | Mt: 10 | dcm: 0.02 | layer: 3 | Epoch: 13/300
+Accuracy of the mnist dataset: 0.097400
+Accuracy of the mnist_m dataset: 0.097989
+Ms: 40 | Mt: 10 | dcm: 0.02 | layer: 3 | Epoch: 14/300
+Accuracy of the mnist dataset: 0.098000
+Accuracy of the mnist_m dataset: 0.097545
+Ms: 40 | Mt: 10 | dcm: 0.02 | layer: 3 | Epoch: 15/300
+Accuracy of the mnist dataset: 0.098000
+Accuracy of the mnist_m dataset: 0.097545
+Ms: 40 | Mt: 10 | dcm: 0.02 | layer: 3 | Epoch: 16/300
+Accuracy of the mnist dataset: 0.093400
+Accuracy of the mnist_m dataset: 0.097545
+Ms: 40 | Mt: 10 | dcm: 0.02 | layer: 3 | Epoch: 17/300
+Accuracy of the mnist dataset: 0.099100
+Accuracy of the mnist_m dataset: 0.097545
+Ms: 40 | Mt: 10 | dcm: 0.02 | layer: 3 | Epoch: 18/300
+Accuracy of the mnist dataset: 0.112400
+Accuracy of the mnist_m dataset: 0.097545
+Ms: 40 | Mt: 10 | dcm: 0.02 | layer: 3 | Epoch: 19/300
+Accuracy of the mnist dataset: 0.108300
+Accuracy of the mnist_m dataset: 0.097211
+Ms: 40 | Mt: 10 | dcm: 0.02 | layer: 3 | Epoch: 20/300
+Accuracy of the mnist dataset: 0.094100
+Accuracy of the mnist_m dataset: 0.099656
+Ms: 40 | Mt: 10 | dcm: 0.02 | layer: 3 | Epoch: 21/300
+Accuracy of the mnist dataset: 0.148900
+Accuracy of the mnist_m dataset: 0.097545
+Traceback (most recent call last):
+  File "main.py", line 219, in <module>
+    class_output, domain_output = my_net(input_data=t_img, alpha=alpha)
+  File "/home/huseyin/anaconda3/envs/dannpy5/lib/python3.8/site-packages/torch/nn/modules/module.py", line 722, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/huseyin/fungtion/dannpy_yeniden/DANN_py3/model.py", line 72, in forward
+    domain_output = self.domain_classifier(reverse_feature)
+  File "/home/huseyin/anaconda3/envs/dannpy5/lib/python3.8/site-packages/torch/nn/modules/module.py", line 722, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/huseyin/anaconda3/envs/dannpy5/lib/python3.8/site-packages/torch/nn/modules/container.py", line 117, in forward
+    input = module(input)
+  File "/home/huseyin/anaconda3/envs/dannpy5/lib/python3.8/site-packages/torch/nn/modules/module.py", line 722, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/huseyin/anaconda3/envs/dannpy5/lib/python3.8/site-packages/torch/nn/modules/batchnorm.py", line 131, in forward
+    return F.batch_norm(
+  File "/home/huseyin/anaconda3/envs/dannpy5/lib/python3.8/site-packages/torch/nn/functional.py", line 2014, in batch_norm
+    return torch.batch_norm(
+KeyboardInterrupt

@@ -1,0 +1,47 @@
+
+ms: 0.01 | Mt: 1 | dcm: 5.00 | layer: 2 | Epoch: 0/100
+Accuracy of the mnist dataset: 0.238600
+Accuracy of the mnist_m dataset: 0.129763
+Traceback (most recent call last):
+  File "main.py", line 204, in <module>
+    err.backward()
+  File "/home/huseyin/anaconda3/envs/dannpy5/lib/python3.8/site-packages/torch/tensor.py", line 185, in backward
+    torch.autograd.backward(self, gradient, retain_graph, create_graph)
+  File "/home/huseyin/anaconda3/envs/dannpy5/lib/python3.8/site-packages/torch/autograd/__init__.py", line 125, in backward
+    Variable._execution_engine.run_backward(
+RuntimeError: CUDA out of memory. Tried to allocate 180.00 MiB (GPU 0; 1.95 GiB total capacity; 1023.20 MiB already allocated; 138.81 MiB free; 1.33 GiB reserved in total by PyTorch)
+Exception raised from malloc at /opt/conda/conda-bld/pytorch_1595629395347/work/c10/cuda/CUDACachingAllocator.cpp:272 (most recent call first):
+frame #0: c10::Error::Error(c10::SourceLocation, std::string) + 0x4d (0x7f726985a77d in /home/huseyin/anaconda3/envs/dannpy5/lib/python3.8/site-packages/torch/lib/libc10.so)
+frame #1: <unknown function> + 0x20626 (0x7f7269ab2626 in /home/huseyin/anaconda3/envs/dannpy5/lib/python3.8/site-packages/torch/lib/libc10_cuda.so)
+frame #2: <unknown function> + 0x214f4 (0x7f7269ab34f4 in /home/huseyin/anaconda3/envs/dannpy5/lib/python3.8/site-packages/torch/lib/libc10_cuda.so)
+frame #3: <unknown function> + 0x21b81 (0x7f7269ab3b81 in /home/huseyin/anaconda3/envs/dannpy5/lib/python3.8/site-packages/torch/lib/libc10_cuda.so)
+frame #4: at::native::empty_cuda(c10::ArrayRef<long>, c10::TensorOptions const&, c10::optional<c10::MemoryFormat>) + 0x249 (0x7f726c9b4e39 in /home/huseyin/anaconda3/envs/dannpy5/lib/python3.8/site-packages/torch/lib/libtorch_cuda.so)
+frame #5: <unknown function> + 0xd15c49 (0x7f726a9d5c49 in /home/huseyin/anaconda3/envs/dannpy5/lib/python3.8/site-packages/torch/lib/libtorch_cuda.so)
+frame #6: <unknown function> + 0xd2fa77 (0x7f726a9efa77 in /home/huseyin/anaconda3/envs/dannpy5/lib/python3.8/site-packages/torch/lib/libtorch_cuda.so)
+frame #7: <unknown function> + 0xe450dd (0x7f72a0dfa0dd in /home/huseyin/anaconda3/envs/dannpy5/lib/python3.8/site-packages/torch/lib/libtorch_cpu.so)
+frame #8: <unknown function> + 0xe453f7 (0x7f72a0dfa3f7 in /home/huseyin/anaconda3/envs/dannpy5/lib/python3.8/site-packages/torch/lib/libtorch_cpu.so)
+frame #9: at::empty(c10::ArrayRef<long>, c10::TensorOptions const&, c10::optional<c10::MemoryFormat>) + 0xfa (0x7f72a0f04e7a in /home/huseyin/anaconda3/envs/dannpy5/lib/python3.8/site-packages/torch/lib/libtorch_cpu.so)
+frame #10: at::native::empty_like(at::Tensor const&, c10::TensorOptions const&, c10::optional<c10::MemoryFormat>) + 0x49e (0x7f72a0b8309e in /home/huseyin/anaconda3/envs/dannpy5/lib/python3.8/site-packages/torch/lib/libtorch_cpu.so)
+frame #11: <unknown function> + 0xfe3521 (0x7f72a0f98521 in /home/huseyin/anaconda3/envs/dannpy5/lib/python3.8/site-packages/torch/lib/libtorch_cpu.so)
+frame #12: <unknown function> + 0x101ecc3 (0x7f72a0fd3cc3 in /home/huseyin/anaconda3/envs/dannpy5/lib/python3.8/site-packages/torch/lib/libtorch_cpu.so)
+frame #13: at::empty_like(at::Tensor const&, c10::TensorOptions const&, c10::optional<c10::MemoryFormat>) + 0x101 (0x7f72a0ee7f91 in /home/huseyin/anaconda3/envs/dannpy5/lib/python3.8/site-packages/torch/lib/libtorch_cpu.so)
+frame #14: at::native::zeros_like(at::Tensor const&, c10::TensorOptions const&, c10::optional<c10::MemoryFormat>) + 0x46 (0x7f72a0b7cb56 in /home/huseyin/anaconda3/envs/dannpy5/lib/python3.8/site-packages/torch/lib/libtorch_cpu.so)
+frame #15: <unknown function> + 0xfe6894 (0x7f72a0f9b894 in /home/huseyin/anaconda3/envs/dannpy5/lib/python3.8/site-packages/torch/lib/libtorch_cpu.so)
+frame #16: <unknown function> + 0x101ecc3 (0x7f72a0fd3cc3 in /home/huseyin/anaconda3/envs/dannpy5/lib/python3.8/site-packages/torch/lib/libtorch_cpu.so)
+frame #17: at::zeros_like(at::Tensor const&, c10::TensorOptions const&, c10::optional<c10::MemoryFormat>) + 0x101 (0x7f72a0ee8231 in /home/huseyin/anaconda3/envs/dannpy5/lib/python3.8/site-packages/torch/lib/libtorch_cpu.so)
+frame #18: at::native::max_pool2d_with_indices_backward_cuda(at::Tensor const&, at::Tensor const&, c10::ArrayRef<long>, c10::ArrayRef<long>, c10::ArrayRef<long>, c10::ArrayRef<long>, bool, at::Tensor const&) + 0x63 (0x7f726bb68d73 in /home/huseyin/anaconda3/envs/dannpy5/lib/python3.8/site-packages/torch/lib/libtorch_cuda.so)
+frame #19: <unknown function> + 0xd10b01 (0x7f726a9d0b01 in /home/huseyin/anaconda3/envs/dannpy5/lib/python3.8/site-packages/torch/lib/libtorch_cuda.so)
+frame #20: <unknown function> + 0xd3209f (0x7f726a9f209f in /home/huseyin/anaconda3/envs/dannpy5/lib/python3.8/site-packages/torch/lib/libtorch_cuda.so)
+frame #21: at::max_pool2d_with_indices_backward(at::Tensor const&, at::Tensor const&, c10::ArrayRef<long>, c10::ArrayRef<long>, c10::ArrayRef<long>, c10::ArrayRef<long>, bool, at::Tensor const&) + 0x1ac (0x7f72a0ef6e8c in /home/huseyin/anaconda3/envs/dannpy5/lib/python3.8/site-packages/torch/lib/libtorch_cpu.so)
+frame #22: <unknown function> + 0x2c2aaad (0x7f72a2bdfaad in /home/huseyin/anaconda3/envs/dannpy5/lib/python3.8/site-packages/torch/lib/libtorch_cpu.so)
+frame #23: <unknown function> + 0xe6fcbf (0x7f72a0e24cbf in /home/huseyin/anaconda3/envs/dannpy5/lib/python3.8/site-packages/torch/lib/libtorch_cpu.so)
+frame #24: at::max_pool2d_with_indices_backward(at::Tensor const&, at::Tensor const&, c10::ArrayRef<long>, c10::ArrayRef<long>, c10::ArrayRef<long>, c10::ArrayRef<long>, bool, at::Tensor const&) + 0x1ac (0x7f72a0ef6e8c in /home/huseyin/anaconda3/envs/dannpy5/lib/python3.8/site-packages/torch/lib/libtorch_cpu.so)
+frame #25: torch::autograd::generated::MaxPool2DWithIndicesBackward::apply(std::vector<at::Tensor, std::allocator<at::Tensor> >&&) + 0x248 (0x7f72a2a56758 in /home/huseyin/anaconda3/envs/dannpy5/lib/python3.8/site-packages/torch/lib/libtorch_cpu.so)
+frame #26: <unknown function> + 0x30d1017 (0x7f72a3086017 in /home/huseyin/anaconda3/envs/dannpy5/lib/python3.8/site-packages/torch/lib/libtorch_cpu.so)
+frame #27: torch::autograd::Engine::evaluate_function(std::shared_ptr<torch::autograd::GraphTask>&, torch::autograd::Node*, torch::autograd::InputBuffer&, std::shared_ptr<torch::autograd::ReadyQueue> const&) + 0x1400 (0x7f72a3081860 in /home/huseyin/anaconda3/envs/dannpy5/lib/python3.8/site-packages/torch/lib/libtorch_cpu.so)
+frame #28: torch::autograd::Engine::thread_main(std::shared_ptr<torch::autograd::GraphTask> const&) + 0x451 (0x7f72a3082401 in /home/huseyin/anaconda3/envs/dannpy5/lib/python3.8/site-packages/torch/lib/libtorch_cpu.so)
+frame #29: torch::autograd::Engine::thread_init(int, std::shared_ptr<torch::autograd::ReadyQueue> const&, bool) + 0x89 (0x7f72a307a579 in /home/huseyin/anaconda3/envs/dannpy5/lib/python3.8/site-packages/torch/lib/libtorch_cpu.so)
+frame #30: torch::autograd::python::PythonEngine::thread_init(int, std::shared_ptr<torch::autograd::ReadyQueue> const&, bool) + 0x4a (0x7f72a73a41ba in /home/huseyin/anaconda3/envs/dannpy5/lib/python3.8/site-packages/torch/lib/libtorch_python.so)
+frame #31: <unknown function> + 0xdbbf4 (0x7f72a9ecabf4 in /home/huseyin/anaconda3/envs/dannpy5/lib/python3.8/site-packages/torch/lib/../../../.././libstdc++.so.6)
+frame #32: <unknown function> + 0x76db (0x7f72c3c516db in /lib/x86_64-linux-gnu/libpthread.so.0)
+frame #33: clone + 0x3f (0x7f72c397a61f in /lib/x86_64-linux-gnu/libc.so.6)

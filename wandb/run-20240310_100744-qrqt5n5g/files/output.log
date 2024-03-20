@@ -1,0 +1,6 @@
+Ms: 50 | Mt: 25 | dcm: 0.25 | layer: 2 | Epoch: 0/2
+Accuracy of the mnist dataset: 0.203900
+Accuracy of the mnist_m dataset: 0.121875
+Ms: 50 | Mt: 25 | dcm: 0.25 | layer: 2 | Epoch: 1/2
+Accuracy of the mnist dataset: 0.398900
+Accuracy of the mnist_m dataset: 0.163315
