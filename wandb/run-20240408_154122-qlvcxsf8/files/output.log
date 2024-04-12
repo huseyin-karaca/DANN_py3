@@ -1,0 +1,134 @@
+
+Ms: 80 | Mt: 20 | dcm: 3.00 | layer: 2 | Epoch: 1/100
+Accuracy of the mnist dataset: 0.539900
+Accuracy of the mnist_m dataset: 0.124875
+Ms: 80 | Mt: 20 | dcm: 3.00 | layer: 2 | Epoch: 2/100
+Accuracy of the mnist dataset: 0.722700
+Accuracy of the mnist_m dataset: 0.123653
+Ms: 80 | Mt: 20 | dcm: 3.00 | layer: 2 | Epoch: 3/100
+Accuracy of the mnist dataset: 0.660000
+Accuracy of the mnist_m dataset: 0.302078
+Ms: 80 | Mt: 20 | dcm: 3.00 | layer: 2 | Epoch: 4/100
+Accuracy of the mnist dataset: 0.759900
+Accuracy of the mnist_m dataset: 0.284524
+Ms: 80 | Mt: 20 | dcm: 3.00 | layer: 2 | Epoch: 5/100
+Accuracy of the mnist dataset: 0.770400
+Accuracy of the mnist_m dataset: 0.332185
+Ms: 80 | Mt: 20 | dcm: 3.00 | layer: 2 | Epoch: 6/100
+Accuracy of the mnist dataset: 0.722300
+Accuracy of the mnist_m dataset: 0.388179
+Ms: 80 | Mt: 20 | dcm: 3.00 | layer: 2 | Epoch: 7/100
+Accuracy of the mnist dataset: 0.811400
+Accuracy of the mnist_m dataset: 0.276858
+Ms: 80 | Mt: 20 | dcm: 3.00 | layer: 2 | Epoch: 8/100
+Accuracy of the mnist dataset: 0.792200
+Accuracy of the mnist_m dataset: 0.233974
+Ms: 80 | Mt: 20 | dcm: 3.00 | layer: 2 | Epoch: 9/100
+Accuracy of the mnist dataset: 0.714100
+Accuracy of the mnist_m dataset: 0.320520
+Ms: 80 | Mt: 20 | dcm: 3.00 | layer: 2 | Epoch: 10/100
+Accuracy of the mnist dataset: 0.742500
+Accuracy of the mnist_m dataset: 0.312632
+Ms: 80 | Mt: 20 | dcm: 3.00 | layer: 2 | Epoch: 11/100
+Accuracy of the mnist dataset: 0.748200
+Accuracy of the mnist_m dataset: 0.167648
+Ms: 80 | Mt: 20 | dcm: 3.00 | layer: 2 | Epoch: 12/100
+Accuracy of the mnist dataset: 0.778500
+Accuracy of the mnist_m dataset: 0.324297
+Ms: 80 | Mt: 20 | dcm: 3.00 | layer: 2 | Epoch: 13/100
+Accuracy of the mnist dataset: 0.780500
+Accuracy of the mnist_m dataset: 0.277080
+Ms: 80 | Mt: 20 | dcm: 3.00 | layer: 2 | Epoch: 14/100
+Accuracy of the mnist dataset: 0.773100
+Accuracy of the mnist_m dataset: 0.359960
+Ms: 80 | Mt: 20 | dcm: 3.00 | layer: 2 | Epoch: 15/100
+Accuracy of the mnist dataset: 0.776900
+Accuracy of the mnist_m dataset: 0.377847
+Ms: 80 | Mt: 20 | dcm: 3.00 | layer: 2 | Epoch: 16/100
+Accuracy of the mnist dataset: 0.778400
+Accuracy of the mnist_m dataset: 0.397734
+Ms: 80 | Mt: 20 | dcm: 3.00 | layer: 2 | Epoch: 17/100
+Accuracy of the mnist dataset: 0.750400
+Accuracy of the mnist_m dataset: 0.298300
+Ms: 80 | Mt: 20 | dcm: 3.00 | layer: 2 | Epoch: 18/100
+Accuracy of the mnist dataset: 0.729500
+Accuracy of the mnist_m dataset: 0.300189
+Ms: 80 | Mt: 20 | dcm: 3.00 | layer: 2 | Epoch: 19/100
+Accuracy of the mnist dataset: 0.702600
+Accuracy of the mnist_m dataset: 0.400622
+Ms: 80 | Mt: 20 | dcm: 3.00 | layer: 2 | Epoch: 20/100
+Accuracy of the mnist dataset: 0.736200
+Accuracy of the mnist_m dataset: 0.396400
+Ms: 80 | Mt: 20 | dcm: 3.00 | layer: 2 | Epoch: 21/100
+Accuracy of the mnist dataset: 0.789900
+Accuracy of the mnist_m dataset: 0.392845
+Ms: 80 | Mt: 20 | dcm: 3.00 | layer: 2 | Epoch: 22/100
+Accuracy of the mnist dataset: 0.755800
+Accuracy of the mnist_m dataset: 0.294301
+Ms: 80 | Mt: 20 | dcm: 3.00 | layer: 2 | Epoch: 23/100
+Accuracy of the mnist dataset: 0.726300
+Accuracy of the mnist_m dataset: 0.270303
+Ms: 80 | Mt: 20 | dcm: 3.00 | layer: 2 | Epoch: 24/100
+Accuracy of the mnist dataset: 0.682100
+Accuracy of the mnist_m dataset: 0.347628
+Ms: 80 | Mt: 20 | dcm: 3.00 | layer: 2 | Epoch: 25/100
+Accuracy of the mnist dataset: 0.719500
+Accuracy of the mnist_m dataset: 0.393845
+Ms: 80 | Mt: 20 | dcm: 3.00 | layer: 2 | Epoch: 26/100
+Accuracy of the mnist dataset: 0.678900
+Accuracy of the mnist_m dataset: 0.417287
+Ms: 80 | Mt: 20 | dcm: 3.00 | layer: 2 | Epoch: 27/100
+Accuracy of the mnist dataset: 0.718900
+Accuracy of the mnist_m dataset: 0.340740
+Ms: 80 | Mt: 20 | dcm: 3.00 | layer: 2 | Epoch: 28/100
+Accuracy of the mnist dataset: 0.715300
+Accuracy of the mnist_m dataset: 0.375292
+Ms: 80 | Mt: 20 | dcm: 3.00 | layer: 2 | Epoch: 29/100
+Accuracy of the mnist dataset: 0.729700
+Accuracy of the mnist_m dataset: 0.343184
+Ms: 80 | Mt: 20 | dcm: 3.00 | layer: 2 | Epoch: 30/100
+Accuracy of the mnist dataset: 0.719800
+Accuracy of the mnist_m dataset: 0.351628
+Ms: 80 | Mt: 20 | dcm: 3.00 | layer: 2 | Epoch: 31/100
+Accuracy of the mnist dataset: 0.766300
+Accuracy of the mnist_m dataset: 0.422064
+Ms: 80 | Mt: 20 | dcm: 3.00 | layer: 2 | Epoch: 32/100
+Accuracy of the mnist dataset: 0.750800
+Accuracy of the mnist_m dataset: 0.436285
+Ms: 80 | Mt: 20 | dcm: 3.00 | layer: 2 | Epoch: 33/100
+Accuracy of the mnist dataset: 0.637500
+Accuracy of the mnist_m dataset: 0.422064
+Ms: 80 | Mt: 20 | dcm: 3.00 | layer: 2 | Epoch: 34/100
+Accuracy of the mnist dataset: 0.695300
+Accuracy of the mnist_m dataset: 0.405733
+Ms: 80 | Mt: 20 | dcm: 3.00 | layer: 2 | Epoch: 35/100
+Accuracy of the mnist dataset: 0.749100
+Accuracy of the mnist_m dataset: 0.382957
+Ms: 80 | Mt: 20 | dcm: 3.00 | layer: 2 | Epoch: 36/100
+Accuracy of the mnist dataset: 0.788700
+Accuracy of the mnist_m dataset: 0.406399
+Ms: 80 | Mt: 20 | dcm: 3.00 | layer: 2 | Epoch: 37/100
+Accuracy of the mnist dataset: 0.703000
+Accuracy of the mnist_m dataset: 0.416843
+Ms: 80 | Mt: 20 | dcm: 3.00 | layer: 2 | Epoch: 38/100
+Accuracy of the mnist dataset: 0.714400
+Accuracy of the mnist_m dataset: 0.380069
+Ms: 80 | Mt: 20 | dcm: 3.00 | layer: 2 | Epoch: 39/100
+Accuracy of the mnist dataset: 0.727700
+Accuracy of the mnist_m dataset: 0.369959
+Ms: 80 | Mt: 20 | dcm: 3.00 | layer: 2 | Epoch: 40/100
+Accuracy of the mnist dataset: 0.719500
+Traceback (most recent call last):
+  File "main.py", line 309, in <module>
+    accu_t = test(target_dataset_name)
+  File "/home/huseyin/fungtion/dannpy_yeniden/DANN_py3/test.py", line 59, in test
+    my_net = torch.load(os.path.join(
+  File "/home/huseyin/anaconda3/envs/dannpy5/lib/python3.8/site-packages/torch/serialization.py", line 584, in load
+    return _load(opened_zipfile, map_location, pickle_module, **pickle_load_args)
+  File "/home/huseyin/anaconda3/envs/dannpy5/lib/python3.8/site-packages/torch/serialization.py", line 842, in _load
+    result = unpickler.load()
+  File "/home/huseyin/anaconda3/envs/dannpy5/lib/python3.8/site-packages/torch/serialization.py", line 834, in persistent_load
+    load_tensor(data_type, size, key, _maybe_decode_ascii(location))
+  File "/home/huseyin/anaconda3/envs/dannpy5/lib/python3.8/site-packages/torch/serialization.py", line 822, in load_tensor
+    storage = zip_file.get_storage_from_record(name, size, dtype).storage()
+RuntimeError: [enforce fail at inline_container.cc:144] . PytorchStreamReader failed reading file data/93909216071440: file read failed

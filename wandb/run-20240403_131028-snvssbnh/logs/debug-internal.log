@@ -1,0 +1,239 @@
+2024-04-03 13:10:28,955 INFO    StreamThr :11269 [internal.py:wandb_internal():86] W&B internal server running at pid: 11269, started at: 2024-04-03 13:10:28.953068
+2024-04-03 13:10:28,958 DEBUG   HandlerThread:11269 [handler.py:handle_request():146] handle_request: status
+2024-04-03 13:10:28,964 INFO    WriterThread:11269 [datastore.py:open_for_write():85] open: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240403_131028-snvssbnh/run-snvssbnh.wandb
+2024-04-03 13:10:28,966 DEBUG   SenderThread:11269 [sender.py:send():380] send: header
+2024-04-03 13:10:28,967 DEBUG   SenderThread:11269 [sender.py:send():380] send: run
+2024-04-03 13:10:29,447 INFO    SenderThread:11269 [dir_watcher.py:__init__():211] watching files in: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240403_131028-snvssbnh/files
+2024-04-03 13:10:29,447 INFO    SenderThread:11269 [sender.py:_start_run_threads():1122] run started: snvssbnh with start time 1712139028.061761
+2024-04-03 13:10:29,466 DEBUG   HandlerThread:11269 [handler.py:handle_request():146] handle_request: check_version
+2024-04-03 13:10:29,466 DEBUG   SenderThread:11269 [sender.py:send_request():407] send_request: check_version
+2024-04-03 13:10:29,708 DEBUG   HandlerThread:11269 [handler.py:handle_request():146] handle_request: run_start
+2024-04-03 13:10:29,709 DEBUG   HandlerThread:11269 [system_info.py:__init__():32] System info init
+2024-04-03 13:10:29,709 DEBUG   HandlerThread:11269 [system_info.py:__init__():47] System info init done
+2024-04-03 13:10:29,709 INFO    HandlerThread:11269 [system_monitor.py:start():194] Starting system monitor
+2024-04-03 13:10:29,709 INFO    SystemMonitor:11269 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-04-03 13:10:29,710 INFO    HandlerThread:11269 [system_monitor.py:probe():214] Collecting system info
+2024-04-03 13:10:29,710 INFO    SystemMonitor:11269 [interfaces.py:start():190] Started cpu monitoring
+2024-04-03 13:10:29,710 INFO    SystemMonitor:11269 [interfaces.py:start():190] Started disk monitoring
+2024-04-03 13:10:29,711 INFO    SystemMonitor:11269 [interfaces.py:start():190] Started gpu monitoring
+2024-04-03 13:10:29,712 INFO    SystemMonitor:11269 [interfaces.py:start():190] Started memory monitoring
+2024-04-03 13:10:29,712 INFO    SystemMonitor:11269 [interfaces.py:start():190] Started network monitoring
+2024-04-03 13:10:29,714 ERROR   gpu       :11269 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-03 13:10:29,714 ERROR   gpu       :11269 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-03 13:10:29,739 DEBUG   HandlerThread:11269 [system_info.py:probe():196] Probing system
+2024-04-03 13:10:29,741 DEBUG   HandlerThread:11269 [system_info.py:_probe_git():181] Probing git
+2024-04-03 13:10:29,761 DEBUG   HandlerThread:11269 [system_info.py:_probe_git():189] Probing git done
+2024-04-03 13:10:29,761 DEBUG   HandlerThread:11269 [system_info.py:probe():244] Probing system done
+2024-04-03 13:10:29,762 DEBUG   HandlerThread:11269 [system_monitor.py:probe():223] {'os': 'Linux-4.15.0-213-generic-x86_64-with-glibc2.10', 'python': '3.8.5', 'heartbeatAt': '2024-04-03T10:10:29.739748', 'startedAt': '2024-04-03T10:10:28.054908', 'docker': None, 'cuda': '10.2.89', 'args': ('-ll', '2', '-r', '1', '-bs', '128', '-Nt', '6000', '-Ns', '6000', '-pn', 'dimmchange_3apr', '-Mt', '20', '-e', '5', '-Mss', '40', '60', '80', '100', '-dcms', '0.25', '1', '2', '4', '8'), 'state': 'running', 'program': 'main.py', 'codePathLocal': 'main.py', 'codePath': 'main.py', 'git': {'remote': 'https://github.com/huseyin-karaca/DANN_py3.git', 'commit': '196939a8082f0d6cbbf8caf5f20a2318a2ad70aa'}, 'email': 'huseyinkaraccca@gmail.com', 'root': '/home/huseyin/fungtion/dannpy_yeniden/DANN_py3', 'host': 'elif', 'username': 'huseyin', 'executable': '/home/huseyin/anaconda3/envs/dannpy5/bin/python', 'cpu_count': 4, 'cpu_count_logical': 8, 'cpu_freq': {'current': 2661.80225, 'min': 800.0, 'max': 4100.0}, 'cpu_freq_per_core': [{'current': 3155.587, 'min': 800.0, 'max': 4100.0}, {'current': 2605.304, 'min': 800.0, 'max': 4100.0}, {'current': 2604.331, 'min': 800.0, 'max': 4100.0}, {'current': 2587.743, 'min': 800.0, 'max': 4100.0}, {'current': 2364.694, 'min': 800.0, 'max': 4100.0}, {'current': 2699.487, 'min': 800.0, 'max': 4100.0}, {'current': 2609.8, 'min': 800.0, 'max': 4100.0}, {'current': 2667.472, 'min': 800.0, 'max': 4100.0}], 'disk': {'/': {'total': 467.8886032104492, 'used': 277.23876571655273}}, 'gpu': 'Quadro P600', 'gpu_count': 1, 'gpu_devices': [{'name': 'Quadro P600', 'memory_total': 2097479680}], 'memory': {'total': 15.558303833007812}}
+2024-04-03 13:10:29,762 INFO    HandlerThread:11269 [system_monitor.py:probe():224] Finished collecting system info
+2024-04-03 13:10:29,762 INFO    HandlerThread:11269 [system_monitor.py:probe():227] Publishing system info
+2024-04-03 13:10:29,762 DEBUG   HandlerThread:11269 [system_info.py:_save_pip():52] Saving list of pip packages installed into the current environment
+2024-04-03 13:10:29,763 DEBUG   HandlerThread:11269 [system_info.py:_save_pip():68] Saving pip packages done
+2024-04-03 13:10:29,763 DEBUG   HandlerThread:11269 [system_info.py:_save_conda():75] Saving list of conda packages installed into the current environment
+2024-04-03 13:10:30,449 INFO    Thread-92 :11269 [dir_watcher.py:_on_file_created():271] file/dir created: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240403_131028-snvssbnh/files/requirements.txt
+2024-04-03 13:10:30,450 INFO    Thread-92 :11269 [dir_watcher.py:_on_file_created():271] file/dir created: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240403_131028-snvssbnh/files/conda-environment.yaml
+2024-04-03 13:10:31,716 ERROR   gpu       :11269 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-03 13:10:31,716 ERROR   gpu       :11269 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-03 13:10:32,980 DEBUG   HandlerThread:11269 [system_info.py:_save_conda():87] Saving conda packages done
+2024-04-03 13:10:32,980 DEBUG   HandlerThread:11269 [system_info.py:_save_code():90] Saving code
+2024-04-03 13:10:32,986 DEBUG   HandlerThread:11269 [system_info.py:_save_code():111] Saving code done
+2024-04-03 13:10:32,986 DEBUG   HandlerThread:11269 [system_info.py:_save_patches():128] Saving git patches
+2024-04-03 13:10:33,055 DEBUG   HandlerThread:11269 [system_info.py:_save_patches():170] Saving git patches done
+2024-04-03 13:10:33,056 INFO    HandlerThread:11269 [system_monitor.py:probe():229] Finished publishing system info
+2024-04-03 13:10:33,057 DEBUG   SenderThread:11269 [sender.py:send():380] send: files
+2024-04-03 13:10:33,057 INFO    SenderThread:11269 [sender.py:_save_file():1378] saving file wandb-metadata.json with policy now
+2024-04-03 13:10:33,058 INFO    SenderThread:11269 [sender.py:_save_file():1378] saving file code/main.py with policy now
+2024-04-03 13:10:33,058 INFO    SenderThread:11269 [sender.py:_save_file():1378] saving file diff.patch with policy now
+2024-04-03 13:10:33,074 DEBUG   SenderThread:11269 [sender.py:send():380] send: telemetry
+2024-04-03 13:10:33,078 DEBUG   HandlerThread:11269 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-03 13:10:33,079 DEBUG   HandlerThread:11269 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-03 13:10:33,079 DEBUG   SenderThread:11269 [sender.py:send_request():407] send_request: stop_status
+2024-04-03 13:10:33,448 INFO    Thread-92 :11269 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240403_131028-snvssbnh/files/conda-environment.yaml
+2024-04-03 13:10:33,449 INFO    Thread-92 :11269 [dir_watcher.py:_on_file_created():271] file/dir created: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240403_131028-snvssbnh/files/diff.patch
+2024-04-03 13:10:33,449 INFO    Thread-92 :11269 [dir_watcher.py:_on_file_created():271] file/dir created: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240403_131028-snvssbnh/files/wandb-metadata.json
+2024-04-03 13:10:33,449 INFO    Thread-92 :11269 [dir_watcher.py:_on_file_created():271] file/dir created: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240403_131028-snvssbnh/files/code/main.py
+2024-04-03 13:10:33,449 INFO    Thread-92 :11269 [dir_watcher.py:_on_file_created():271] file/dir created: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240403_131028-snvssbnh/files/code
+2024-04-03 13:10:33,717 ERROR   gpu       :11269 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-03 13:10:33,717 ERROR   gpu       :11269 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-03 13:10:33,785 INFO    wandb-upload_0:11269 [upload_job.py:push():131] Uploaded file /tmp/tmp1gaxnabjwandb/gaemy8vv-wandb-metadata.json
+2024-04-03 13:10:33,884 INFO    wandb-upload_1:11269 [upload_job.py:push():131] Uploaded file /tmp/tmp1gaxnabjwandb/hk7dk79d-code/main.py
+2024-04-03 13:10:33,948 INFO    wandb-upload_2:11269 [upload_job.py:push():131] Uploaded file /tmp/tmp1gaxnabjwandb/4nel2780-diff.patch
+2024-04-03 13:10:34,371 DEBUG   HandlerThread:11269 [handler.py:handle_request():146] handle_request: status_report
+2024-04-03 13:10:34,981 DEBUG   HandlerThread:11269 [handler.py:handle_request():146] handle_request: log_artifact
+2024-04-03 13:10:34,981 DEBUG   SenderThread:11269 [sender.py:send_request():407] send_request: log_artifact
+2024-04-03 13:10:35,560 INFO    SenderThread:11269 [sender.py:send_request_log_artifact():1444] logged artifact source-dimmchange_3apr-main.py - {'id': 'QXJ0aWZhY3Q6NzgwOTE1ODE2', 'state': 'COMMITTED', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjE1NTY1OTY5MA==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6NzgwOTE1ODE2', 'versionIndex': 3}}}
+2024-04-03 13:10:35,718 ERROR   gpu       :11269 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-03 13:10:35,718 ERROR   gpu       :11269 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-03 13:10:37,719 ERROR   gpu       :11269 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-03 13:10:37,719 ERROR   gpu       :11269 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-03 13:10:38,450 INFO    Thread-92 :11269 [dir_watcher.py:_on_file_created():271] file/dir created: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240403_131028-snvssbnh/files/output.log
+2024-04-03 13:10:39,719 ERROR   gpu       :11269 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-03 13:10:39,719 ERROR   gpu       :11269 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-03 13:10:39,819 DEBUG   HandlerThread:11269 [handler.py:handle_request():146] handle_request: status_report
+2024-04-03 13:10:39,824 DEBUG   HandlerThread:11269 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-03 13:10:40,450 INFO    Thread-92 :11269 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240403_131028-snvssbnh/files/output.log
+2024-04-03 13:10:41,720 ERROR   gpu       :11269 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-03 13:10:41,720 ERROR   gpu       :11269 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-03 13:10:42,451 INFO    Thread-92 :11269 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240403_131028-snvssbnh/files/output.log
+2024-04-03 13:10:43,722 ERROR   gpu       :11269 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-03 13:10:43,722 ERROR   gpu       :11269 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-03 13:10:44,453 INFO    Thread-92 :11269 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240403_131028-snvssbnh/files/output.log
+2024-04-03 13:10:44,940 DEBUG   HandlerThread:11269 [handler.py:handle_request():146] handle_request: status_report
+2024-04-03 13:10:45,723 ERROR   gpu       :11269 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-03 13:10:45,724 ERROR   gpu       :11269 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-03 13:10:46,455 INFO    Thread-92 :11269 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240403_131028-snvssbnh/files/output.log
+2024-04-03 13:10:47,725 ERROR   gpu       :11269 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-03 13:10:47,726 ERROR   gpu       :11269 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-03 13:10:48,070 DEBUG   HandlerThread:11269 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-03 13:10:48,072 DEBUG   HandlerThread:11269 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-03 13:10:48,073 DEBUG   SenderThread:11269 [sender.py:send_request():407] send_request: stop_status
+2024-04-03 13:10:49,255 DEBUG   SenderThread:11269 [sender.py:send():380] send: exit
+2024-04-03 13:10:49,256 INFO    SenderThread:11269 [sender.py:send_exit():585] handling exit code: 1
+2024-04-03 13:10:49,256 INFO    SenderThread:11269 [sender.py:send_exit():587] handling runtime: 19
+2024-04-03 13:10:49,256 INFO    SenderThread:11269 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-04-03 13:10:49,257 INFO    SenderThread:11269 [sender.py:send_exit():593] send defer
+2024-04-03 13:10:49,258 DEBUG   HandlerThread:11269 [handler.py:handle_request():146] handle_request: defer
+2024-04-03 13:10:49,258 INFO    HandlerThread:11269 [handler.py:handle_request_defer():172] handle defer: 0
+2024-04-03 13:10:49,259 DEBUG   SenderThread:11269 [sender.py:send_request():407] send_request: defer
+2024-04-03 13:10:49,259 INFO    SenderThread:11269 [sender.py:send_request_defer():609] handle sender defer: 0
+2024-04-03 13:10:49,259 INFO    SenderThread:11269 [sender.py:transition_state():613] send defer: 1
+2024-04-03 13:10:49,259 DEBUG   HandlerThread:11269 [handler.py:handle_request():146] handle_request: defer
+2024-04-03 13:10:49,259 INFO    HandlerThread:11269 [handler.py:handle_request_defer():172] handle defer: 1
+2024-04-03 13:10:49,260 DEBUG   SenderThread:11269 [sender.py:send_request():407] send_request: defer
+2024-04-03 13:10:49,260 INFO    SenderThread:11269 [sender.py:send_request_defer():609] handle sender defer: 1
+2024-04-03 13:10:49,260 INFO    SenderThread:11269 [sender.py:transition_state():613] send defer: 2
+2024-04-03 13:10:49,261 DEBUG   HandlerThread:11269 [handler.py:handle_request():146] handle_request: defer
+2024-04-03 13:10:49,261 INFO    HandlerThread:11269 [handler.py:handle_request_defer():172] handle defer: 2
+2024-04-03 13:10:49,261 INFO    HandlerThread:11269 [system_monitor.py:finish():203] Stopping system monitor
+2024-04-03 13:10:49,262 INFO    HandlerThread:11269 [interfaces.py:finish():202] Joined cpu monitor
+2024-04-03 13:10:49,263 INFO    HandlerThread:11269 [interfaces.py:finish():202] Joined disk monitor
+2024-04-03 13:10:49,264 DEBUG   SystemMonitor:11269 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-04-03 13:10:49,264 DEBUG   SystemMonitor:11269 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-04-03 13:10:49,265 DEBUG   SystemMonitor:11269 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-04-03 13:10:49,296 ERROR   gpu       :11269 [interfaces.py:aggregate():161] Failed to serialize metric: division by zero
+2024-04-03 13:10:49,297 INFO    HandlerThread:11269 [interfaces.py:finish():202] Joined gpu monitor
+2024-04-03 13:10:49,297 INFO    HandlerThread:11269 [interfaces.py:finish():202] Joined memory monitor
+2024-04-03 13:10:49,297 INFO    HandlerThread:11269 [interfaces.py:finish():202] Joined network monitor
+2024-04-03 13:10:49,298 DEBUG   SenderThread:11269 [sender.py:send_request():407] send_request: defer
+2024-04-03 13:10:49,298 INFO    SenderThread:11269 [sender.py:send_request_defer():609] handle sender defer: 2
+2024-04-03 13:10:49,298 INFO    SenderThread:11269 [sender.py:transition_state():613] send defer: 3
+2024-04-03 13:10:49,298 DEBUG   SenderThread:11269 [sender.py:send():380] send: stats
+2024-04-03 13:10:49,298 DEBUG   HandlerThread:11269 [handler.py:handle_request():146] handle_request: defer
+2024-04-03 13:10:49,298 INFO    HandlerThread:11269 [handler.py:handle_request_defer():172] handle defer: 3
+2024-04-03 13:10:49,300 DEBUG   SenderThread:11269 [sender.py:send():380] send: history
+2024-04-03 13:10:49,301 DEBUG   SenderThread:11269 [sender.py:send_request():407] send_request: summary_record
+2024-04-03 13:10:49,301 INFO    SenderThread:11269 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-04-03 13:10:49,301 DEBUG   SenderThread:11269 [sender.py:send_request():407] send_request: defer
+2024-04-03 13:10:49,301 INFO    SenderThread:11269 [sender.py:send_request_defer():609] handle sender defer: 3
+2024-04-03 13:10:49,301 INFO    SenderThread:11269 [sender.py:transition_state():613] send defer: 4
+2024-04-03 13:10:49,301 DEBUG   HandlerThread:11269 [handler.py:handle_request():146] handle_request: defer
+2024-04-03 13:10:49,302 INFO    HandlerThread:11269 [handler.py:handle_request_defer():172] handle defer: 4
+2024-04-03 13:10:49,302 DEBUG   SenderThread:11269 [sender.py:send_request():407] send_request: defer
+2024-04-03 13:10:49,302 INFO    SenderThread:11269 [sender.py:send_request_defer():609] handle sender defer: 4
+2024-04-03 13:10:49,302 INFO    SenderThread:11269 [sender.py:transition_state():613] send defer: 5
+2024-04-03 13:10:49,302 DEBUG   HandlerThread:11269 [handler.py:handle_request():146] handle_request: defer
+2024-04-03 13:10:49,302 INFO    HandlerThread:11269 [handler.py:handle_request_defer():172] handle defer: 5
+2024-04-03 13:10:49,303 DEBUG   SenderThread:11269 [sender.py:send():380] send: summary
+2024-04-03 13:10:49,303 INFO    SenderThread:11269 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-04-03 13:10:49,303 DEBUG   SenderThread:11269 [sender.py:send_request():407] send_request: defer
+2024-04-03 13:10:49,303 INFO    SenderThread:11269 [sender.py:send_request_defer():609] handle sender defer: 5
+2024-04-03 13:10:49,303 INFO    SenderThread:11269 [sender.py:transition_state():613] send defer: 6
+2024-04-03 13:10:49,303 DEBUG   HandlerThread:11269 [handler.py:handle_request():146] handle_request: defer
+2024-04-03 13:10:49,303 INFO    HandlerThread:11269 [handler.py:handle_request_defer():172] handle defer: 6
+2024-04-03 13:10:49,304 DEBUG   SenderThread:11269 [sender.py:send_request():407] send_request: defer
+2024-04-03 13:10:49,304 INFO    SenderThread:11269 [sender.py:send_request_defer():609] handle sender defer: 6
+2024-04-03 13:10:49,309 DEBUG   HandlerThread:11269 [handler.py:handle_request():146] handle_request: status_report
+2024-04-03 13:10:49,488 INFO    Thread-92 :11269 [dir_watcher.py:_on_file_created():271] file/dir created: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240403_131028-snvssbnh/files/wandb-summary.json
+2024-04-03 13:10:49,503 INFO    SenderThread:11269 [sender.py:transition_state():613] send defer: 7
+2024-04-03 13:10:49,504 DEBUG   HandlerThread:11269 [handler.py:handle_request():146] handle_request: defer
+2024-04-03 13:10:49,504 INFO    HandlerThread:11269 [handler.py:handle_request_defer():172] handle defer: 7
+2024-04-03 13:10:49,504 DEBUG   SenderThread:11269 [sender.py:send_request():407] send_request: defer
+2024-04-03 13:10:49,504 INFO    SenderThread:11269 [sender.py:send_request_defer():609] handle sender defer: 7
+2024-04-03 13:10:50,257 DEBUG   HandlerThread:11269 [handler.py:handle_request():146] handle_request: poll_exit
+2024-04-03 13:10:50,490 INFO    Thread-92 :11269 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240403_131028-snvssbnh/files/output.log
+2024-04-03 13:10:50,490 INFO    Thread-92 :11269 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240403_131028-snvssbnh/files/config.yaml
+2024-04-03 13:10:51,970 INFO    SenderThread:11269 [sender.py:transition_state():613] send defer: 8
+2024-04-03 13:10:51,971 DEBUG   SenderThread:11269 [sender.py:send_request():407] send_request: poll_exit
+2024-04-03 13:10:51,972 DEBUG   HandlerThread:11269 [handler.py:handle_request():146] handle_request: defer
+2024-04-03 13:10:51,972 INFO    HandlerThread:11269 [handler.py:handle_request_defer():172] handle defer: 8
+2024-04-03 13:10:51,973 DEBUG   SenderThread:11269 [sender.py:send_request():407] send_request: defer
+2024-04-03 13:10:51,973 INFO    SenderThread:11269 [sender.py:send_request_defer():609] handle sender defer: 8
+2024-04-03 13:10:51,973 INFO    SenderThread:11269 [job_builder.py:build():281] Attempting to build job artifact
+2024-04-03 13:10:51,975 INFO    SenderThread:11269 [job_builder.py:_get_source_type():393] is repo sourced job
+2024-04-03 13:10:51,979 INFO    SenderThread:11269 [job_builder.py:build():369] adding wandb-job metadata file
+2024-04-03 13:10:51,987 INFO    SenderThread:11269 [sender.py:transition_state():613] send defer: 9
+2024-04-03 13:10:51,987 DEBUG   HandlerThread:11269 [handler.py:handle_request():146] handle_request: defer
+2024-04-03 13:10:51,987 INFO    HandlerThread:11269 [handler.py:handle_request_defer():172] handle defer: 9
+2024-04-03 13:10:51,988 DEBUG   SenderThread:11269 [sender.py:send():380] send: artifact
+2024-04-03 13:10:52,491 INFO    Thread-92 :11269 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240403_131028-snvssbnh/files/output.log
+2024-04-03 13:10:52,879 INFO    wandb-upload_2:11269 [upload_job.py:push():86] Skipped uploading /home/huseyin/.local/share/wandb/artifacts/staging/tmpgs1j73qt
+2024-04-03 13:10:52,880 INFO    wandb-upload_1:11269 [upload_job.py:push():86] Skipped uploading /home/huseyin/.local/share/wandb/artifacts/staging/tmplt_o585_
+2024-04-03 13:10:53,316 INFO    wandb-upload_0:11269 [upload_job.py:push():89] Uploaded file /home/huseyin/.local/share/wandb/artifacts/staging/tmprk8wwval
+2024-04-03 13:10:54,509 INFO    SenderThread:11269 [sender.py:send_artifact():1456] sent artifact job-https___github.com_huseyin-karaca_DANN_py3.git_main.py - {'id': 'QXJ0aWZhY3Q6NzgwOTE4Nzgx', 'state': 'PENDING', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjE1NTY1OTY5NQ==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6NzgwOTE4Mzgx', 'versionIndex': 10}}}
+2024-04-03 13:10:54,510 DEBUG   SenderThread:11269 [sender.py:send_request():407] send_request: defer
+2024-04-03 13:10:54,510 INFO    SenderThread:11269 [sender.py:send_request_defer():609] handle sender defer: 9
+2024-04-03 13:10:54,510 INFO    SenderThread:11269 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-04-03 13:10:55,259 DEBUG   HandlerThread:11269 [handler.py:handle_request():146] handle_request: keepalive
+2024-04-03 13:10:55,493 INFO    SenderThread:11269 [dir_watcher.py:finish():388] scan: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240403_131028-snvssbnh/files
+2024-04-03 13:10:55,494 INFO    SenderThread:11269 [dir_watcher.py:finish():402] scan save: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240403_131028-snvssbnh/files/output.log output.log
+2024-04-03 13:10:55,495 INFO    SenderThread:11269 [dir_watcher.py:finish():402] scan save: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240403_131028-snvssbnh/files/wandb-metadata.json wandb-metadata.json
+2024-04-03 13:10:55,495 INFO    SenderThread:11269 [dir_watcher.py:finish():402] scan save: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240403_131028-snvssbnh/files/config.yaml config.yaml
+2024-04-03 13:10:55,496 INFO    SenderThread:11269 [dir_watcher.py:finish():402] scan save: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240403_131028-snvssbnh/files/diff.patch diff.patch
+2024-04-03 13:10:55,496 INFO    SenderThread:11269 [dir_watcher.py:finish():402] scan save: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240403_131028-snvssbnh/files/wandb-summary.json wandb-summary.json
+2024-04-03 13:10:55,513 INFO    SenderThread:11269 [dir_watcher.py:finish():402] scan save: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240403_131028-snvssbnh/files/conda-environment.yaml conda-environment.yaml
+2024-04-03 13:10:55,524 INFO    SenderThread:11269 [dir_watcher.py:finish():402] scan save: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240403_131028-snvssbnh/files/requirements.txt requirements.txt
+2024-04-03 13:10:55,539 INFO    SenderThread:11269 [dir_watcher.py:finish():402] scan save: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240403_131028-snvssbnh/files/code/main.py code/main.py
+2024-04-03 13:10:55,539 INFO    SenderThread:11269 [sender.py:transition_state():613] send defer: 10
+2024-04-03 13:10:55,546 DEBUG   HandlerThread:11269 [handler.py:handle_request():146] handle_request: defer
+2024-04-03 13:10:55,546 INFO    HandlerThread:11269 [handler.py:handle_request_defer():172] handle defer: 10
+2024-04-03 13:10:55,550 DEBUG   SenderThread:11269 [sender.py:send_request():407] send_request: defer
+2024-04-03 13:10:55,550 INFO    SenderThread:11269 [sender.py:send_request_defer():609] handle sender defer: 10
+2024-04-03 13:10:55,550 INFO    SenderThread:11269 [file_pusher.py:finish():175] shutting down file pusher
+2024-04-03 13:10:55,969 INFO    wandb-upload_2:11269 [upload_job.py:push():131] Uploaded file /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240403_131028-snvssbnh/files/output.log
+2024-04-03 13:10:55,996 INFO    wandb-upload_1:11269 [upload_job.py:push():131] Uploaded file /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240403_131028-snvssbnh/files/wandb-summary.json
+2024-04-03 13:10:56,006 INFO    wandb-upload_3:11269 [upload_job.py:push():131] Uploaded file /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240403_131028-snvssbnh/files/conda-environment.yaml
+2024-04-03 13:10:56,132 INFO    wandb-upload_0:11269 [upload_job.py:push():131] Uploaded file /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240403_131028-snvssbnh/files/config.yaml
+2024-04-03 13:10:56,192 INFO    wandb-upload_4:11269 [upload_job.py:push():131] Uploaded file /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240403_131028-snvssbnh/files/requirements.txt
+2024-04-03 13:10:56,393 INFO    Thread-91 :11269 [sender.py:transition_state():613] send defer: 11
+2024-04-03 13:10:56,394 DEBUG   HandlerThread:11269 [handler.py:handle_request():146] handle_request: defer
+2024-04-03 13:10:56,394 INFO    HandlerThread:11269 [handler.py:handle_request_defer():172] handle defer: 11
+2024-04-03 13:10:56,395 DEBUG   SenderThread:11269 [sender.py:send_request():407] send_request: defer
+2024-04-03 13:10:56,396 INFO    SenderThread:11269 [sender.py:send_request_defer():609] handle sender defer: 11
+2024-04-03 13:10:56,396 INFO    SenderThread:11269 [file_pusher.py:join():181] waiting for file pusher
+2024-04-03 13:10:56,396 INFO    SenderThread:11269 [sender.py:transition_state():613] send defer: 12
+2024-04-03 13:10:56,396 DEBUG   HandlerThread:11269 [handler.py:handle_request():146] handle_request: defer
+2024-04-03 13:10:56,397 INFO    HandlerThread:11269 [handler.py:handle_request_defer():172] handle defer: 12
+2024-04-03 13:10:56,398 DEBUG   SenderThread:11269 [sender.py:send_request():407] send_request: defer
+2024-04-03 13:10:56,398 INFO    SenderThread:11269 [sender.py:send_request_defer():609] handle sender defer: 12
+2024-04-03 13:10:56,398 INFO    SenderThread:11269 [file_stream.py:finish():595] file stream finish called
+2024-04-03 13:10:56,586 INFO    SenderThread:11269 [file_stream.py:finish():599] file stream finish is done
+2024-04-03 13:10:56,587 INFO    SenderThread:11269 [sender.py:transition_state():613] send defer: 13
+2024-04-03 13:10:56,587 DEBUG   HandlerThread:11269 [handler.py:handle_request():146] handle_request: defer
+2024-04-03 13:10:56,587 INFO    HandlerThread:11269 [handler.py:handle_request_defer():172] handle defer: 13
+2024-04-03 13:10:56,588 DEBUG   SenderThread:11269 [sender.py:send_request():407] send_request: defer
+2024-04-03 13:10:56,588 INFO    SenderThread:11269 [sender.py:send_request_defer():609] handle sender defer: 13
+2024-04-03 13:10:56,589 INFO    SenderThread:11269 [sender.py:transition_state():613] send defer: 14
+2024-04-03 13:10:56,589 DEBUG   HandlerThread:11269 [handler.py:handle_request():146] handle_request: defer
+2024-04-03 13:10:56,590 INFO    HandlerThread:11269 [handler.py:handle_request_defer():172] handle defer: 14
+2024-04-03 13:10:56,591 DEBUG   SenderThread:11269 [sender.py:send():380] send: final
+2024-04-03 13:10:56,591 DEBUG   SenderThread:11269 [sender.py:send():380] send: footer
+2024-04-03 13:10:56,592 DEBUG   SenderThread:11269 [sender.py:send_request():407] send_request: defer
+2024-04-03 13:10:56,592 INFO    SenderThread:11269 [sender.py:send_request_defer():609] handle sender defer: 14
+2024-04-03 13:10:56,593 DEBUG   HandlerThread:11269 [handler.py:handle_request():146] handle_request: poll_exit
+2024-04-03 13:10:56,594 DEBUG   SenderThread:11269 [sender.py:send_request():407] send_request: poll_exit
+2024-04-03 13:10:56,596 DEBUG   HandlerThread:11269 [handler.py:handle_request():146] handle_request: server_info
+2024-04-03 13:10:56,597 DEBUG   SenderThread:11269 [sender.py:send_request():407] send_request: server_info
+2024-04-03 13:10:56,603 DEBUG   HandlerThread:11269 [handler.py:handle_request():146] handle_request: get_summary
+2024-04-03 13:10:56,604 DEBUG   HandlerThread:11269 [handler.py:handle_request():146] handle_request: sampled_history
+2024-04-03 13:10:56,604 DEBUG   HandlerThread:11269 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-03 13:10:56,604 DEBUG   HandlerThread:11269 [handler.py:handle_request():146] handle_request: job_info
+2024-04-03 13:10:56,777 DEBUG   SenderThread:11269 [sender.py:send_request():407] send_request: job_info
+2024-04-03 13:10:56,778 INFO    MainThread:11269 [wandb_run.py:_footer_history_summary_info():3599] rendering history
+2024-04-03 13:10:56,779 INFO    MainThread:11269 [wandb_run.py:_footer_history_summary_info():3631] rendering summary
+2024-04-03 13:10:56,780 INFO    MainThread:11269 [wandb_run.py:_footer_sync_info():3558] logging synced files
+2024-04-03 13:10:56,781 DEBUG   HandlerThread:11269 [handler.py:handle_request():146] handle_request: shutdown
+2024-04-03 13:10:56,782 INFO    HandlerThread:11269 [handler.py:finish():866] shutting down handler
+2024-04-03 13:10:57,605 INFO    WriterThread:11269 [datastore.py:close():294] close: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240403_131028-snvssbnh/run-snvssbnh.wandb
+2024-04-03 13:10:57,778 INFO    SenderThread:11269 [sender.py:finish():1534] shutting down sender
+2024-04-03 13:10:57,778 INFO    SenderThread:11269 [file_pusher.py:finish():175] shutting down file pusher
+2024-04-03 13:10:57,778 INFO    SenderThread:11269 [file_pusher.py:join():181] waiting for file pusher

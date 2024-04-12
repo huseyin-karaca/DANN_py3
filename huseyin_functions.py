@@ -1,3 +1,4 @@
+import random 
 def get_run_name():
     with open("/home/huseyin/fungtion/DANN_py3/ilveilceler.txt", "r+", encoding="utf-8") as file:
         lines = file.readlines()
@@ -73,5 +74,40 @@ def distribute_apples(M, N):
       if distribution[i] < ideal_apples_per_slot:
         distribution[i] += 1
         break
-    
+  
+  random.shuffle(distribution)
   return distribution
+
+def distribute_apples_new(M, K):
+  """
+  M tane elmayı K tane sepete olabildiğince eşit sayıda dağıtır.
+
+  Parametreler:
+    M (int): Elma sayısı.
+    K (int): Sepet sayısı.
+
+  Dönüş değeri:
+    List[int]: Her sepete düşen elma sayılarının listesi.
+  """
+
+  # Her sepete düşen ortalama elma sayısını hesapla
+  average_apples = M // K
+
+  # Her sepete ortalama sayıda elma koy
+  apple_distribution = [average_apples] * K
+
+  # Kalan elmaları rastgele sepetlere dağıt
+  remaining_apples = M - K * average_apples
+  for _ in range(remaining_apples):
+    # Elma alacak rastgele bir sepet seç
+    random_basket = random.randint(0, K - 1)
+
+    # Seçilen sepete bir elma ekle
+    apple_distribution[random_basket] += 1
+
+  # Son sepetin en az bir elma almasını sağla
+  if apple_distribution[-1] == 0:
+    apple_distribution[-1] = 1
+    apple_distribution[random.randint(0, K - 2)] -= 1
+
+  return apple_distribution

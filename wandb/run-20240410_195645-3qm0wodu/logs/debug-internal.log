@@ -1,0 +1,1388 @@
+2024-04-10 19:56:45,942 INFO    StreamThr :12915 [internal.py:wandb_internal():86] W&B internal server running at pid: 12915, started at: 2024-04-10 19:56:45.939979
+2024-04-10 19:56:45,945 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: status
+2024-04-10 19:56:45,951 INFO    WriterThread:12915 [datastore.py:open_for_write():85] open: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/run-3qm0wodu.wandb
+2024-04-10 19:56:45,953 DEBUG   SenderThread:12915 [sender.py:send():380] send: header
+2024-04-10 19:56:45,953 DEBUG   SenderThread:12915 [sender.py:send():380] send: run
+2024-04-10 19:56:46,429 INFO    SenderThread:12915 [dir_watcher.py:__init__():211] watching files in: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files
+2024-04-10 19:56:46,429 INFO    SenderThread:12915 [sender.py:_start_run_threads():1122] run started: 3qm0wodu with start time 1712768205.04552
+2024-04-10 19:56:46,449 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: check_version
+2024-04-10 19:56:46,449 DEBUG   SenderThread:12915 [sender.py:send_request():407] send_request: check_version
+2024-04-10 19:56:46,755 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: run_start
+2024-04-10 19:56:46,756 DEBUG   HandlerThread:12915 [system_info.py:__init__():32] System info init
+2024-04-10 19:56:46,756 DEBUG   HandlerThread:12915 [system_info.py:__init__():47] System info init done
+2024-04-10 19:56:46,756 INFO    HandlerThread:12915 [system_monitor.py:start():194] Starting system monitor
+2024-04-10 19:56:46,757 INFO    SystemMonitor:12915 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-04-10 19:56:46,757 INFO    HandlerThread:12915 [system_monitor.py:probe():214] Collecting system info
+2024-04-10 19:56:46,758 INFO    SystemMonitor:12915 [interfaces.py:start():190] Started cpu monitoring
+2024-04-10 19:56:46,759 INFO    SystemMonitor:12915 [interfaces.py:start():190] Started disk monitoring
+2024-04-10 19:56:46,760 INFO    SystemMonitor:12915 [interfaces.py:start():190] Started gpu monitoring
+2024-04-10 19:56:46,761 INFO    SystemMonitor:12915 [interfaces.py:start():190] Started memory monitoring
+2024-04-10 19:56:46,762 INFO    SystemMonitor:12915 [interfaces.py:start():190] Started network monitoring
+2024-04-10 19:56:46,764 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 19:56:46,765 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 19:56:46,793 DEBUG   HandlerThread:12915 [system_info.py:probe():196] Probing system
+2024-04-10 19:56:46,795 DEBUG   HandlerThread:12915 [system_info.py:_probe_git():181] Probing git
+2024-04-10 19:56:46,834 DEBUG   HandlerThread:12915 [system_info.py:_probe_git():189] Probing git done
+2024-04-10 19:56:46,834 DEBUG   HandlerThread:12915 [system_info.py:probe():244] Probing system done
+2024-04-10 19:56:46,834 DEBUG   HandlerThread:12915 [system_monitor.py:probe():223] {'os': 'Linux-4.15.0-213-generic-x86_64-with-glibc2.10', 'python': '3.8.5', 'heartbeatAt': '2024-04-10T16:56:46.793350', 'startedAt': '2024-04-10T16:56:45.037883', 'docker': None, 'cuda': '10.2.89', 'args': ('-ll', '2', '-r', '4', '-bs', '128', '-Nt', '6000', '-Ns', '6000', '-pn', 'dimmchange_3apr', '-Mt', '20', '-e', '100', '-Mss', '30', '40', '50', '60', '80', '100', '-dcms', '0.25', '1', '2'), 'state': 'running', 'program': 'main.py', 'codePathLocal': 'main.py', 'codePath': 'main.py', 'git': {'remote': 'https://github.com/huseyin-karaca/DANN_py3.git', 'commit': '196939a8082f0d6cbbf8caf5f20a2318a2ad70aa'}, 'email': 'huseyinkaraccca@gmail.com', 'root': '/home/huseyin/fungtion/dannpy_yeniden/DANN_py3', 'host': 'elif', 'username': 'huseyin', 'executable': '/home/huseyin/anaconda3/envs/dannpy5/bin/python', 'cpu_count': 4, 'cpu_count_logical': 8, 'cpu_freq': {'current': 1783.134, 'min': 800.0, 'max': 4100.0}, 'cpu_freq_per_core': [{'current': 1966.927, 'min': 800.0, 'max': 4100.0}, {'current': 1732.881, 'min': 800.0, 'max': 4100.0}, {'current': 1791.351, 'min': 800.0, 'max': 4100.0}, {'current': 1749.12, 'min': 800.0, 'max': 4100.0}, {'current': 1838.867, 'min': 800.0, 'max': 4100.0}, {'current': 1727.316, 'min': 800.0, 'max': 4100.0}, {'current': 1737.591, 'min': 800.0, 'max': 4100.0}, {'current': 1721.019, 'min': 800.0, 'max': 4100.0}], 'disk': {'/': {'total': 467.8886032104492, 'used': 277.4793014526367}}, 'gpu': 'Quadro P600', 'gpu_count': 1, 'gpu_devices': [{'name': 'Quadro P600', 'memory_total': 2097479680}], 'memory': {'total': 15.558303833007812}}
+2024-04-10 19:56:46,834 INFO    HandlerThread:12915 [system_monitor.py:probe():224] Finished collecting system info
+2024-04-10 19:56:46,834 INFO    HandlerThread:12915 [system_monitor.py:probe():227] Publishing system info
+2024-04-10 19:56:46,834 DEBUG   HandlerThread:12915 [system_info.py:_save_pip():52] Saving list of pip packages installed into the current environment
+2024-04-10 19:56:46,835 DEBUG   HandlerThread:12915 [system_info.py:_save_pip():68] Saving pip packages done
+2024-04-10 19:56:46,835 DEBUG   HandlerThread:12915 [system_info.py:_save_conda():75] Saving list of conda packages installed into the current environment
+2024-04-10 19:56:47,432 INFO    Thread-780:12915 [dir_watcher.py:_on_file_created():271] file/dir created: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/conda-environment.yaml
+2024-04-10 19:56:47,432 INFO    Thread-780:12915 [dir_watcher.py:_on_file_created():271] file/dir created: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/requirements.txt
+2024-04-10 19:56:48,767 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 19:56:48,767 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 19:56:50,012 DEBUG   HandlerThread:12915 [system_info.py:_save_conda():87] Saving conda packages done
+2024-04-10 19:56:50,012 DEBUG   HandlerThread:12915 [system_info.py:_save_code():90] Saving code
+2024-04-10 19:56:50,024 DEBUG   HandlerThread:12915 [system_info.py:_save_code():111] Saving code done
+2024-04-10 19:56:50,024 DEBUG   HandlerThread:12915 [system_info.py:_save_patches():128] Saving git patches
+2024-04-10 19:56:50,137 DEBUG   HandlerThread:12915 [system_info.py:_save_patches():170] Saving git patches done
+2024-04-10 19:56:50,138 INFO    HandlerThread:12915 [system_monitor.py:probe():229] Finished publishing system info
+2024-04-10 19:56:50,139 DEBUG   SenderThread:12915 [sender.py:send():380] send: files
+2024-04-10 19:56:50,139 INFO    SenderThread:12915 [sender.py:_save_file():1378] saving file wandb-metadata.json with policy now
+2024-04-10 19:56:50,140 INFO    SenderThread:12915 [sender.py:_save_file():1378] saving file code/main.py with policy now
+2024-04-10 19:56:50,141 INFO    SenderThread:12915 [sender.py:_save_file():1378] saving file diff.patch with policy now
+2024-04-10 19:56:50,152 DEBUG   SenderThread:12915 [sender.py:send():380] send: telemetry
+2024-04-10 19:56:50,159 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-10 19:56:50,160 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-10 19:56:50,160 DEBUG   SenderThread:12915 [sender.py:send_request():407] send_request: stop_status
+2024-04-10 19:56:50,430 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/conda-environment.yaml
+2024-04-10 19:56:50,431 INFO    Thread-780:12915 [dir_watcher.py:_on_file_created():271] file/dir created: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/wandb-metadata.json
+2024-04-10 19:56:50,431 INFO    Thread-780:12915 [dir_watcher.py:_on_file_created():271] file/dir created: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/code/main.py
+2024-04-10 19:56:50,431 INFO    Thread-780:12915 [dir_watcher.py:_on_file_created():271] file/dir created: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/diff.patch
+2024-04-10 19:56:50,431 INFO    Thread-780:12915 [dir_watcher.py:_on_file_created():271] file/dir created: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/code
+2024-04-10 19:56:50,769 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 19:56:50,769 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 19:56:50,876 INFO    wandb-upload_0:12915 [upload_job.py:push():131] Uploaded file /tmp/tmp0tob901vwandb/mu2ze0r9-wandb-metadata.json
+2024-04-10 19:56:50,956 INFO    wandb-upload_1:12915 [upload_job.py:push():131] Uploaded file /tmp/tmp0tob901vwandb/bzbmfl7u-code/main.py
+2024-04-10 19:56:51,009 INFO    wandb-upload_2:12915 [upload_job.py:push():131] Uploaded file /tmp/tmp0tob901vwandb/8hqm9n5b-diff.patch
+2024-04-10 19:56:51,417 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: status_report
+2024-04-10 19:56:52,162 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: log_artifact
+2024-04-10 19:56:52,162 DEBUG   SenderThread:12915 [sender.py:send_request():407] send_request: log_artifact
+2024-04-10 19:56:52,693 INFO    SenderThread:12915 [sender.py:send_request_log_artifact():1444] logged artifact source-dimmchange_3apr-main.py - {'id': 'QXJ0aWZhY3Q6NzgwOTMxMjky', 'state': 'COMMITTED', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjE1NTcyMjU3Mg==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6NzgwOTMxMjky', 'versionIndex': 0}}}
+2024-04-10 19:56:52,770 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 19:56:52,770 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 19:56:54,771 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 19:56:54,771 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 19:56:55,432 INFO    Thread-780:12915 [dir_watcher.py:_on_file_created():271] file/dir created: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/output.log
+2024-04-10 19:56:55,843 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-10 19:56:56,771 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 19:56:56,772 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 19:56:56,838 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: status_report
+2024-04-10 19:56:57,432 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/output.log
+2024-04-10 19:56:58,772 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 19:56:58,772 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 19:56:59,398 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-10 19:56:59,400 DEBUG   SenderThread:12915 [sender.py:send():380] send: history
+2024-04-10 19:56:59,400 DEBUG   SenderThread:12915 [sender.py:send_request():407] send_request: summary_record
+2024-04-10 19:56:59,402 INFO    SenderThread:12915 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-04-10 19:56:59,433 INFO    Thread-780:12915 [dir_watcher.py:_on_file_created():271] file/dir created: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/wandb-summary.json
+2024-04-10 19:57:00,773 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 19:57:00,773 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 19:57:01,434 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/output.log
+2024-04-10 19:57:02,115 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: status_report
+2024-04-10 19:57:02,774 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 19:57:02,774 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 19:57:02,923 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-10 19:57:02,924 DEBUG   SenderThread:12915 [sender.py:send():380] send: history
+2024-04-10 19:57:02,924 DEBUG   SenderThread:12915 [sender.py:send_request():407] send_request: summary_record
+2024-04-10 19:57:02,925 INFO    SenderThread:12915 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-04-10 19:57:03,435 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/wandb-summary.json
+2024-04-10 19:57:03,435 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/output.log
+2024-04-10 19:57:04,775 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 19:57:04,775 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 19:57:05,166 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-10 19:57:05,167 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-10 19:57:05,167 DEBUG   SenderThread:12915 [sender.py:send_request():407] send_request: stop_status
+2024-04-10 19:57:05,436 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/output.log
+2024-04-10 19:57:06,485 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-10 19:57:06,486 DEBUG   SenderThread:12915 [sender.py:send():380] send: history
+2024-04-10 19:57:06,486 DEBUG   SenderThread:12915 [sender.py:send_request():407] send_request: summary_record
+2024-04-10 19:57:06,486 INFO    SenderThread:12915 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-04-10 19:57:06,775 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 19:57:06,775 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 19:57:07,436 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/wandb-summary.json
+2024-04-10 19:57:07,437 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/output.log
+2024-04-10 19:57:07,487 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: status_report
+2024-04-10 19:57:08,776 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 19:57:08,776 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 19:57:09,437 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/output.log
+2024-04-10 19:57:10,074 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-10 19:57:10,075 DEBUG   SenderThread:12915 [sender.py:send():380] send: history
+2024-04-10 19:57:10,076 DEBUG   SenderThread:12915 [sender.py:send_request():407] send_request: summary_record
+2024-04-10 19:57:10,076 INFO    SenderThread:12915 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-04-10 19:57:10,437 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/wandb-summary.json
+2024-04-10 19:57:10,777 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 19:57:10,778 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 19:57:11,438 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/output.log
+2024-04-10 19:57:12,778 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 19:57:12,778 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 19:57:12,839 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: status_report
+2024-04-10 19:57:13,439 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/output.log
+2024-04-10 19:57:13,645 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-10 19:57:13,646 DEBUG   SenderThread:12915 [sender.py:send():380] send: history
+2024-04-10 19:57:13,646 DEBUG   SenderThread:12915 [sender.py:send_request():407] send_request: summary_record
+2024-04-10 19:57:13,647 INFO    SenderThread:12915 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-04-10 19:57:14,439 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/wandb-summary.json
+2024-04-10 19:57:14,779 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 19:57:14,779 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 19:57:15,439 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/output.log
+2024-04-10 19:57:16,862 ERROR   gpu       :12915 [interfaces.py:aggregate():161] Failed to serialize metric: division by zero
+2024-04-10 19:57:16,862 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 19:57:16,863 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 19:57:17,198 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-10 19:57:17,199 DEBUG   SenderThread:12915 [sender.py:send():380] send: history
+2024-04-10 19:57:17,199 DEBUG   SenderThread:12915 [sender.py:send_request():407] send_request: summary_record
+2024-04-10 19:57:17,199 INFO    SenderThread:12915 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-04-10 19:57:17,440 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/wandb-summary.json
+2024-04-10 19:57:17,440 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/output.log
+2024-04-10 19:57:18,205 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: status_report
+2024-04-10 19:57:18,440 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/config.yaml
+2024-04-10 19:57:18,863 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 19:57:18,863 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 19:57:19,441 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/output.log
+2024-04-10 19:57:20,165 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-10 19:57:20,166 DEBUG   SenderThread:12915 [sender.py:send_request():407] send_request: stop_status
+2024-04-10 19:57:20,168 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-10 19:57:20,790 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-10 19:57:20,791 DEBUG   SenderThread:12915 [sender.py:send():380] send: history
+2024-04-10 19:57:20,791 DEBUG   SenderThread:12915 [sender.py:send_request():407] send_request: summary_record
+2024-04-10 19:57:20,791 INFO    SenderThread:12915 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-04-10 19:57:20,864 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 19:57:20,864 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 19:57:21,442 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/wandb-summary.json
+2024-04-10 19:57:21,442 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/output.log
+2024-04-10 19:57:22,865 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 19:57:22,865 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 19:57:23,442 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/output.log
+2024-04-10 19:57:23,496 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: status_report
+2024-04-10 19:57:24,300 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-10 19:57:24,301 DEBUG   SenderThread:12915 [sender.py:send():380] send: history
+2024-04-10 19:57:24,302 DEBUG   SenderThread:12915 [sender.py:send_request():407] send_request: summary_record
+2024-04-10 19:57:24,302 INFO    SenderThread:12915 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-04-10 19:57:24,443 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/wandb-summary.json
+2024-04-10 19:57:24,865 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 19:57:24,865 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 19:57:25,443 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/output.log
+2024-04-10 19:57:26,866 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 19:57:26,866 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 19:57:27,444 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/output.log
+2024-04-10 19:57:27,849 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-10 19:57:27,850 DEBUG   SenderThread:12915 [sender.py:send():380] send: history
+2024-04-10 19:57:27,851 DEBUG   SenderThread:12915 [sender.py:send_request():407] send_request: summary_record
+2024-04-10 19:57:27,851 INFO    SenderThread:12915 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-04-10 19:57:28,444 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/wandb-summary.json
+2024-04-10 19:57:28,851 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: status_report
+2024-04-10 19:57:28,867 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 19:57:28,867 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 19:57:29,444 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/output.log
+2024-04-10 19:57:30,868 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 19:57:30,868 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 19:57:31,378 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-10 19:57:31,379 DEBUG   SenderThread:12915 [sender.py:send():380] send: history
+2024-04-10 19:57:31,380 DEBUG   SenderThread:12915 [sender.py:send_request():407] send_request: summary_record
+2024-04-10 19:57:31,380 INFO    SenderThread:12915 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-04-10 19:57:31,445 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/wandb-summary.json
+2024-04-10 19:57:31,445 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/output.log
+2024-04-10 19:57:32,869 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 19:57:32,869 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 19:57:33,446 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/output.log
+2024-04-10 19:57:34,124 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: status_report
+2024-04-10 19:57:34,869 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 19:57:34,870 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 19:57:34,933 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-10 19:57:34,934 DEBUG   SenderThread:12915 [sender.py:send():380] send: history
+2024-04-10 19:57:34,935 DEBUG   SenderThread:12915 [sender.py:send_request():407] send_request: summary_record
+2024-04-10 19:57:34,935 INFO    SenderThread:12915 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-04-10 19:57:35,166 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-10 19:57:35,166 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-10 19:57:35,166 DEBUG   SenderThread:12915 [sender.py:send_request():407] send_request: stop_status
+2024-04-10 19:57:35,446 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/wandb-summary.json
+2024-04-10 19:57:35,447 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/output.log
+2024-04-10 19:57:36,871 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 19:57:36,872 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 19:57:37,447 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/output.log
+2024-04-10 19:57:38,474 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-10 19:57:38,475 DEBUG   SenderThread:12915 [sender.py:send():380] send: history
+2024-04-10 19:57:38,475 DEBUG   SenderThread:12915 [sender.py:send_request():407] send_request: summary_record
+2024-04-10 19:57:38,475 INFO    SenderThread:12915 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-04-10 19:57:38,872 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 19:57:38,872 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 19:57:39,448 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/wandb-summary.json
+2024-04-10 19:57:39,448 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/output.log
+2024-04-10 19:57:39,476 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: status_report
+2024-04-10 19:57:40,873 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 19:57:40,873 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 19:57:41,448 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/output.log
+2024-04-10 19:57:42,004 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-10 19:57:42,005 DEBUG   SenderThread:12915 [sender.py:send():380] send: history
+2024-04-10 19:57:42,005 DEBUG   SenderThread:12915 [sender.py:send_request():407] send_request: summary_record
+2024-04-10 19:57:42,005 INFO    SenderThread:12915 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-04-10 19:57:42,449 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/wandb-summary.json
+2024-04-10 19:57:42,874 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 19:57:42,874 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 19:57:43,449 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/output.log
+2024-04-10 19:57:44,745 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: status_report
+2024-04-10 19:57:44,875 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 19:57:44,875 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 19:57:45,556 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-10 19:57:45,557 DEBUG   SenderThread:12915 [sender.py:send():380] send: history
+2024-04-10 19:57:45,557 DEBUG   SenderThread:12915 [sender.py:send_request():407] send_request: summary_record
+2024-04-10 19:57:45,558 INFO    SenderThread:12915 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-04-10 19:57:46,450 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/wandb-summary.json
+2024-04-10 19:57:46,763 DEBUG   SystemMonitor:12915 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-04-10 19:57:46,764 DEBUG   SenderThread:12915 [sender.py:send():380] send: stats
+2024-04-10 19:57:46,913 ERROR   gpu       :12915 [interfaces.py:aggregate():161] Failed to serialize metric: division by zero
+2024-04-10 19:57:46,914 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 19:57:46,914 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 19:57:47,450 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/output.log
+2024-04-10 19:57:48,914 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 19:57:48,915 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 19:57:49,090 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-10 19:57:49,091 DEBUG   SenderThread:12915 [sender.py:send():380] send: history
+2024-04-10 19:57:49,091 DEBUG   SenderThread:12915 [sender.py:send_request():407] send_request: summary_record
+2024-04-10 19:57:49,092 INFO    SenderThread:12915 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-04-10 19:57:49,451 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/wandb-summary.json
+2024-04-10 19:57:49,451 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/output.log
+2024-04-10 19:57:50,092 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: status_report
+2024-04-10 19:57:50,165 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-10 19:57:50,166 DEBUG   SenderThread:12915 [sender.py:send_request():407] send_request: stop_status
+2024-04-10 19:57:50,170 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-10 19:57:50,915 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 19:57:50,915 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 19:57:51,452 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/output.log
+2024-04-10 19:57:52,684 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-10 19:57:52,685 DEBUG   SenderThread:12915 [sender.py:send():380] send: history
+2024-04-10 19:57:52,686 DEBUG   SenderThread:12915 [sender.py:send_request():407] send_request: summary_record
+2024-04-10 19:57:52,686 INFO    SenderThread:12915 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-04-10 19:57:52,922 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 19:57:52,922 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 19:57:53,453 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/wandb-summary.json
+2024-04-10 19:57:53,453 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/output.log
+2024-04-10 19:57:54,923 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 19:57:54,923 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 19:57:55,440 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: status_report
+2024-04-10 19:57:55,453 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/output.log
+2024-04-10 19:57:56,231 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-10 19:57:56,232 DEBUG   SenderThread:12915 [sender.py:send():380] send: history
+2024-04-10 19:57:56,232 DEBUG   SenderThread:12915 [sender.py:send_request():407] send_request: summary_record
+2024-04-10 19:57:56,232 INFO    SenderThread:12915 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-04-10 19:57:56,454 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/wandb-summary.json
+2024-04-10 19:57:56,923 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 19:57:56,924 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 19:57:57,454 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/output.log
+2024-04-10 19:57:58,924 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 19:57:58,925 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 19:57:59,455 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/output.log
+2024-04-10 19:57:59,764 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-10 19:57:59,765 DEBUG   SenderThread:12915 [sender.py:send():380] send: history
+2024-04-10 19:57:59,765 DEBUG   SenderThread:12915 [sender.py:send_request():407] send_request: summary_record
+2024-04-10 19:57:59,765 INFO    SenderThread:12915 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-04-10 19:58:00,455 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/wandb-summary.json
+2024-04-10 19:58:00,766 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: status_report
+2024-04-10 19:58:00,925 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 19:58:00,925 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 19:58:01,455 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/output.log
+2024-04-10 19:58:02,926 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 19:58:02,926 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 19:58:03,322 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-10 19:58:03,323 DEBUG   SenderThread:12915 [sender.py:send():380] send: history
+2024-04-10 19:58:03,323 DEBUG   SenderThread:12915 [sender.py:send_request():407] send_request: summary_record
+2024-04-10 19:58:03,324 INFO    SenderThread:12915 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-04-10 19:58:03,456 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/wandb-summary.json
+2024-04-10 19:58:03,456 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/output.log
+2024-04-10 19:58:04,927 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 19:58:04,927 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 19:58:05,165 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-10 19:58:05,166 DEBUG   SenderThread:12915 [sender.py:send_request():407] send_request: stop_status
+2024-04-10 19:58:05,168 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-10 19:58:05,457 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/output.log
+2024-04-10 19:58:06,074 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: status_report
+2024-04-10 19:58:06,884 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-10 19:58:06,885 DEBUG   SenderThread:12915 [sender.py:send():380] send: history
+2024-04-10 19:58:06,885 DEBUG   SenderThread:12915 [sender.py:send_request():407] send_request: summary_record
+2024-04-10 19:58:06,886 INFO    SenderThread:12915 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-04-10 19:58:06,928 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 19:58:06,928 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 19:58:07,458 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/wandb-summary.json
+2024-04-10 19:58:07,458 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/output.log
+2024-04-10 19:58:08,928 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 19:58:08,929 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 19:58:09,458 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/output.log
+2024-04-10 19:58:10,425 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-10 19:58:10,426 DEBUG   SenderThread:12915 [sender.py:send():380] send: history
+2024-04-10 19:58:10,427 DEBUG   SenderThread:12915 [sender.py:send_request():407] send_request: summary_record
+2024-04-10 19:58:10,427 INFO    SenderThread:12915 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-04-10 19:58:10,459 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/wandb-summary.json
+2024-04-10 19:58:10,929 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 19:58:10,930 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 19:58:11,428 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: status_report
+2024-04-10 19:58:11,459 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/output.log
+2024-04-10 19:58:12,930 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 19:58:12,930 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 19:58:13,460 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/output.log
+2024-04-10 19:58:13,978 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-10 19:58:13,979 DEBUG   SenderThread:12915 [sender.py:send():380] send: history
+2024-04-10 19:58:13,980 DEBUG   SenderThread:12915 [sender.py:send_request():407] send_request: summary_record
+2024-04-10 19:58:13,980 INFO    SenderThread:12915 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-04-10 19:58:14,460 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/wandb-summary.json
+2024-04-10 19:58:14,931 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 19:58:14,931 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 19:58:15,461 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/output.log
+2024-04-10 19:58:16,708 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: status_report
+2024-04-10 19:58:16,765 DEBUG   SenderThread:12915 [sender.py:send():380] send: stats
+2024-04-10 19:58:16,994 ERROR   gpu       :12915 [interfaces.py:aggregate():161] Failed to serialize metric: division by zero
+2024-04-10 19:58:16,995 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 19:58:16,995 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 19:58:17,516 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-10 19:58:17,517 DEBUG   SenderThread:12915 [sender.py:send():380] send: history
+2024-04-10 19:58:17,517 DEBUG   SenderThread:12915 [sender.py:send_request():407] send_request: summary_record
+2024-04-10 19:58:17,517 INFO    SenderThread:12915 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-04-10 19:58:18,462 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/wandb-summary.json
+2024-04-10 19:58:18,996 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 19:58:18,996 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 19:58:19,462 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/output.log
+2024-04-10 19:58:20,165 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-10 19:58:20,166 DEBUG   SenderThread:12915 [sender.py:send_request():407] send_request: stop_status
+2024-04-10 19:58:20,168 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-10 19:58:20,996 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 19:58:20,996 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 19:58:21,070 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-10 19:58:21,071 DEBUG   SenderThread:12915 [sender.py:send():380] send: history
+2024-04-10 19:58:21,071 DEBUG   SenderThread:12915 [sender.py:send_request():407] send_request: summary_record
+2024-04-10 19:58:21,071 INFO    SenderThread:12915 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-04-10 19:58:21,463 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/wandb-summary.json
+2024-04-10 19:58:21,463 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/output.log
+2024-04-10 19:58:22,072 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: status_report
+2024-04-10 19:58:22,997 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 19:58:22,997 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 19:58:23,463 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/output.log
+2024-04-10 19:58:24,599 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-10 19:58:24,600 DEBUG   SenderThread:12915 [sender.py:send():380] send: history
+2024-04-10 19:58:24,600 DEBUG   SenderThread:12915 [sender.py:send_request():407] send_request: summary_record
+2024-04-10 19:58:24,601 INFO    SenderThread:12915 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-04-10 19:58:24,998 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 19:58:24,998 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 19:58:25,464 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/wandb-summary.json
+2024-04-10 19:58:25,464 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/output.log
+2024-04-10 19:58:26,998 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 19:58:26,999 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 19:58:27,346 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: status_report
+2024-04-10 19:58:27,465 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/output.log
+2024-04-10 19:58:28,144 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-10 19:58:28,145 DEBUG   SenderThread:12915 [sender.py:send():380] send: history
+2024-04-10 19:58:28,145 DEBUG   SenderThread:12915 [sender.py:send_request():407] send_request: summary_record
+2024-04-10 19:58:28,145 INFO    SenderThread:12915 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-04-10 19:58:28,465 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/wandb-summary.json
+2024-04-10 19:58:28,999 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 19:58:28,999 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 19:58:29,465 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/output.log
+2024-04-10 19:58:31,000 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 19:58:31,000 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 19:58:31,466 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/output.log
+2024-04-10 19:58:31,677 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-10 19:58:31,678 DEBUG   SenderThread:12915 [sender.py:send():380] send: history
+2024-04-10 19:58:31,679 DEBUG   SenderThread:12915 [sender.py:send_request():407] send_request: summary_record
+2024-04-10 19:58:31,679 INFO    SenderThread:12915 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-04-10 19:58:32,467 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/wandb-summary.json
+2024-04-10 19:58:32,679 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: status_report
+2024-04-10 19:58:33,001 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 19:58:33,001 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 19:58:33,467 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/output.log
+2024-04-10 19:58:35,002 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 19:58:35,002 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 19:58:35,165 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-10 19:58:35,165 DEBUG   SenderThread:12915 [sender.py:send_request():407] send_request: stop_status
+2024-04-10 19:58:35,168 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-10 19:58:35,468 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/output.log
+2024-04-10 19:58:35,610 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-10 19:58:35,611 DEBUG   SenderThread:12915 [sender.py:send():380] send: history
+2024-04-10 19:58:35,611 DEBUG   SenderThread:12915 [sender.py:send_request():407] send_request: summary_record
+2024-04-10 19:58:35,612 INFO    SenderThread:12915 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-04-10 19:58:36,468 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/wandb-summary.json
+2024-04-10 19:58:37,002 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 19:58:37,003 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 19:58:37,468 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/output.log
+2024-04-10 19:58:37,711 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: status_report
+2024-04-10 19:58:39,003 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 19:58:39,003 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 19:58:39,084 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-10 19:58:39,085 DEBUG   SenderThread:12915 [sender.py:send():380] send: history
+2024-04-10 19:58:39,085 DEBUG   SenderThread:12915 [sender.py:send_request():407] send_request: summary_record
+2024-04-10 19:58:39,085 INFO    SenderThread:12915 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-04-10 19:58:39,469 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/wandb-summary.json
+2024-04-10 19:58:39,469 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/output.log
+2024-04-10 19:58:41,004 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 19:58:41,004 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 19:58:41,470 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/output.log
+2024-04-10 19:58:42,625 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-10 19:58:42,626 DEBUG   SenderThread:12915 [sender.py:send():380] send: history
+2024-04-10 19:58:42,626 DEBUG   SenderThread:12915 [sender.py:send_request():407] send_request: summary_record
+2024-04-10 19:58:42,626 INFO    SenderThread:12915 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-04-10 19:58:43,004 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 19:58:43,005 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 19:58:43,470 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/wandb-summary.json
+2024-04-10 19:58:43,471 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/output.log
+2024-04-10 19:58:43,627 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: status_report
+2024-04-10 19:58:45,005 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 19:58:45,005 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 19:58:45,471 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/output.log
+2024-04-10 19:58:46,141 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-10 19:58:46,142 DEBUG   SenderThread:12915 [sender.py:send():380] send: history
+2024-04-10 19:58:46,142 DEBUG   SenderThread:12915 [sender.py:send_request():407] send_request: summary_record
+2024-04-10 19:58:46,142 INFO    SenderThread:12915 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-04-10 19:58:46,471 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/wandb-summary.json
+2024-04-10 19:58:46,766 DEBUG   SenderThread:12915 [sender.py:send():380] send: stats
+2024-04-10 19:58:47,041 ERROR   gpu       :12915 [interfaces.py:aggregate():161] Failed to serialize metric: division by zero
+2024-04-10 19:58:47,042 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 19:58:47,042 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 19:58:47,472 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/output.log
+2024-04-10 19:58:48,879 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: status_report
+2024-04-10 19:58:49,042 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 19:58:49,042 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 19:58:49,472 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/output.log
+2024-04-10 19:58:49,661 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-10 19:58:49,662 DEBUG   SenderThread:12915 [sender.py:send():380] send: history
+2024-04-10 19:58:49,663 DEBUG   SenderThread:12915 [sender.py:send_request():407] send_request: summary_record
+2024-04-10 19:58:49,663 INFO    SenderThread:12915 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-04-10 19:58:50,168 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-10 19:58:50,168 DEBUG   SenderThread:12915 [sender.py:send_request():407] send_request: stop_status
+2024-04-10 19:58:50,171 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-10 19:58:50,473 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/wandb-summary.json
+2024-04-10 19:58:51,043 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 19:58:51,043 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 19:58:51,473 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/output.log
+2024-04-10 19:58:53,044 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 19:58:53,044 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 19:58:53,177 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-10 19:58:53,178 DEBUG   SenderThread:12915 [sender.py:send():380] send: history
+2024-04-10 19:58:53,178 DEBUG   SenderThread:12915 [sender.py:send_request():407] send_request: summary_record
+2024-04-10 19:58:53,178 INFO    SenderThread:12915 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-04-10 19:58:53,474 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/wandb-summary.json
+2024-04-10 19:58:53,474 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/output.log
+2024-04-10 19:58:54,179 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: status_report
+2024-04-10 19:58:55,045 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 19:58:55,045 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 19:58:55,475 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/output.log
+2024-04-10 19:58:56,718 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-10 19:58:56,719 DEBUG   SenderThread:12915 [sender.py:send():380] send: history
+2024-04-10 19:58:56,719 DEBUG   SenderThread:12915 [sender.py:send_request():407] send_request: summary_record
+2024-04-10 19:58:56,720 INFO    SenderThread:12915 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-04-10 19:58:57,045 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 19:58:57,046 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 19:58:57,475 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/wandb-summary.json
+2024-04-10 19:58:57,476 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/output.log
+2024-04-10 19:58:59,058 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 19:58:59,058 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 19:58:59,443 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: status_report
+2024-04-10 19:58:59,476 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/output.log
+2024-04-10 19:59:00,257 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-10 19:59:00,258 DEBUG   SenderThread:12915 [sender.py:send():380] send: history
+2024-04-10 19:59:00,258 DEBUG   SenderThread:12915 [sender.py:send_request():407] send_request: summary_record
+2024-04-10 19:59:00,259 INFO    SenderThread:12915 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-04-10 19:59:00,477 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/wandb-summary.json
+2024-04-10 19:59:01,060 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 19:59:01,060 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 19:59:01,477 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/output.log
+2024-04-10 19:59:03,060 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 19:59:03,061 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 19:59:03,478 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/output.log
+2024-04-10 19:59:03,793 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-10 19:59:03,794 DEBUG   SenderThread:12915 [sender.py:send():380] send: history
+2024-04-10 19:59:03,794 DEBUG   SenderThread:12915 [sender.py:send_request():407] send_request: summary_record
+2024-04-10 19:59:03,794 INFO    SenderThread:12915 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-04-10 19:59:04,478 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/wandb-summary.json
+2024-04-10 19:59:04,795 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: status_report
+2024-04-10 19:59:05,061 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 19:59:05,061 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 19:59:05,166 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-10 19:59:05,166 DEBUG   SenderThread:12915 [sender.py:send_request():407] send_request: stop_status
+2024-04-10 19:59:05,168 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-10 19:59:05,478 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/output.log
+2024-04-10 19:59:07,062 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 19:59:07,062 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 19:59:07,334 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-10 19:59:07,335 DEBUG   SenderThread:12915 [sender.py:send():380] send: history
+2024-04-10 19:59:07,336 DEBUG   SenderThread:12915 [sender.py:send_request():407] send_request: summary_record
+2024-04-10 19:59:07,336 INFO    SenderThread:12915 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-04-10 19:59:07,479 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/wandb-summary.json
+2024-04-10 19:59:07,479 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/output.log
+2024-04-10 19:59:09,063 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 19:59:09,063 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 19:59:09,480 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/output.log
+2024-04-10 19:59:10,065 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: status_report
+2024-04-10 19:59:10,860 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-10 19:59:10,861 DEBUG   SenderThread:12915 [sender.py:send():380] send: history
+2024-04-10 19:59:10,862 DEBUG   SenderThread:12915 [sender.py:send_request():407] send_request: summary_record
+2024-04-10 19:59:10,862 INFO    SenderThread:12915 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-04-10 19:59:11,064 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 19:59:11,064 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 19:59:11,480 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/wandb-summary.json
+2024-04-10 19:59:11,481 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/output.log
+2024-04-10 19:59:13,064 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 19:59:13,064 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 19:59:13,481 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/output.log
+2024-04-10 19:59:14,405 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-10 19:59:14,406 DEBUG   SenderThread:12915 [sender.py:send():380] send: history
+2024-04-10 19:59:14,406 DEBUG   SenderThread:12915 [sender.py:send_request():407] send_request: summary_record
+2024-04-10 19:59:14,406 INFO    SenderThread:12915 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-04-10 19:59:14,481 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/wandb-summary.json
+2024-04-10 19:59:15,065 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 19:59:15,065 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 19:59:15,407 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: status_report
+2024-04-10 19:59:15,482 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/output.log
+2024-04-10 19:59:16,767 DEBUG   SenderThread:12915 [sender.py:send():380] send: stats
+2024-04-10 19:59:17,126 ERROR   gpu       :12915 [interfaces.py:aggregate():161] Failed to serialize metric: division by zero
+2024-04-10 19:59:17,126 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 19:59:17,126 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 19:59:17,482 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/output.log
+2024-04-10 19:59:17,942 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-10 19:59:17,943 DEBUG   SenderThread:12915 [sender.py:send():380] send: history
+2024-04-10 19:59:17,943 DEBUG   SenderThread:12915 [sender.py:send_request():407] send_request: summary_record
+2024-04-10 19:59:17,943 INFO    SenderThread:12915 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-04-10 19:59:18,483 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/wandb-summary.json
+2024-04-10 19:59:19,127 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 19:59:19,127 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 19:59:19,483 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/output.log
+2024-04-10 19:59:20,193 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-10 19:59:20,195 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-10 19:59:20,196 DEBUG   SenderThread:12915 [sender.py:send_request():407] send_request: stop_status
+2024-04-10 19:59:20,482 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: status_report
+2024-04-10 19:59:21,128 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 19:59:21,128 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 19:59:21,480 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-10 19:59:21,481 DEBUG   SenderThread:12915 [sender.py:send():380] send: history
+2024-04-10 19:59:21,481 DEBUG   SenderThread:12915 [sender.py:send_request():407] send_request: summary_record
+2024-04-10 19:59:21,481 INFO    SenderThread:12915 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-04-10 19:59:21,484 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/wandb-summary.json
+2024-04-10 19:59:21,484 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/output.log
+2024-04-10 19:59:23,129 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 19:59:23,129 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 19:59:23,484 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/output.log
+2024-04-10 19:59:25,010 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-10 19:59:25,011 DEBUG   SenderThread:12915 [sender.py:send():380] send: history
+2024-04-10 19:59:25,012 DEBUG   SenderThread:12915 [sender.py:send_request():407] send_request: summary_record
+2024-04-10 19:59:25,012 INFO    SenderThread:12915 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-04-10 19:59:25,130 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 19:59:25,130 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 19:59:25,485 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/wandb-summary.json
+2024-04-10 19:59:25,486 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/output.log
+2024-04-10 19:59:26,012 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: status_report
+2024-04-10 19:59:27,130 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 19:59:27,130 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 19:59:27,486 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/output.log
+2024-04-10 19:59:28,525 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-10 19:59:28,526 DEBUG   SenderThread:12915 [sender.py:send():380] send: history
+2024-04-10 19:59:28,526 DEBUG   SenderThread:12915 [sender.py:send_request():407] send_request: summary_record
+2024-04-10 19:59:28,527 INFO    SenderThread:12915 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-04-10 19:59:29,131 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 19:59:29,131 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 19:59:29,487 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/wandb-summary.json
+2024-04-10 19:59:29,487 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/output.log
+2024-04-10 19:59:31,132 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 19:59:31,132 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 19:59:31,246 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: status_report
+2024-04-10 19:59:31,487 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/output.log
+2024-04-10 19:59:32,046 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-10 19:59:32,047 DEBUG   SenderThread:12915 [sender.py:send():380] send: history
+2024-04-10 19:59:32,047 DEBUG   SenderThread:12915 [sender.py:send_request():407] send_request: summary_record
+2024-04-10 19:59:32,047 INFO    SenderThread:12915 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-04-10 19:59:32,488 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/wandb-summary.json
+2024-04-10 19:59:33,133 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 19:59:33,133 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 19:59:33,488 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/output.log
+2024-04-10 19:59:35,133 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 19:59:35,133 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 19:59:35,173 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-10 19:59:35,174 DEBUG   SenderThread:12915 [sender.py:send_request():407] send_request: stop_status
+2024-04-10 19:59:35,176 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-10 19:59:35,489 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/output.log
+2024-04-10 19:59:35,650 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-10 19:59:35,651 DEBUG   SenderThread:12915 [sender.py:send():380] send: history
+2024-04-10 19:59:35,651 DEBUG   SenderThread:12915 [sender.py:send_request():407] send_request: summary_record
+2024-04-10 19:59:35,651 INFO    SenderThread:12915 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-04-10 19:59:36,489 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/wandb-summary.json
+2024-04-10 19:59:36,652 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: status_report
+2024-04-10 19:59:37,134 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 19:59:37,134 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 19:59:37,489 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/output.log
+2024-04-10 19:59:39,136 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 19:59:39,136 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 19:59:39,148 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-10 19:59:39,149 DEBUG   SenderThread:12915 [sender.py:send():380] send: history
+2024-04-10 19:59:39,149 DEBUG   SenderThread:12915 [sender.py:send_request():407] send_request: summary_record
+2024-04-10 19:59:39,149 INFO    SenderThread:12915 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-04-10 19:59:39,490 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/wandb-summary.json
+2024-04-10 19:59:39,490 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/output.log
+2024-04-10 19:59:41,137 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 19:59:41,137 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 19:59:41,491 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/output.log
+2024-04-10 19:59:41,882 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: status_report
+2024-04-10 19:59:42,709 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-10 19:59:42,710 DEBUG   SenderThread:12915 [sender.py:send():380] send: history
+2024-04-10 19:59:42,710 DEBUG   SenderThread:12915 [sender.py:send_request():407] send_request: summary_record
+2024-04-10 19:59:42,711 INFO    SenderThread:12915 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-04-10 19:59:43,137 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 19:59:43,137 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 19:59:43,492 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/wandb-summary.json
+2024-04-10 19:59:43,492 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/output.log
+2024-04-10 19:59:45,138 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 19:59:45,138 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 19:59:45,492 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/output.log
+2024-04-10 19:59:46,223 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-10 19:59:46,224 DEBUG   SenderThread:12915 [sender.py:send():380] send: history
+2024-04-10 19:59:46,224 DEBUG   SenderThread:12915 [sender.py:send_request():407] send_request: summary_record
+2024-04-10 19:59:46,224 INFO    SenderThread:12915 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-04-10 19:59:46,493 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/wandb-summary.json
+2024-04-10 19:59:46,767 DEBUG   SenderThread:12915 [sender.py:send():380] send: stats
+2024-04-10 19:59:47,179 ERROR   gpu       :12915 [interfaces.py:aggregate():161] Failed to serialize metric: division by zero
+2024-04-10 19:59:47,179 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 19:59:47,179 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 19:59:47,493 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/output.log
+2024-04-10 19:59:47,768 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: status_report
+2024-04-10 19:59:49,180 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 19:59:49,180 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 19:59:49,782 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-10 19:59:49,783 DEBUG   SenderThread:12915 [sender.py:send():380] send: history
+2024-04-10 19:59:49,784 DEBUG   SenderThread:12915 [sender.py:send_request():407] send_request: summary_record
+2024-04-10 19:59:49,784 INFO    SenderThread:12915 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-04-10 19:59:50,195 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-10 19:59:50,196 DEBUG   SenderThread:12915 [sender.py:send_request():407] send_request: stop_status
+2024-04-10 19:59:50,198 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-10 19:59:50,494 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/wandb-summary.json
+2024-04-10 19:59:51,181 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 19:59:51,181 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 19:59:51,494 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/output.log
+2024-04-10 19:59:53,182 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 19:59:53,182 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 19:59:53,337 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: status_report
+2024-04-10 19:59:53,342 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-10 19:59:53,343 DEBUG   SenderThread:12915 [sender.py:send():380] send: history
+2024-04-10 19:59:53,343 DEBUG   SenderThread:12915 [sender.py:send_request():407] send_request: summary_record
+2024-04-10 19:59:53,344 INFO    SenderThread:12915 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-04-10 19:59:53,495 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/wandb-summary.json
+2024-04-10 19:59:53,495 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/output.log
+2024-04-10 19:59:55,182 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 19:59:55,182 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 19:59:55,496 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/output.log
+2024-04-10 19:59:56,887 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-10 19:59:56,888 DEBUG   SenderThread:12915 [sender.py:send():380] send: history
+2024-04-10 19:59:56,888 DEBUG   SenderThread:12915 [sender.py:send_request():407] send_request: summary_record
+2024-04-10 19:59:56,888 INFO    SenderThread:12915 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-04-10 19:59:57,183 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 19:59:57,183 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 19:59:57,496 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/wandb-summary.json
+2024-04-10 19:59:57,497 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/output.log
+2024-04-10 19:59:58,889 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: status_report
+2024-04-10 19:59:59,184 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 19:59:59,184 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 19:59:59,497 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/output.log
+2024-04-10 20:00:00,426 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-10 20:00:00,427 DEBUG   SenderThread:12915 [sender.py:send():380] send: history
+2024-04-10 20:00:00,427 DEBUG   SenderThread:12915 [sender.py:send_request():407] send_request: summary_record
+2024-04-10 20:00:00,427 INFO    SenderThread:12915 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-04-10 20:00:00,497 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/wandb-summary.json
+2024-04-10 20:00:01,190 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 20:00:01,190 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 20:00:01,498 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/output.log
+2024-04-10 20:00:03,191 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 20:00:03,191 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 20:00:03,501 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/output.log
+2024-04-10 20:00:03,935 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: status_report
+2024-04-10 20:00:03,938 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-10 20:00:03,939 DEBUG   SenderThread:12915 [sender.py:send():380] send: history
+2024-04-10 20:00:03,939 DEBUG   SenderThread:12915 [sender.py:send_request():407] send_request: summary_record
+2024-04-10 20:00:03,939 INFO    SenderThread:12915 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-04-10 20:00:04,501 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/wandb-summary.json
+2024-04-10 20:00:05,174 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-10 20:00:05,174 DEBUG   SenderThread:12915 [sender.py:send_request():407] send_request: stop_status
+2024-04-10 20:00:05,191 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 20:00:05,192 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 20:00:05,193 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-10 20:00:05,502 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/output.log
+2024-04-10 20:00:07,192 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 20:00:07,192 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 20:00:07,498 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-10 20:00:07,499 DEBUG   SenderThread:12915 [sender.py:send():380] send: history
+2024-04-10 20:00:07,499 DEBUG   SenderThread:12915 [sender.py:send_request():407] send_request: summary_record
+2024-04-10 20:00:07,499 INFO    SenderThread:12915 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-04-10 20:00:07,502 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/wandb-summary.json
+2024-04-10 20:00:07,503 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/output.log
+2024-04-10 20:00:09,193 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 20:00:09,193 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 20:00:09,500 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: status_report
+2024-04-10 20:00:09,503 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/output.log
+2024-04-10 20:00:11,041 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-10 20:00:11,042 DEBUG   SenderThread:12915 [sender.py:send():380] send: history
+2024-04-10 20:00:11,042 DEBUG   SenderThread:12915 [sender.py:send_request():407] send_request: summary_record
+2024-04-10 20:00:11,042 INFO    SenderThread:12915 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-04-10 20:00:11,194 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 20:00:11,194 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 20:00:11,504 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/wandb-summary.json
+2024-04-10 20:00:11,504 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/output.log
+2024-04-10 20:00:13,195 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 20:00:13,195 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 20:00:13,504 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/output.log
+2024-04-10 20:00:14,591 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: status_report
+2024-04-10 20:00:14,591 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-10 20:00:14,592 DEBUG   SenderThread:12915 [sender.py:send():380] send: history
+2024-04-10 20:00:14,593 DEBUG   SenderThread:12915 [sender.py:send_request():407] send_request: summary_record
+2024-04-10 20:00:14,593 INFO    SenderThread:12915 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-04-10 20:00:15,195 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 20:00:15,195 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 20:00:15,505 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/wandb-summary.json
+2024-04-10 20:00:15,505 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/output.log
+2024-04-10 20:00:16,768 DEBUG   SenderThread:12915 [sender.py:send():380] send: stats
+2024-04-10 20:00:17,231 ERROR   gpu       :12915 [interfaces.py:aggregate():161] Failed to serialize metric: division by zero
+2024-04-10 20:00:17,232 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 20:00:17,232 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 20:00:17,506 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/output.log
+2024-04-10 20:00:18,103 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-10 20:00:18,104 DEBUG   SenderThread:12915 [sender.py:send():380] send: history
+2024-04-10 20:00:18,104 DEBUG   SenderThread:12915 [sender.py:send_request():407] send_request: summary_record
+2024-04-10 20:00:18,104 INFO    SenderThread:12915 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-04-10 20:00:18,506 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/wandb-summary.json
+2024-04-10 20:00:19,233 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 20:00:19,233 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 20:00:19,506 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/output.log
+2024-04-10 20:00:20,105 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: status_report
+2024-04-10 20:00:20,174 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-10 20:00:20,174 DEBUG   SenderThread:12915 [sender.py:send_request():407] send_request: stop_status
+2024-04-10 20:00:20,194 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-10 20:00:21,238 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 20:00:21,238 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 20:00:21,643 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-10 20:00:21,644 DEBUG   SenderThread:12915 [sender.py:send():380] send: history
+2024-04-10 20:00:21,644 DEBUG   SenderThread:12915 [sender.py:send_request():407] send_request: summary_record
+2024-04-10 20:00:21,644 INFO    SenderThread:12915 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-04-10 20:00:22,508 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/wandb-summary.json
+2024-04-10 20:00:23,239 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 20:00:23,239 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 20:00:23,508 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/output.log
+2024-04-10 20:00:25,229 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: status_report
+2024-04-10 20:00:25,230 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-10 20:00:25,231 DEBUG   SenderThread:12915 [sender.py:send():380] send: history
+2024-04-10 20:00:25,231 DEBUG   SenderThread:12915 [sender.py:send_request():407] send_request: summary_record
+2024-04-10 20:00:25,231 INFO    SenderThread:12915 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-04-10 20:00:25,239 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 20:00:25,239 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 20:00:25,509 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/wandb-summary.json
+2024-04-10 20:00:25,509 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/output.log
+2024-04-10 20:00:27,240 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 20:00:27,240 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 20:00:27,509 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/output.log
+2024-04-10 20:00:28,771 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-10 20:00:28,772 DEBUG   SenderThread:12915 [sender.py:send():380] send: history
+2024-04-10 20:00:28,773 DEBUG   SenderThread:12915 [sender.py:send_request():407] send_request: summary_record
+2024-04-10 20:00:28,773 INFO    SenderThread:12915 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-04-10 20:00:29,241 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 20:00:29,241 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 20:00:29,510 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/wandb-summary.json
+2024-04-10 20:00:29,510 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/output.log
+2024-04-10 20:00:30,773 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: status_report
+2024-04-10 20:00:31,242 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 20:00:31,242 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 20:00:31,511 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/output.log
+2024-04-10 20:00:32,298 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-10 20:00:32,299 DEBUG   SenderThread:12915 [sender.py:send():380] send: history
+2024-04-10 20:00:32,299 DEBUG   SenderThread:12915 [sender.py:send_request():407] send_request: summary_record
+2024-04-10 20:00:32,300 INFO    SenderThread:12915 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-04-10 20:00:32,511 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/wandb-summary.json
+2024-04-10 20:00:33,243 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 20:00:33,243 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 20:00:33,511 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/output.log
+2024-04-10 20:00:35,201 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-10 20:00:35,203 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-10 20:00:35,204 DEBUG   SenderThread:12915 [sender.py:send_request():407] send_request: stop_status
+2024-04-10 20:00:35,243 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 20:00:35,244 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 20:00:35,512 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/output.log
+2024-04-10 20:00:35,834 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: status_report
+2024-04-10 20:00:35,834 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-10 20:00:35,835 DEBUG   SenderThread:12915 [sender.py:send():380] send: history
+2024-04-10 20:00:35,835 DEBUG   SenderThread:12915 [sender.py:send_request():407] send_request: summary_record
+2024-04-10 20:00:35,836 INFO    SenderThread:12915 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-04-10 20:00:36,512 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/wandb-summary.json
+2024-04-10 20:00:37,244 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 20:00:37,244 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 20:00:37,513 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/output.log
+2024-04-10 20:00:39,245 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 20:00:39,245 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 20:00:39,373 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-10 20:00:39,374 DEBUG   SenderThread:12915 [sender.py:send():380] send: history
+2024-04-10 20:00:39,374 DEBUG   SenderThread:12915 [sender.py:send_request():407] send_request: summary_record
+2024-04-10 20:00:39,374 INFO    SenderThread:12915 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-04-10 20:00:39,513 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/wandb-summary.json
+2024-04-10 20:00:39,514 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/output.log
+2024-04-10 20:00:41,246 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 20:00:41,246 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 20:00:41,375 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: status_report
+2024-04-10 20:00:41,514 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/output.log
+2024-04-10 20:00:42,921 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-10 20:00:42,922 DEBUG   SenderThread:12915 [sender.py:send():380] send: history
+2024-04-10 20:00:42,922 DEBUG   SenderThread:12915 [sender.py:send_request():407] send_request: summary_record
+2024-04-10 20:00:42,923 INFO    SenderThread:12915 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-04-10 20:00:43,247 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 20:00:43,247 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 20:00:43,515 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/wandb-summary.json
+2024-04-10 20:00:43,515 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/output.log
+2024-04-10 20:00:45,247 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 20:00:45,247 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 20:00:45,516 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/output.log
+2024-04-10 20:00:46,459 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: status_report
+2024-04-10 20:00:46,460 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-10 20:00:46,461 DEBUG   SenderThread:12915 [sender.py:send():380] send: history
+2024-04-10 20:00:46,461 DEBUG   SenderThread:12915 [sender.py:send_request():407] send_request: summary_record
+2024-04-10 20:00:46,461 INFO    SenderThread:12915 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-04-10 20:00:46,516 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/wandb-summary.json
+2024-04-10 20:00:46,769 DEBUG   SenderThread:12915 [sender.py:send():380] send: stats
+2024-04-10 20:00:47,301 ERROR   gpu       :12915 [interfaces.py:aggregate():161] Failed to serialize metric: division by zero
+2024-04-10 20:00:47,301 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 20:00:47,301 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 20:00:47,517 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/output.log
+2024-04-10 20:00:49,302 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 20:00:49,302 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 20:00:49,517 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/output.log
+2024-04-10 20:00:50,011 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-10 20:00:50,012 DEBUG   SenderThread:12915 [sender.py:send():380] send: history
+2024-04-10 20:00:50,012 DEBUG   SenderThread:12915 [sender.py:send_request():407] send_request: summary_record
+2024-04-10 20:00:50,012 INFO    SenderThread:12915 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-04-10 20:00:50,179 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-10 20:00:50,179 DEBUG   SenderThread:12915 [sender.py:send_request():407] send_request: stop_status
+2024-04-10 20:00:50,199 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-10 20:00:50,518 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/wandb-summary.json
+2024-04-10 20:00:51,303 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 20:00:51,303 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 20:00:51,518 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/output.log
+2024-04-10 20:00:52,151 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: status_report
+2024-04-10 20:00:53,303 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 20:00:53,304 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 20:00:53,519 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/output.log
+2024-04-10 20:00:53,549 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-10 20:00:53,550 DEBUG   SenderThread:12915 [sender.py:send():380] send: history
+2024-04-10 20:00:53,550 DEBUG   SenderThread:12915 [sender.py:send_request():407] send_request: summary_record
+2024-04-10 20:00:53,551 INFO    SenderThread:12915 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-04-10 20:00:54,519 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/wandb-summary.json
+2024-04-10 20:00:55,304 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 20:00:55,304 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 20:00:55,520 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/output.log
+2024-04-10 20:00:57,077 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-10 20:00:57,078 DEBUG   SenderThread:12915 [sender.py:send():380] send: history
+2024-04-10 20:00:57,078 DEBUG   SenderThread:12915 [sender.py:send_request():407] send_request: summary_record
+2024-04-10 20:00:57,078 INFO    SenderThread:12915 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-04-10 20:00:57,305 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 20:00:57,306 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 20:00:57,520 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/wandb-summary.json
+2024-04-10 20:00:57,521 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/output.log
+2024-04-10 20:00:58,079 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: status_report
+2024-04-10 20:00:59,306 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 20:00:59,306 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 20:00:59,521 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/output.log
+2024-04-10 20:01:00,610 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-10 20:01:00,611 DEBUG   SenderThread:12915 [sender.py:send():380] send: history
+2024-04-10 20:01:00,612 DEBUG   SenderThread:12915 [sender.py:send_request():407] send_request: summary_record
+2024-04-10 20:01:00,612 INFO    SenderThread:12915 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-04-10 20:01:01,307 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 20:01:01,307 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 20:01:01,522 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/wandb-summary.json
+2024-04-10 20:01:01,522 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/output.log
+2024-04-10 20:01:03,308 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 20:01:03,308 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 20:01:03,341 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: status_report
+2024-04-10 20:01:03,522 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/output.log
+2024-04-10 20:01:04,138 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-10 20:01:04,139 DEBUG   SenderThread:12915 [sender.py:send():380] send: history
+2024-04-10 20:01:04,139 DEBUG   SenderThread:12915 [sender.py:send_request():407] send_request: summary_record
+2024-04-10 20:01:04,139 INFO    SenderThread:12915 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-04-10 20:01:04,523 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/wandb-summary.json
+2024-04-10 20:01:05,178 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-10 20:01:05,179 DEBUG   SenderThread:12915 [sender.py:send_request():407] send_request: stop_status
+2024-04-10 20:01:05,200 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-10 20:01:05,309 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 20:01:05,309 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 20:01:05,523 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/output.log
+2024-04-10 20:01:07,310 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 20:01:07,310 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 20:01:07,524 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/output.log
+2024-04-10 20:01:07,689 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-10 20:01:07,690 DEBUG   SenderThread:12915 [sender.py:send():380] send: history
+2024-04-10 20:01:07,690 DEBUG   SenderThread:12915 [sender.py:send_request():407] send_request: summary_record
+2024-04-10 20:01:07,690 INFO    SenderThread:12915 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-04-10 20:01:08,524 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/wandb-summary.json
+2024-04-10 20:01:08,691 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: status_report
+2024-04-10 20:01:09,310 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 20:01:09,311 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 20:01:09,525 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/output.log
+2024-04-10 20:01:11,223 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-10 20:01:11,224 DEBUG   SenderThread:12915 [sender.py:send():380] send: history
+2024-04-10 20:01:11,224 DEBUG   SenderThread:12915 [sender.py:send_request():407] send_request: summary_record
+2024-04-10 20:01:11,224 INFO    SenderThread:12915 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-04-10 20:01:11,311 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 20:01:11,311 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 20:01:11,525 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/wandb-summary.json
+2024-04-10 20:01:11,526 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/output.log
+2024-04-10 20:01:13,312 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 20:01:13,312 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 20:01:13,526 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/output.log
+2024-04-10 20:01:13,957 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: status_report
+2024-04-10 20:01:14,767 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-10 20:01:14,768 DEBUG   SenderThread:12915 [sender.py:send():380] send: history
+2024-04-10 20:01:14,768 DEBUG   SenderThread:12915 [sender.py:send_request():407] send_request: summary_record
+2024-04-10 20:01:14,768 INFO    SenderThread:12915 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-04-10 20:01:15,313 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 20:01:15,313 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 20:01:15,527 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/wandb-summary.json
+2024-04-10 20:01:15,527 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/output.log
+2024-04-10 20:01:16,770 DEBUG   SenderThread:12915 [sender.py:send():380] send: stats
+2024-04-10 20:01:17,358 ERROR   gpu       :12915 [interfaces.py:aggregate():161] Failed to serialize metric: division by zero
+2024-04-10 20:01:17,358 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 20:01:17,358 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 20:01:17,527 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/output.log
+2024-04-10 20:01:18,321 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-10 20:01:18,322 DEBUG   SenderThread:12915 [sender.py:send():380] send: history
+2024-04-10 20:01:18,322 DEBUG   SenderThread:12915 [sender.py:send_request():407] send_request: summary_record
+2024-04-10 20:01:18,322 INFO    SenderThread:12915 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-04-10 20:01:18,528 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/wandb-summary.json
+2024-04-10 20:01:19,323 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: status_report
+2024-04-10 20:01:19,359 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 20:01:19,359 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 20:01:19,528 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/output.log
+2024-04-10 20:01:20,178 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-10 20:01:20,179 DEBUG   SenderThread:12915 [sender.py:send_request():407] send_request: stop_status
+2024-04-10 20:01:20,200 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-10 20:01:21,360 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 20:01:21,360 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 20:01:21,857 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-10 20:01:21,858 DEBUG   SenderThread:12915 [sender.py:send():380] send: history
+2024-04-10 20:01:21,858 DEBUG   SenderThread:12915 [sender.py:send_request():407] send_request: summary_record
+2024-04-10 20:01:21,858 INFO    SenderThread:12915 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-04-10 20:01:22,529 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/wandb-summary.json
+2024-04-10 20:01:23,361 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 20:01:23,361 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 20:01:23,530 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/output.log
+2024-04-10 20:01:24,598 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: status_report
+2024-04-10 20:01:25,361 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 20:01:25,362 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 20:01:25,406 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-10 20:01:25,407 DEBUG   SenderThread:12915 [sender.py:send():380] send: history
+2024-04-10 20:01:25,408 DEBUG   SenderThread:12915 [sender.py:send_request():407] send_request: summary_record
+2024-04-10 20:01:25,408 INFO    SenderThread:12915 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-04-10 20:01:25,530 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/wandb-summary.json
+2024-04-10 20:01:25,531 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/output.log
+2024-04-10 20:01:27,362 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 20:01:27,362 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 20:01:27,531 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/output.log
+2024-04-10 20:01:28,967 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-10 20:01:28,968 DEBUG   SenderThread:12915 [sender.py:send():380] send: history
+2024-04-10 20:01:28,968 DEBUG   SenderThread:12915 [sender.py:send_request():407] send_request: summary_record
+2024-04-10 20:01:28,969 INFO    SenderThread:12915 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-04-10 20:01:29,363 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 20:01:29,363 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 20:01:29,532 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/wandb-summary.json
+2024-04-10 20:01:29,532 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/output.log
+2024-04-10 20:01:29,969 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: status_report
+2024-04-10 20:01:31,364 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 20:01:31,364 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 20:01:31,532 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/output.log
+2024-04-10 20:01:32,481 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-10 20:01:32,482 DEBUG   SenderThread:12915 [sender.py:send():380] send: history
+2024-04-10 20:01:32,483 DEBUG   SenderThread:12915 [sender.py:send_request():407] send_request: summary_record
+2024-04-10 20:01:32,483 INFO    SenderThread:12915 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-04-10 20:01:32,533 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/wandb-summary.json
+2024-04-10 20:01:33,365 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 20:01:33,365 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 20:01:33,533 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/output.log
+2024-04-10 20:01:35,179 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-10 20:01:35,179 DEBUG   SenderThread:12915 [sender.py:send_request():407] send_request: stop_status
+2024-04-10 20:01:35,200 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-10 20:01:35,365 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 20:01:35,366 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 20:01:35,452 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: status_report
+2024-04-10 20:01:35,534 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/output.log
+2024-04-10 20:01:36,056 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-10 20:01:36,058 DEBUG   SenderThread:12915 [sender.py:send():380] send: history
+2024-04-10 20:01:36,058 DEBUG   SenderThread:12915 [sender.py:send_request():407] send_request: summary_record
+2024-04-10 20:01:36,058 INFO    SenderThread:12915 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-04-10 20:01:36,535 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/wandb-summary.json
+2024-04-10 20:01:37,366 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 20:01:37,366 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 20:01:37,535 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/output.log
+2024-04-10 20:01:39,367 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 20:01:39,367 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 20:01:39,536 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/output.log
+2024-04-10 20:01:39,591 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-10 20:01:39,592 DEBUG   SenderThread:12915 [sender.py:send():380] send: history
+2024-04-10 20:01:39,592 DEBUG   SenderThread:12915 [sender.py:send_request():407] send_request: summary_record
+2024-04-10 20:01:39,593 INFO    SenderThread:12915 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-04-10 20:01:40,536 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/wandb-summary.json
+2024-04-10 20:01:40,593 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: status_report
+2024-04-10 20:01:41,368 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 20:01:41,368 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 20:01:41,536 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/output.log
+2024-04-10 20:01:43,138 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-10 20:01:43,139 DEBUG   SenderThread:12915 [sender.py:send():380] send: history
+2024-04-10 20:01:43,139 DEBUG   SenderThread:12915 [sender.py:send_request():407] send_request: summary_record
+2024-04-10 20:01:43,140 INFO    SenderThread:12915 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-04-10 20:01:43,369 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 20:01:43,369 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 20:01:43,537 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/wandb-summary.json
+2024-04-10 20:01:43,537 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/output.log
+2024-04-10 20:01:45,369 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 20:01:45,369 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 20:01:45,538 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/output.log
+2024-04-10 20:01:45,891 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: status_report
+2024-04-10 20:01:46,690 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-10 20:01:46,691 DEBUG   SenderThread:12915 [sender.py:send():380] send: history
+2024-04-10 20:01:46,691 DEBUG   SenderThread:12915 [sender.py:send_request():407] send_request: summary_record
+2024-04-10 20:01:46,691 INFO    SenderThread:12915 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-04-10 20:01:46,771 DEBUG   SenderThread:12915 [sender.py:send():380] send: stats
+2024-04-10 20:01:47,417 ERROR   gpu       :12915 [interfaces.py:aggregate():161] Failed to serialize metric: division by zero
+2024-04-10 20:01:47,418 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 20:01:47,418 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 20:01:47,538 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/wandb-summary.json
+2024-04-10 20:01:47,539 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/output.log
+2024-04-10 20:01:49,418 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 20:01:49,419 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 20:01:49,539 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/output.log
+2024-04-10 20:01:50,179 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-10 20:01:50,179 DEBUG   SenderThread:12915 [sender.py:send_request():407] send_request: stop_status
+2024-04-10 20:01:50,200 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-10 20:01:50,278 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-10 20:01:50,455 DEBUG   SenderThread:12915 [sender.py:send():380] send: history
+2024-04-10 20:01:50,455 DEBUG   SenderThread:12915 [sender.py:send_request():407] send_request: summary_record
+2024-04-10 20:01:50,456 INFO    SenderThread:12915 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-04-10 20:01:50,539 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/wandb-summary.json
+2024-04-10 20:01:51,419 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 20:01:51,419 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 20:01:51,457 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: status_report
+2024-04-10 20:01:51,540 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/output.log
+2024-04-10 20:01:53,420 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 20:01:53,420 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 20:01:53,540 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/output.log
+2024-04-10 20:01:53,765 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-10 20:01:53,766 DEBUG   SenderThread:12915 [sender.py:send():380] send: history
+2024-04-10 20:01:53,766 DEBUG   SenderThread:12915 [sender.py:send_request():407] send_request: summary_record
+2024-04-10 20:01:53,766 INFO    SenderThread:12915 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-04-10 20:01:54,541 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/wandb-summary.json
+2024-04-10 20:01:55,421 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 20:01:55,421 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 20:01:55,541 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/output.log
+2024-04-10 20:01:56,489 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: status_report
+2024-04-10 20:01:57,297 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-10 20:01:57,298 DEBUG   SenderThread:12915 [sender.py:send():380] send: history
+2024-04-10 20:01:57,298 DEBUG   SenderThread:12915 [sender.py:send_request():407] send_request: summary_record
+2024-04-10 20:01:57,298 INFO    SenderThread:12915 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-04-10 20:01:57,422 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 20:01:57,422 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 20:01:57,542 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/wandb-summary.json
+2024-04-10 20:01:57,542 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/output.log
+2024-04-10 20:01:59,422 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 20:01:59,423 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 20:01:59,543 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/output.log
+2024-04-10 20:02:00,825 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-10 20:02:00,826 DEBUG   SenderThread:12915 [sender.py:send():380] send: history
+2024-04-10 20:02:00,826 DEBUG   SenderThread:12915 [sender.py:send_request():407] send_request: summary_record
+2024-04-10 20:02:00,826 INFO    SenderThread:12915 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-04-10 20:02:01,423 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 20:02:01,423 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 20:02:01,549 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/wandb-summary.json
+2024-04-10 20:02:01,550 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/output.log
+2024-04-10 20:02:01,827 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: status_report
+2024-04-10 20:02:03,424 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 20:02:03,424 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 20:02:03,544 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/output.log
+2024-04-10 20:02:04,338 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-10 20:02:04,339 DEBUG   SenderThread:12915 [sender.py:send():380] send: history
+2024-04-10 20:02:04,339 DEBUG   SenderThread:12915 [sender.py:send_request():407] send_request: summary_record
+2024-04-10 20:02:04,339 INFO    SenderThread:12915 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-04-10 20:02:04,550 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/wandb-summary.json
+2024-04-10 20:02:05,227 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-10 20:02:05,227 DEBUG   SenderThread:12915 [sender.py:send_request():407] send_request: stop_status
+2024-04-10 20:02:05,250 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-10 20:02:05,426 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 20:02:05,426 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 20:02:05,550 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/output.log
+2024-04-10 20:02:07,082 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: status_report
+2024-04-10 20:02:07,427 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 20:02:07,427 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 20:02:07,901 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-10 20:02:07,902 DEBUG   SenderThread:12915 [sender.py:send():380] send: history
+2024-04-10 20:02:07,902 DEBUG   SenderThread:12915 [sender.py:send_request():407] send_request: summary_record
+2024-04-10 20:02:07,902 INFO    SenderThread:12915 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-04-10 20:02:08,551 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/wandb-summary.json
+2024-04-10 20:02:09,428 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 20:02:09,428 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 20:02:09,552 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/output.log
+2024-04-10 20:02:11,425 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-10 20:02:11,426 DEBUG   SenderThread:12915 [sender.py:send():380] send: history
+2024-04-10 20:02:11,427 DEBUG   SenderThread:12915 [sender.py:send_request():407] send_request: summary_record
+2024-04-10 20:02:11,427 INFO    SenderThread:12915 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-04-10 20:02:11,428 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 20:02:11,428 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 20:02:11,552 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/wandb-summary.json
+2024-04-10 20:02:11,553 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/output.log
+2024-04-10 20:02:12,428 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: status_report
+2024-04-10 20:02:13,429 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 20:02:13,429 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 20:02:13,553 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/output.log
+2024-04-10 20:02:14,991 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-10 20:02:14,992 DEBUG   SenderThread:12915 [sender.py:send():380] send: history
+2024-04-10 20:02:14,992 DEBUG   SenderThread:12915 [sender.py:send_request():407] send_request: summary_record
+2024-04-10 20:02:14,992 INFO    SenderThread:12915 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-04-10 20:02:15,430 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 20:02:15,430 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 20:02:15,554 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/wandb-summary.json
+2024-04-10 20:02:15,554 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/output.log
+2024-04-10 20:02:16,771 DEBUG   SenderThread:12915 [sender.py:send():380] send: stats
+2024-04-10 20:02:17,477 ERROR   gpu       :12915 [interfaces.py:aggregate():161] Failed to serialize metric: division by zero
+2024-04-10 20:02:17,477 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 20:02:17,478 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 20:02:17,555 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/output.log
+2024-04-10 20:02:17,723 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: status_report
+2024-04-10 20:02:18,519 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-10 20:02:18,520 DEBUG   SenderThread:12915 [sender.py:send():380] send: history
+2024-04-10 20:02:18,520 DEBUG   SenderThread:12915 [sender.py:send_request():407] send_request: summary_record
+2024-04-10 20:02:18,520 INFO    SenderThread:12915 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-04-10 20:02:18,555 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/wandb-summary.json
+2024-04-10 20:02:19,478 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 20:02:19,478 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 20:02:19,555 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/output.log
+2024-04-10 20:02:20,198 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-10 20:02:20,198 DEBUG   SenderThread:12915 [sender.py:send_request():407] send_request: stop_status
+2024-04-10 20:02:20,226 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-10 20:02:21,481 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 20:02:21,481 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 20:02:21,556 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/output.log
+2024-04-10 20:02:22,030 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-10 20:02:22,031 DEBUG   SenderThread:12915 [sender.py:send():380] send: history
+2024-04-10 20:02:22,031 DEBUG   SenderThread:12915 [sender.py:send_request():407] send_request: summary_record
+2024-04-10 20:02:22,032 INFO    SenderThread:12915 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-04-10 20:02:22,556 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/wandb-summary.json
+2024-04-10 20:02:23,032 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: status_report
+2024-04-10 20:02:23,481 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 20:02:23,482 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 20:02:23,557 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/output.log
+2024-04-10 20:02:25,482 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 20:02:25,482 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 20:02:25,558 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/output.log
+2024-04-10 20:02:25,575 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-10 20:02:25,576 DEBUG   SenderThread:12915 [sender.py:send():380] send: history
+2024-04-10 20:02:25,576 DEBUG   SenderThread:12915 [sender.py:send_request():407] send_request: summary_record
+2024-04-10 20:02:25,576 INFO    SenderThread:12915 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-04-10 20:02:26,558 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/wandb-summary.json
+2024-04-10 20:02:27,483 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 20:02:27,483 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 20:02:27,558 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/output.log
+2024-04-10 20:02:28,298 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: status_report
+2024-04-10 20:02:29,097 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-10 20:02:29,098 DEBUG   SenderThread:12915 [sender.py:send():380] send: history
+2024-04-10 20:02:29,098 DEBUG   SenderThread:12915 [sender.py:send_request():407] send_request: summary_record
+2024-04-10 20:02:29,099 INFO    SenderThread:12915 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-04-10 20:02:29,484 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 20:02:29,484 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 20:02:29,559 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/wandb-summary.json
+2024-04-10 20:02:29,559 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/output.log
+2024-04-10 20:02:31,485 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 20:02:31,485 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 20:02:31,560 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/output.log
+2024-04-10 20:02:32,627 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-10 20:02:32,628 DEBUG   SenderThread:12915 [sender.py:send():380] send: history
+2024-04-10 20:02:32,628 DEBUG   SenderThread:12915 [sender.py:send_request():407] send_request: summary_record
+2024-04-10 20:02:32,629 INFO    SenderThread:12915 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-04-10 20:02:33,486 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 20:02:33,486 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 20:02:33,560 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/wandb-summary.json
+2024-04-10 20:02:33,561 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/output.log
+2024-04-10 20:02:33,629 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: status_report
+2024-04-10 20:02:35,191 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-10 20:02:35,192 DEBUG   SenderThread:12915 [sender.py:send_request():407] send_request: stop_status
+2024-04-10 20:02:35,226 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-10 20:02:35,487 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 20:02:35,487 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 20:02:35,561 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/output.log
+2024-04-10 20:02:36,189 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-10 20:02:36,191 DEBUG   SenderThread:12915 [sender.py:send():380] send: history
+2024-04-10 20:02:36,191 DEBUG   SenderThread:12915 [sender.py:send_request():407] send_request: summary_record
+2024-04-10 20:02:36,191 INFO    SenderThread:12915 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-04-10 20:02:36,562 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/wandb-summary.json
+2024-04-10 20:02:37,487 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 20:02:37,487 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 20:02:37,562 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/output.log
+2024-04-10 20:02:38,885 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: status_report
+2024-04-10 20:02:39,488 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 20:02:39,488 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 20:02:39,562 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/output.log
+2024-04-10 20:02:39,694 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-10 20:02:39,695 DEBUG   SenderThread:12915 [sender.py:send():380] send: history
+2024-04-10 20:02:39,695 DEBUG   SenderThread:12915 [sender.py:send_request():407] send_request: summary_record
+2024-04-10 20:02:39,696 INFO    SenderThread:12915 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-04-10 20:02:40,563 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/wandb-summary.json
+2024-04-10 20:02:41,489 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 20:02:41,489 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 20:02:41,563 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/output.log
+2024-04-10 20:02:43,242 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-10 20:02:43,243 DEBUG   SenderThread:12915 [sender.py:send():380] send: history
+2024-04-10 20:02:43,243 DEBUG   SenderThread:12915 [sender.py:send_request():407] send_request: summary_record
+2024-04-10 20:02:43,243 INFO    SenderThread:12915 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-04-10 20:02:43,490 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 20:02:43,490 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 20:02:43,564 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/wandb-summary.json
+2024-04-10 20:02:43,564 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/output.log
+2024-04-10 20:02:44,244 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: status_report
+2024-04-10 20:02:45,491 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 20:02:45,491 ERROR   gpu       :12915 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-04-10 20:02:45,565 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/output.log
+2024-04-10 20:02:46,773 DEBUG   SenderThread:12915 [sender.py:send():380] send: stats
+2024-04-10 20:02:46,792 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-10 20:02:46,794 DEBUG   SenderThread:12915 [sender.py:send():380] send: history
+2024-04-10 20:02:46,794 DEBUG   SenderThread:12915 [sender.py:send_request():407] send_request: summary_record
+2024-04-10 20:02:46,795 INFO    SenderThread:12915 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-04-10 20:02:46,795 DEBUG   SenderThread:12915 [sender.py:send():380] send: telemetry
+2024-04-10 20:02:46,795 DEBUG   SenderThread:12915 [sender.py:send():380] send: exit
+2024-04-10 20:02:46,795 INFO    SenderThread:12915 [sender.py:send_exit():585] handling exit code: 0
+2024-04-10 20:02:46,795 INFO    SenderThread:12915 [sender.py:send_exit():587] handling runtime: 360
+2024-04-10 20:02:46,796 INFO    SenderThread:12915 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-04-10 20:02:46,796 INFO    SenderThread:12915 [sender.py:send_exit():593] send defer
+2024-04-10 20:02:46,796 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: defer
+2024-04-10 20:02:46,796 INFO    HandlerThread:12915 [handler.py:handle_request_defer():172] handle defer: 0
+2024-04-10 20:02:46,796 DEBUG   SenderThread:12915 [sender.py:send_request():407] send_request: defer
+2024-04-10 20:02:46,796 INFO    SenderThread:12915 [sender.py:send_request_defer():609] handle sender defer: 0
+2024-04-10 20:02:46,796 INFO    SenderThread:12915 [sender.py:transition_state():613] send defer: 1
+2024-04-10 20:02:46,796 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: defer
+2024-04-10 20:02:46,796 INFO    HandlerThread:12915 [handler.py:handle_request_defer():172] handle defer: 1
+2024-04-10 20:02:46,797 DEBUG   SenderThread:12915 [sender.py:send_request():407] send_request: defer
+2024-04-10 20:02:46,797 INFO    SenderThread:12915 [sender.py:send_request_defer():609] handle sender defer: 1
+2024-04-10 20:02:46,797 INFO    SenderThread:12915 [sender.py:transition_state():613] send defer: 2
+2024-04-10 20:02:46,797 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: defer
+2024-04-10 20:02:46,797 INFO    HandlerThread:12915 [handler.py:handle_request_defer():172] handle defer: 2
+2024-04-10 20:02:46,797 INFO    HandlerThread:12915 [system_monitor.py:finish():203] Stopping system monitor
+2024-04-10 20:02:46,797 DEBUG   SystemMonitor:12915 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-04-10 20:02:46,798 DEBUG   SystemMonitor:12915 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-04-10 20:02:46,798 INFO    HandlerThread:12915 [interfaces.py:finish():202] Joined cpu monitor
+2024-04-10 20:02:46,798 INFO    HandlerThread:12915 [interfaces.py:finish():202] Joined disk monitor
+2024-04-10 20:02:46,830 ERROR   gpu       :12915 [interfaces.py:aggregate():161] Failed to serialize metric: division by zero
+2024-04-10 20:02:46,831 INFO    HandlerThread:12915 [interfaces.py:finish():202] Joined gpu monitor
+2024-04-10 20:02:46,831 INFO    HandlerThread:12915 [interfaces.py:finish():202] Joined memory monitor
+2024-04-10 20:02:46,831 INFO    HandlerThread:12915 [interfaces.py:finish():202] Joined network monitor
+2024-04-10 20:02:46,832 DEBUG   SenderThread:12915 [sender.py:send_request():407] send_request: defer
+2024-04-10 20:02:46,832 INFO    SenderThread:12915 [sender.py:send_request_defer():609] handle sender defer: 2
+2024-04-10 20:02:46,832 INFO    SenderThread:12915 [sender.py:transition_state():613] send defer: 3
+2024-04-10 20:02:46,832 DEBUG   SenderThread:12915 [sender.py:send():380] send: stats
+2024-04-10 20:02:46,832 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: defer
+2024-04-10 20:02:46,832 INFO    HandlerThread:12915 [handler.py:handle_request_defer():172] handle defer: 3
+2024-04-10 20:02:46,833 DEBUG   SenderThread:12915 [sender.py:send():380] send: history
+2024-04-10 20:02:46,833 DEBUG   SenderThread:12915 [sender.py:send_request():407] send_request: summary_record
+2024-04-10 20:02:46,834 INFO    SenderThread:12915 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-04-10 20:02:46,834 DEBUG   SenderThread:12915 [sender.py:send_request():407] send_request: defer
+2024-04-10 20:02:46,834 INFO    SenderThread:12915 [sender.py:send_request_defer():609] handle sender defer: 3
+2024-04-10 20:02:46,834 INFO    SenderThread:12915 [sender.py:transition_state():613] send defer: 4
+2024-04-10 20:02:46,834 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: defer
+2024-04-10 20:02:46,834 INFO    HandlerThread:12915 [handler.py:handle_request_defer():172] handle defer: 4
+2024-04-10 20:02:46,834 DEBUG   SenderThread:12915 [sender.py:send_request():407] send_request: defer
+2024-04-10 20:02:46,835 INFO    SenderThread:12915 [sender.py:send_request_defer():609] handle sender defer: 4
+2024-04-10 20:02:46,835 INFO    SenderThread:12915 [sender.py:transition_state():613] send defer: 5
+2024-04-10 20:02:46,835 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: defer
+2024-04-10 20:02:46,835 INFO    HandlerThread:12915 [handler.py:handle_request_defer():172] handle defer: 5
+2024-04-10 20:02:46,835 DEBUG   SenderThread:12915 [sender.py:send():380] send: summary
+2024-04-10 20:02:46,835 INFO    SenderThread:12915 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-04-10 20:02:46,836 DEBUG   SenderThread:12915 [sender.py:send_request():407] send_request: defer
+2024-04-10 20:02:46,836 INFO    SenderThread:12915 [sender.py:send_request_defer():609] handle sender defer: 5
+2024-04-10 20:02:46,836 INFO    SenderThread:12915 [sender.py:transition_state():613] send defer: 6
+2024-04-10 20:02:46,836 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: defer
+2024-04-10 20:02:46,836 INFO    HandlerThread:12915 [handler.py:handle_request_defer():172] handle defer: 6
+2024-04-10 20:02:46,836 DEBUG   SenderThread:12915 [sender.py:send_request():407] send_request: defer
+2024-04-10 20:02:46,836 INFO    SenderThread:12915 [sender.py:send_request_defer():609] handle sender defer: 6
+2024-04-10 20:02:46,841 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: status_report
+2024-04-10 20:02:47,055 INFO    SenderThread:12915 [sender.py:transition_state():613] send defer: 7
+2024-04-10 20:02:47,056 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: defer
+2024-04-10 20:02:47,056 INFO    HandlerThread:12915 [handler.py:handle_request_defer():172] handle defer: 7
+2024-04-10 20:02:47,056 DEBUG   SenderThread:12915 [sender.py:send_request():407] send_request: defer
+2024-04-10 20:02:47,057 INFO    SenderThread:12915 [sender.py:send_request_defer():609] handle sender defer: 7
+2024-04-10 20:02:47,567 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/wandb-summary.json
+2024-04-10 20:02:47,567 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/output.log
+2024-04-10 20:02:47,569 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/config.yaml
+2024-04-10 20:02:47,796 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: poll_exit
+2024-04-10 20:02:48,931 INFO    SenderThread:12915 [sender.py:transition_state():613] send defer: 8
+2024-04-10 20:02:48,931 DEBUG   SenderThread:12915 [sender.py:send_request():407] send_request: poll_exit
+2024-04-10 20:02:48,932 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: defer
+2024-04-10 20:02:48,932 INFO    HandlerThread:12915 [handler.py:handle_request_defer():172] handle defer: 8
+2024-04-10 20:02:48,934 DEBUG   SenderThread:12915 [sender.py:send_request():407] send_request: defer
+2024-04-10 20:02:48,934 INFO    SenderThread:12915 [sender.py:send_request_defer():609] handle sender defer: 8
+2024-04-10 20:02:48,934 INFO    SenderThread:12915 [job_builder.py:build():281] Attempting to build job artifact
+2024-04-10 20:02:48,935 INFO    SenderThread:12915 [job_builder.py:_get_source_type():393] is repo sourced job
+2024-04-10 20:02:48,940 INFO    SenderThread:12915 [job_builder.py:build():369] adding wandb-job metadata file
+2024-04-10 20:02:48,943 INFO    SenderThread:12915 [sender.py:transition_state():613] send defer: 9
+2024-04-10 20:02:48,944 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: defer
+2024-04-10 20:02:48,944 INFO    HandlerThread:12915 [handler.py:handle_request_defer():172] handle defer: 9
+2024-04-10 20:02:48,944 DEBUG   SenderThread:12915 [sender.py:send():380] send: artifact
+2024-04-10 20:02:49,568 INFO    Thread-780:12915 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/output.log
+2024-04-10 20:02:49,847 INFO    wandb-upload_1:12915 [upload_job.py:push():86] Skipped uploading /home/huseyin/.local/share/wandb/artifacts/staging/tmpeyfc5945
+2024-04-10 20:02:49,847 INFO    wandb-upload_2:12915 [upload_job.py:push():86] Skipped uploading /home/huseyin/.local/share/wandb/artifacts/staging/tmp501bkoi5
+2024-04-10 20:02:50,376 INFO    wandb-upload_0:12915 [upload_job.py:push():89] Uploaded file /home/huseyin/.local/share/wandb/artifacts/staging/tmprl_t_5ww
+2024-04-10 20:02:51,756 INFO    SenderThread:12915 [sender.py:send_artifact():1456] sent artifact job-https___github.com_huseyin-karaca_DANN_py3.git_main.py - {'id': 'QXJ0aWZhY3Q6NzkyMDQwNzEy', 'state': 'PENDING', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjE1NTcyNDE4MA==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6NzkyMDM1MjYy', 'versionIndex': 282}}}
+2024-04-10 20:02:51,757 DEBUG   SenderThread:12915 [sender.py:send_request():407] send_request: defer
+2024-04-10 20:02:51,757 INFO    SenderThread:12915 [sender.py:send_request_defer():609] handle sender defer: 9
+2024-04-10 20:02:51,757 INFO    SenderThread:12915 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-04-10 20:02:52,571 INFO    SenderThread:12915 [dir_watcher.py:finish():388] scan: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files
+2024-04-10 20:02:52,571 INFO    SenderThread:12915 [dir_watcher.py:finish():402] scan save: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/output.log output.log
+2024-04-10 20:02:52,572 INFO    SenderThread:12915 [dir_watcher.py:finish():402] scan save: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/wandb-metadata.json wandb-metadata.json
+2024-04-10 20:02:52,572 INFO    SenderThread:12915 [dir_watcher.py:finish():402] scan save: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/config.yaml config.yaml
+2024-04-10 20:02:52,573 INFO    SenderThread:12915 [dir_watcher.py:finish():402] scan save: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/diff.patch diff.patch
+2024-04-10 20:02:52,573 INFO    SenderThread:12915 [dir_watcher.py:finish():402] scan save: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/wandb-summary.json wandb-summary.json
+2024-04-10 20:02:52,579 INFO    SenderThread:12915 [dir_watcher.py:finish():402] scan save: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/conda-environment.yaml conda-environment.yaml
+2024-04-10 20:02:52,580 INFO    SenderThread:12915 [dir_watcher.py:finish():402] scan save: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/requirements.txt requirements.txt
+2024-04-10 20:02:52,597 INFO    SenderThread:12915 [dir_watcher.py:finish():402] scan save: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/code/main.py code/main.py
+2024-04-10 20:02:52,597 INFO    SenderThread:12915 [sender.py:transition_state():613] send defer: 10
+2024-04-10 20:02:52,604 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: defer
+2024-04-10 20:02:52,610 INFO    HandlerThread:12915 [handler.py:handle_request_defer():172] handle defer: 10
+2024-04-10 20:02:52,611 DEBUG   SenderThread:12915 [sender.py:send_request():407] send_request: defer
+2024-04-10 20:02:52,611 INFO    SenderThread:12915 [sender.py:send_request_defer():609] handle sender defer: 10
+2024-04-10 20:02:52,611 INFO    SenderThread:12915 [file_pusher.py:finish():175] shutting down file pusher
+2024-04-10 20:02:52,799 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: keepalive
+2024-04-10 20:02:53,078 INFO    wandb-upload_1:12915 [upload_job.py:push():131] Uploaded file /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/output.log
+2024-04-10 20:02:53,147 INFO    wandb-upload_4:12915 [upload_job.py:push():131] Uploaded file /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/requirements.txt
+2024-04-10 20:02:53,155 INFO    wandb-upload_0:12915 [upload_job.py:push():131] Uploaded file /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/wandb-summary.json
+2024-04-10 20:02:53,170 INFO    wandb-upload_2:12915 [upload_job.py:push():131] Uploaded file /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/config.yaml
+2024-04-10 20:02:53,352 INFO    wandb-upload_3:12915 [upload_job.py:push():131] Uploaded file /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/files/conda-environment.yaml
+2024-04-10 20:02:53,553 INFO    Thread-779:12915 [sender.py:transition_state():613] send defer: 11
+2024-04-10 20:02:53,554 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: defer
+2024-04-10 20:02:53,554 INFO    HandlerThread:12915 [handler.py:handle_request_defer():172] handle defer: 11
+2024-04-10 20:02:53,555 DEBUG   SenderThread:12915 [sender.py:send_request():407] send_request: defer
+2024-04-10 20:02:53,556 INFO    SenderThread:12915 [sender.py:send_request_defer():609] handle sender defer: 11
+2024-04-10 20:02:53,556 INFO    SenderThread:12915 [file_pusher.py:join():181] waiting for file pusher
+2024-04-10 20:02:53,556 INFO    SenderThread:12915 [sender.py:transition_state():613] send defer: 12
+2024-04-10 20:02:53,557 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: defer
+2024-04-10 20:02:53,557 INFO    HandlerThread:12915 [handler.py:handle_request_defer():172] handle defer: 12
+2024-04-10 20:02:53,558 DEBUG   SenderThread:12915 [sender.py:send_request():407] send_request: defer
+2024-04-10 20:02:53,558 INFO    SenderThread:12915 [sender.py:send_request_defer():609] handle sender defer: 12
+2024-04-10 20:02:53,558 INFO    SenderThread:12915 [file_stream.py:finish():595] file stream finish called
+2024-04-10 20:02:54,114 INFO    SenderThread:12915 [file_stream.py:finish():599] file stream finish is done
+2024-04-10 20:02:54,114 INFO    SenderThread:12915 [sender.py:transition_state():613] send defer: 13
+2024-04-10 20:02:54,115 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: defer
+2024-04-10 20:02:54,116 INFO    HandlerThread:12915 [handler.py:handle_request_defer():172] handle defer: 13
+2024-04-10 20:02:54,116 DEBUG   SenderThread:12915 [sender.py:send_request():407] send_request: defer
+2024-04-10 20:02:54,117 INFO    SenderThread:12915 [sender.py:send_request_defer():609] handle sender defer: 13
+2024-04-10 20:02:54,117 INFO    SenderThread:12915 [sender.py:transition_state():613] send defer: 14
+2024-04-10 20:02:54,119 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: defer
+2024-04-10 20:02:54,119 INFO    HandlerThread:12915 [handler.py:handle_request_defer():172] handle defer: 14
+2024-04-10 20:02:54,120 DEBUG   SenderThread:12915 [sender.py:send():380] send: final
+2024-04-10 20:02:54,120 DEBUG   SenderThread:12915 [sender.py:send():380] send: footer
+2024-04-10 20:02:54,120 DEBUG   SenderThread:12915 [sender.py:send_request():407] send_request: defer
+2024-04-10 20:02:54,120 INFO    SenderThread:12915 [sender.py:send_request_defer():609] handle sender defer: 14
+2024-04-10 20:02:54,123 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-10 20:02:54,125 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: poll_exit
+2024-04-10 20:02:54,126 DEBUG   SenderThread:12915 [sender.py:send_request():407] send_request: poll_exit
+2024-04-10 20:02:54,127 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: server_info
+2024-04-10 20:02:54,128 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: get_summary
+2024-04-10 20:02:54,129 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: sampled_history
+2024-04-10 20:02:54,134 DEBUG   SenderThread:12915 [sender.py:send_request():407] send_request: server_info
+2024-04-10 20:02:54,138 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: job_info
+2024-04-10 20:02:54,321 DEBUG   SenderThread:12915 [sender.py:send_request():407] send_request: job_info
+2024-04-10 20:02:54,324 DEBUG   HandlerThread:12915 [handler.py:handle_request():146] handle_request: shutdown
+2024-04-10 20:02:54,324 INFO    HandlerThread:12915 [handler.py:finish():866] shutting down handler
+2024-04-10 20:02:55,138 INFO    WriterThread:12915 [datastore.py:close():294] close: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240410_195645-3qm0wodu/run-3qm0wodu.wandb
+2024-04-10 20:02:55,321 INFO    SenderThread:12915 [sender.py:finish():1534] shutting down sender
+2024-04-10 20:02:55,322 INFO    SenderThread:12915 [file_pusher.py:finish():175] shutting down file pusher
+2024-04-10 20:02:55,322 INFO    SenderThread:12915 [file_pusher.py:join():181] waiting for file pusher

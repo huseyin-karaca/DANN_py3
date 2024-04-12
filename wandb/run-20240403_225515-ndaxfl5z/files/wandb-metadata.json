@@ -1,0 +1,113 @@
+{
+    "os": "Linux-4.15.0-213-generic-x86_64-with-glibc2.10",
+    "python": "3.8.5",
+    "heartbeatAt": "2024-04-03T19:55:16.693979",
+    "startedAt": "2024-04-03T19:55:15.074135",
+    "docker": null,
+    "cuda": "10.2.89",
+    "args": [
+        "-ll",
+        "2",
+        "-r",
+        "1",
+        "-bs",
+        "128",
+        "-Nt",
+        "6000",
+        "-Ns",
+        "6000",
+        "-pn",
+        "dimmchange_3apr",
+        "-Mt",
+        "20",
+        "-e",
+        "100",
+        "-Mss",
+        "30",
+        "40",
+        "50",
+        "-dcms",
+        "3",
+        "5",
+        "7"
+    ],
+    "state": "running",
+    "program": "main.py",
+    "codePathLocal": "main.py",
+    "codePath": "main.py",
+    "git": {
+        "remote": "https://github.com/huseyin-karaca/DANN_py3.git",
+        "commit": "196939a8082f0d6cbbf8caf5f20a2318a2ad70aa"
+    },
+    "email": "huseyinkaraccca@gmail.com",
+    "root": "/home/huseyin/fungtion/dannpy_yeniden/DANN_py3",
+    "host": "elif",
+    "username": "huseyin",
+    "executable": "/home/huseyin/anaconda3/envs/dannpy5/bin/python",
+    "cpu_count": 4,
+    "cpu_count_logical": 8,
+    "cpu_freq": {
+        "current": 1387.803375,
+        "min": 800.0,
+        "max": 4100.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 1393.873,
+            "min": 800.0,
+            "max": 4100.0
+        },
+        {
+            "current": 1333.38,
+            "min": 800.0,
+            "max": 4100.0
+        },
+        {
+            "current": 1394.038,
+            "min": 800.0,
+            "max": 4100.0
+        },
+        {
+            "current": 1397.463,
+            "min": 800.0,
+            "max": 4100.0
+        },
+        {
+            "current": 1393.835,
+            "min": 800.0,
+            "max": 4100.0
+        },
+        {
+            "current": 1393.803,
+            "min": 800.0,
+            "max": 4100.0
+        },
+        {
+            "current": 1397.296,
+            "min": 800.0,
+            "max": 4100.0
+        },
+        {
+            "current": 1398.739,
+            "min": 800.0,
+            "max": 4100.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 467.8886032104492,
+            "used": 277.2483139038086
+        }
+    },
+    "gpu": "Quadro P600",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "Quadro P600",
+            "memory_total": 2097479680
+        }
+    ],
+    "memory": {
+        "total": 15.558303833007812
+    }
+}

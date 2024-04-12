@@ -1,0 +1,15 @@
+Ms: 100 | Mt: 20 | dcm: 0.25 | layer: 2 | Epoch: 1/5
+Accuracy of the mnist dataset: 0.373900
+Accuracy of the mnist_m dataset: 0.122986
+Ms: 100 | Mt: 20 | dcm: 0.25 | layer: 2 | Epoch: 2/5
+Accuracy of the mnist dataset: 0.487000
+Accuracy of the mnist_m dataset: 0.125986
+Ms: 100 | Mt: 20 | dcm: 0.25 | layer: 2 | Epoch: 3/5
+Accuracy of the mnist dataset: 0.531500
+Accuracy of the mnist_m dataset: 0.131763
+Ms: 100 | Mt: 20 | dcm: 0.25 | layer: 2 | Epoch: 4/5
+Accuracy of the mnist dataset: 0.648600
+Accuracy of the mnist_m dataset: 0.206866
+Ms: 100 | Mt: 20 | dcm: 0.25 | layer: 2 | Epoch: 5/5
+Accuracy of the mnist dataset: 0.696600
+Accuracy of the mnist_m dataset: 0.169648

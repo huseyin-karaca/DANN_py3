@@ -9,7 +9,7 @@ class CNNModel(nn.Module):
     def __init__(self,layers, dimchange_multiplier,m_or_n_change):
         super(CNNModel, self).__init__()
 
-        dim_conv = int(64 * np.sqrt(dimchange_multiplier))
+        dim_conv = int(64 * dimchange_multiplier)
         # dim_conv = 64
         # ks = int( 5 *dimchange_multiplier)
         # padding_conv1 = int((ks-5)/2)
