@@ -76,6 +76,9 @@ def distribute_apples(M, N):
         break
   
   random.shuffle(distribution)
+  while distribution[-1] == 0:
+     random.shuffle(distribution)
+     
   return distribution
 
 def distribute_apples_new(M, K):
