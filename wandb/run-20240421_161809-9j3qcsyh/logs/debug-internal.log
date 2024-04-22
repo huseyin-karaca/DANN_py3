@@ -1,0 +1,21 @@
+2024-04-21 16:18:09,397 INFO    StreamThr :8782 [internal.py:wandb_internal():86] W&B internal server running at pid: 8782, started at: 2024-04-21 16:18:09.397255
+2024-04-21 16:18:09,401 DEBUG   HandlerThread:8782 [handler.py:handle_request():146] handle_request: status
+2024-04-21 16:18:09,401 INFO    WriterThread:8782 [datastore.py:open_for_write():85] open: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240421_161809-9j3qcsyh/run-9j3qcsyh.wandb
+2024-04-21 16:18:09,402 DEBUG   SenderThread:8782 [sender.py:send():380] send: header
+2024-04-21 16:18:09,410 DEBUG   SenderThread:8782 [sender.py:send():380] send: run
+2024-04-21 16:18:09,917 INFO    SenderThread:8782 [dir_watcher.py:__init__():211] watching files in: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240421_161809-9j3qcsyh/files
+2024-04-21 16:18:09,917 INFO    SenderThread:8782 [sender.py:_start_run_threads():1122] run started: 9j3qcsyh with start time 1713705489.397157
+2024-04-21 16:18:09,929 DEBUG   HandlerThread:8782 [handler.py:handle_request():146] handle_request: check_version
+2024-04-21 16:18:09,929 DEBUG   SenderThread:8782 [sender.py:send_request():407] send_request: check_version
+2024-04-21 16:18:10,149 DEBUG   HandlerThread:8782 [handler.py:handle_request():146] handle_request: shutdown
+2024-04-21 16:18:10,149 INFO    HandlerThread:8782 [handler.py:finish():866] shutting down handler
+2024-04-21 16:18:10,929 INFO    WriterThread:8782 [datastore.py:close():294] close: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240421_161809-9j3qcsyh/run-9j3qcsyh.wandb
+2024-04-21 16:18:11,149 INFO    SenderThread:8782 [sender.py:finish():1534] shutting down sender
+2024-04-21 16:18:11,149 INFO    SenderThread:8782 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-04-21 16:18:11,918 INFO    SenderThread:8782 [dir_watcher.py:finish():388] scan: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240421_161809-9j3qcsyh/files
+2024-04-21 16:18:11,918 INFO    SenderThread:8782 [dir_watcher.py:finish():402] scan save: /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240421_161809-9j3qcsyh/files/config.yaml config.yaml
+2024-04-21 16:18:11,918 INFO    SenderThread:8782 [file_pusher.py:finish():175] shutting down file pusher
+2024-04-21 16:18:11,918 INFO    SenderThread:8782 [file_pusher.py:join():181] waiting for file pusher
+2024-04-21 16:18:12,710 INFO    wandb-upload_0:8782 [upload_job.py:push():131] Uploaded file /home/huseyin/fungtion/dannpy_yeniden/DANN_py3/wandb/run-20240421_161809-9j3qcsyh/files/config.yaml
+2024-04-21 16:18:12,920 INFO    SenderThread:8782 [file_stream.py:finish():595] file stream finish called
+2024-04-21 16:18:13,160 INFO    SenderThread:8782 [file_stream.py:finish():599] file stream finish is done
