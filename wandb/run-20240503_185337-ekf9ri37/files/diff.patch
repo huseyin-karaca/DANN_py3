@@ -1,0 +1,86 @@
+diff --git a/.vscode/launch.json b/.vscode/launch.json
+index 5bad0c5..9baab0e 100644
+--- a/.vscode/launch.json
++++ b/.vscode/launch.json
+@@ -19,12 +19,11 @@
+             "cwd": "/home/huseyin/fungtion/dannpy_yeniden/DANN_py3",
+             "program": "/home/huseyin/fungtion/dannpy_yeniden/DANN_py3/main.py",
+             "args": ["-bs", "128", 
+-                     "-ll","8",
+-                     "-dcms","1","2","4","8",
+-                     "-Mss","120","60","80","100",
++                     "-ll","2","3","4","5","6","7","8","9",
++                     "-dcms","1",
++                     "-Mss","240",
+                      "-Mt","20",
+-                     "-Ns","6000",
+-                     "-Nt","6000",
++                     "-NsNt","400","900",
+                      "-r","1",
+                      "-e","5",
+                      "-pn","debugging",
+diff --git a/main.py b/main.py
+index 7e3440c..a4a8e86 100644
+--- a/main.py
++++ b/main.py
+@@ -94,8 +94,7 @@ if __name__ == '__main__':
+ 								#"allow_val_change": True,
+ 								"config":{"Ms": Ms, 
+ 										"Mt": Mt, 
+-										"layer":layer, 
+-										"beta":beta, 
++										"layer":layer,  
+ 										"dcm":dcm, 
+ 										"Ns":Ns, 
+ 										"Nt":Nt,
+@@ -188,8 +187,10 @@ if __name__ == '__main__':
+ 
+ 						optimizer = optim.Adam(my_net.parameters(), lr=lr)
+ 
+-						loss_class = torch.nn.NLLLoss(reduction = "sum")
+-						loss_domain = torch.nn.NLLLoss(reduction = "sum")
++						# loss_class = torch.nn.NLLLoss(reduction = "sum")
++						# loss_domain = torch.nn.NLLLoss(reduction = "sum")
++						loss_class = torch.nn.NLLLoss(reduction = "mean")
++						loss_domain = torch.nn.NLLLoss(reduction = "mean")
+ 
+ 						if cuda:
+ 							my_net = my_net.cuda()
+@@ -289,7 +290,9 @@ if __name__ == '__main__':
+ 								err_t_label = loss_class(class_output[(batch_size-Mtx):,:], t_label)
+ 								err_t_domain = loss_domain(domain_output, domain_label)
+ 
+-								err =(1-beta)*(err_t_domain + err_s_domain) + beta*(err_s_label + err_t_label)
++								#err =(1-beta)*(err_t_domain + err_s_domain) + beta*(err_s_label + err_t_label)
++								err =(6000/NsNt)*(err_t_domain + err_s_domain) + (err_s_label + err_t_label) #summed loss
++								err = err_t_domain + err_s_domain + err_s_label + err_t_label #average loss
+ 								err.backward()
+ 								optimizer.step()
+ 
+diff --git a/wandb/debug-internal.log b/wandb/debug-internal.log
+index 2bd7550..ab6b0eb 120000
+--- a/wandb/debug-internal.log
++++ b/wandb/debug-internal.log
+@@ -1 +1 @@
+-run-20240422_132615-fbv6qzhq/logs/debug-internal.log
+\ No newline at end of file
++run-20240503_185337-ekf9ri37/logs/debug-internal.log
+\ No newline at end of file
+diff --git a/wandb/debug.log b/wandb/debug.log
+index 2563d49..565fc60 120000
+--- a/wandb/debug.log
++++ b/wandb/debug.log
+@@ -1 +1 @@
+-run-20240422_132615-fbv6qzhq/logs/debug.log
+\ No newline at end of file
++run-20240503_185337-ekf9ri37/logs/debug.log
+\ No newline at end of file
+diff --git a/wandb/latest-run b/wandb/latest-run
+index b06940e..37d9b00 120000
+--- a/wandb/latest-run
++++ b/wandb/latest-run
+@@ -1 +1 @@
+-run-20240422_132615-fbv6qzhq
+\ No newline at end of file
++run-20240503_185337-ekf9ri37
+\ No newline at end of file

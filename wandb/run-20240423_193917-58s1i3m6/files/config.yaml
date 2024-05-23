@@ -1,0 +1,57 @@
+wandb_version: 1
+
+Ms:
+  desc: null
+  value: 120
+Mt:
+  desc: null
+  value: 20
+layer:
+  desc: null
+  value: 5
+beta:
+  desc: null
+  value: 0.5
+dcm:
+  desc: null
+  value: 1.0
+Ns:
+  desc: null
+  value: 12000
+Nt:
+  desc: null
+  value: 12000
+bs:
+  desc: null
+  value: 128
+repeat:
+  desc: null
+  value: 1
+_wandb:
+  desc: null
+  value:
+    code_path: code/main.py
+    python_version: 3.8.5
+    cli_version: 0.15.12
+    framework: torch
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    start_time: 1713890357.852111
+    t:
+      1:
+      - 1
+      - 41
+      - 55
+      2:
+      - 1
+      - 41
+      - 55
+      3:
+      - 2
+      - 16
+      - 23
+      4: 3.8.5
+      5: 0.15.12
+      8:
+      - 5
+      13: linux-x86_64

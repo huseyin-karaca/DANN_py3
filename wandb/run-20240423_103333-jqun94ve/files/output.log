@@ -1,0 +1,26 @@
+Traceback (most recent call last):
+  File "/home/huseyin/anaconda3/envs/dannpy5/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/home/huseyin/anaconda3/envs/dannpy5/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/home/huseyin/.vscode-server/extensions/ms-python.python-2024.4.1/python_files/lib/python/debugpy/adapter/../../debugpy/launcher/../../debugpy/__main__.py", line 39, in <module>
+    cli.main()
+  File "/home/huseyin/.vscode-server/extensions/ms-python.python-2024.4.1/python_files/lib/python/debugpy/adapter/../../debugpy/launcher/../../debugpy/../debugpy/server/cli.py", line 430, in main
+    run()
+  File "/home/huseyin/.vscode-server/extensions/ms-python.python-2024.4.1/python_files/lib/python/debugpy/adapter/../../debugpy/launcher/../../debugpy/../debugpy/server/cli.py", line 284, in run_file
+    runpy.run_path(target, run_name="__main__")
+  File "/home/huseyin/.vscode-server/extensions/ms-python.python-2024.4.1/python_files/lib/python/debugpy/_vendored/pydevd/_pydevd_bundle/pydevd_runpy.py", line 321, in run_path
+    return _run_module_code(code, init_globals, run_name,
+  File "/home/huseyin/.vscode-server/extensions/ms-python.python-2024.4.1/python_files/lib/python/debugpy/_vendored/pydevd/_pydevd_bundle/pydevd_runpy.py", line 135, in _run_module_code
+    _run_code(code, mod_globals, init_globals,
+  File "/home/huseyin/.vscode-server/extensions/ms-python.python-2024.4.1/python_files/lib/python/debugpy/_vendored/pydevd/_pydevd_bundle/pydevd_runpy.py", line 124, in _run_code
+    exec(code, run_globals)
+  File "/home/huseyin/fungtion/dannpy_yeniden/DANN_py3/main.py", line 261, in <module>
+    err_s_label = loss_class(class_output[(batch_size-Msx):,:], s_label)
+  File "/home/huseyin/anaconda3/envs/dannpy5/lib/python3.8/site-packages/torch/nn/modules/module.py", line 722, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/huseyin/anaconda3/envs/dannpy5/lib/python3.8/site-packages/torch/nn/modules/loss.py", line 211, in forward
+    return F.nll_loss(input, target, weight=self.weight, ignore_index=self.ignore_index, reduction=self.reduction)
+  File "/home/huseyin/anaconda3/envs/dannpy5/lib/python3.8/site-packages/torch/nn/functional.py", line 2215, in nll_loss
+    raise ValueError('Expected input batch_size ({}) to match target batch_size ({}).'
+ValueError: Expected input batch_size (112) to match target batch_size (240).

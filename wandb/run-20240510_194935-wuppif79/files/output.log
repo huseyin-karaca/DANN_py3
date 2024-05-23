@@ -1,0 +1,32 @@
+Ms: 240 | Mt: 20 | dcm: 1.00 | layer: 3 | Epoch: 1/100
+Accuracy of the mnist dataset: 0.568400
+Accuracy of the mnist_m dataset: 0.177758
+Ms: 240 | Mt: 20 | dcm: 1.00 | layer: 3 | Epoch: 2/100
+Accuracy of the mnist dataset: 0.638200
+Accuracy of the mnist_m dataset: 0.183202
+Ms: 240 | Mt: 20 | dcm: 1.00 | layer: 3 | Epoch: 3/100
+Accuracy of the mnist dataset: 0.740900
+Accuracy of the mnist_m dataset: 0.220198
+Ms: 240 | Mt: 20 | dcm: 1.00 | layer: 3 | Epoch: 4/100
+Accuracy of the mnist dataset: 0.796900
+Accuracy of the mnist_m dataset: 0.239862
+Ms: 240 | Mt: 20 | dcm: 1.00 | layer: 3 | Epoch: 5/100
+Accuracy of the mnist dataset: 0.854300
+Accuracy of the mnist_m dataset: 0.256083
+Ms: 240 | Mt: 20 | dcm: 1.00 | layer: 3 | Epoch: 6/100
+Accuracy of the mnist dataset: 0.887700
+Accuracy of the mnist_m dataset: 0.393067
+Ms: 240 | Mt: 20 | dcm: 1.00 | layer: 3 | Epoch: 7/100
+Accuracy of the mnist dataset: 0.865900
+Accuracy of the mnist_m dataset: 0.401067
+Ms: 240 | Mt: 20 | dcm: 1.00 | layer: 3 | Epoch: 8/100
+Accuracy of the mnist dataset: 0.904300
+Accuracy of the mnist_m dataset: 0.363182
+Ms: 240 | Mt: 20 | dcm: 1.00 | layer: 3 | Epoch: 9/100
+Accuracy of the mnist dataset: 0.923700
+Traceback (most recent call last):
+  File "main.py", line 313, in <module>
+    accu_t = test(target_dataset_name)
+  File "/home/huseyin/fungtion/dannpy_yeniden/DANN_py3/test.py", line 88, in test
+    n_correct += pred.eq(t_label.data.view_as(pred)).cpu().sum()
+KeyboardInterrupt
