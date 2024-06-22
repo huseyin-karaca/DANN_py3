@@ -14,8 +14,9 @@ from huseyin_functions import get_run_name, distribute_apples
 import argparse
 import wandb
 import torch
-import matplotlib.pyplot as plt
 
+
+os.environ["WANDB_API_KEY"] = "033f1f51ec386bb1ab8514e244d5acd2ce396356"
 
 # main code
 

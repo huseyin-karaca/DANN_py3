@@ -1,1 +1,0 @@
-{"err_s_label_train": 0.00024240714265033603, "err_s_domain_train": 0.0055098989978432655, "err_t_label_train": 0.00019306910689920187, "err_t_domain_train": 0.004567661322653294, "total_loss": 0.6467864513397217, "accu_s_test": 0.9443, "accu_t_test": 0.837018109098989, "_timestamp": 1715766515.378944, "_runtime": 541.7553470134735, "_step": 99, "_wandb": {"runtime": 540}}

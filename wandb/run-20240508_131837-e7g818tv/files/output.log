@@ -1,4 +1,0 @@
-Traceback (most recent call last):
-  File "main.py", line 297, in <module>
-    err =(6000/NsNt)*(err_t_domain + err_s_domain) + (err_s_label + err_t_label) #summed loss
-NameError: name 'NsNt' is not defined
