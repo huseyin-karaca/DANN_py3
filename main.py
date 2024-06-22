@@ -306,7 +306,7 @@ if __name__ == '__main__':
 								#       % (epoch, i + 1, len_dataloader, err_s_label.data.cpu().numpy(),
 								#          err_s_domain.data.cpu().numpy(), err_t_domain.data.cpu().item()))
 								# sys.stdout.flush()
-								# torch.save(my_net, '{0}/mnist_mnistm_model_epoch_current.pth'.format(model_root))
+								torch.save(my_net, '{0}/mnist_mnistm_model_epoch_current.pth'.format(model_root))
 
 							print('\n')
 							print('Ms: %d | Mt: %d | dcm: %.2f | layer: %d | Epoch: %d/%d' % (Ms,Mt,dcm,layer,epoch+1,n_epoch))
