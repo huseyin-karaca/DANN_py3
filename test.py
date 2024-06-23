@@ -6,7 +6,7 @@ from data_loader import GetLoader
 from torchvision import datasets
 
 
-def test(dataset_name):
+def test(dataset_name,args):
     assert dataset_name in ['MNIST', 'mnist_m']
 
     model_root = 'models'
@@ -51,7 +51,7 @@ def test(dataset_name):
         dataset=dataset,
         batch_size=batch_size,
         shuffle=False,
-        num_workers=8
+        num_workers=args.num_workers
     )
 
     """ test """
