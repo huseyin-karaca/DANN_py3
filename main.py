@@ -237,11 +237,11 @@ if __name__ == '__main__':
 
 								# training model using source data
 								
-								source_unlabeled_img, _ = source_unlabeled_iter.next()
+								source_unlabeled_img, _ = next(source_unlabeled_iter)
 								if Msx:
-									source_labeled_img, source_labeled_label  = source_labeled_iter.next()
+									source_labeled_img, source_labeled_label  = next(source_labeled_iter)
 									for i in range(Msx-1):
-										source_labeled_img_temp, source_labeled_label_temp  = source_labeled_iter.next()
+										source_labeled_img_temp, source_labeled_label_temp  = next(source_labeled_iter)
 										source_labeled_img = torch.cat((source_labeled_img,source_labeled_img_temp),dim = 0)
 										source_labeled_label = torch.cat((source_labeled_label,source_labeled_label_temp),dim = 0)
 
@@ -268,11 +268,11 @@ if __name__ == '__main__':
 								err_s_domain = loss_domain(domain_output, domain_label)
 
 								# training model using target data
-								target_unlabeled_img, _ = target_unlabeled_iter.next()
+								target_unlabeled_img, _ = next(target_unlabeled_iter)
 								if Mtx:
-									target_labeled_img, target_labeled_label  = target_labeled_iter.next()
+									target_labeled_img, target_labeled_label  = next(target_labeled_iter)
 									for i in range(Mtx-1):
-										target_labeled_img_temp, target_labeled_label_temp  = target_labeled_iter.next()
+										target_labeled_img_temp, target_labeled_label_temp  = next(target_labeled_iter)
 										target_labeled_img = torch.cat((target_labeled_img,target_labeled_img_temp),dim = 0)
 										target_labeled_label = torch.cat((target_labeled_label,target_labeled_label_temp),dim = 0)
 
