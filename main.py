@@ -311,9 +311,9 @@ if __name__ == '__main__':
 
 							print('\n')
 							print('Ms: %d | Mt: %d | dcm: %.2f | layer: %d | Epoch: %d/%d' % (Ms,Mt,dcm,layer,epoch+1,n_epoch))
-							accu_s = test(source_dataset_name)
+							accu_s = test(source_dataset_name,args)
 							print('Accuracy of the %s dataset: %f' % ('mnist', accu_s))
-							accu_t = test(target_dataset_name)
+							accu_t = test(target_dataset_name,args)
 							print('Accuracy of the %s dataset: %f\n' % ('mnist_m', accu_t))
 
 							if accu_t > best_accu_t:
