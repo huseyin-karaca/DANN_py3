@@ -159,14 +159,14 @@ if __name__ == '__main__':
 							dataset=dataset_source_labeled,
 							batch_size=1,
 							shuffle=True,
-							num_workers=8,
+							num_workers=args.num_workers,
 							drop_last = True)
 							
 						dataloader_source_unlabeled = DataLoader(
 							dataset=dataset_source_unlabeled,
 							batch_size=batch_size,
 							shuffle=True,
-							num_workers=8,
+							num_workers=args.num_workers,
 							drop_last = True)
 
 						### target dataloaders
@@ -174,14 +174,14 @@ if __name__ == '__main__':
 							dataset=dataset_target_labeled,
 							batch_size=1,
 							shuffle=True,
-							num_workers=8,
+							num_workers=args.num_workers,
 							drop_last = True)
 							
 						dataloader_target_unlabeled = DataLoader(
 							dataset=dataset_target_unlabeled,
 							batch_size=batch_size,
 							shuffle=True,
-							num_workers=8,
+							num_workers=args.num_workers,
 							drop_last = True)
 
 						# load model
