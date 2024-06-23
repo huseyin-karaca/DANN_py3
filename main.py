@@ -26,6 +26,7 @@ def parse_args():
 	parser.add_argument('-n','--notes',type=str, default = None , help = 'wandb run notes')
 	parser.add_argument('-pn','--project_name',type=str, default = "nsubat" , help = 'wandb project name')
 	parser.add_argument('-e','--n_epoch',type = int, default = 100,help = 'number of total epochs')
+	parser.add_argument('-nw','--num_workers',type = int, default = 8, help= 'num_workers parameters of the dataloader')
 	# parser.add_argument('-ms','--ms',type = float, default = None, help = 'ratio of labeled source imagesper batch')
 	parser.add_argument('-mss','--ms_list',type = float, nargs = "+", default = None, help = 'list of ratio of labeled source images')
 	parser.add_argument('-Mss','--Ms_list',type = int, nargs = "+", default = None, help = 'list of total number of labeled source images')
