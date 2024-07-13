@@ -309,7 +309,7 @@ if __name__ == '__main__':
 									torch.save(my_net, '{0}/mnist_mnistm_model_epoch_current.pth'.format(model_root))
 	
 								print('\n')
-								print('Ms: %d | Mt: %d | dcm: %.2f | layer: %d | Epoch: %d/%d' % (Ms,Mt,dcm,layer,epoch+1,n_epoch))
+								print('Ns: %d | Nt: %d | Ms: %d | Mt: %d | dcm: %.2f | layer: %d | repeat: %d | Epoch: %d/%d' % (Ns,Nt,Ms,Mt,dcm,layer,repeat+1,epoch+1,n_epoch))
 								accu_s = test(source_dataset_name,args)
 								print('Accuracy of the %s dataset: %f' % ('mnist', accu_s))
 								accu_t = test(target_dataset_name,args)
