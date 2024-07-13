@@ -65,9 +65,8 @@ if __name__ == '__main__':
 	beta = args.beta 
 	
 	Mt = args.Mt
-	dcm = 1
-	Nt = args.Nt
-	Ns = args.Ns
+	Ms = args.Ms
+	
 	gamma = 0.5
 
 	for repeat in range(args.repeats):
@@ -75,7 +74,8 @@ if __name__ == '__main__':
 			for layer in args.layers_list:
 				n_epoch = args.n_epoch if not args.adaptive_epochs else int(50*layer)
 				for dcm in args.dimchange_multipliers:
-					for Ms in args.Ms_list:
+					for Ns in args.NsNt:
+						Nt = Ns
 						# Ms = int(ms*batch_size)
 						manual_seed = random.randint(1, 10000)
 						random.seed(manual_seed)
